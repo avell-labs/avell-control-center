@@ -17,29 +17,32 @@ O **Avell Control Center** permite aos clientes dos notebooks Avell, total contr
 ## 🌟 Features
 
 ### Controle por perfil de:
+
     - Parâmetros de frequência da CPU
     - Brilho da tela
     - Status da webcam
     - Perfis de ventilação
 
 ### Estados:
+
     - Atribuição de um perfil ativado por estado
     - Dois estados disponíveis: 'Na bateria' e 'Conectado à tomada'
 
 ### Informações:
+
     - Informações gerais
     - Registro de alterações (Changelog)
 
 ## 📑 Documentação
 
-Todas os requisitos, especificações e funcionalidades do projeto podem ser encotradas do arquivo [DOC.md](https://github.com/avell-labs/project-template/blob/master/.github/DOC.md)
+Todas os requisitos, especificações e funcionalidades do projeto podem ser encotradas do arquivo [DOC.md](https://github.com/avell-labs/avell-control-center/blob/master/.github/DOC.md)
 
 ## ❤️ Contribuindo
 
 Este é um projeto aberto, então, sinta-se livre para contribuir. Como?
 
-- abra uma [issue](https://github.com/avell-labs/template/issues).
-- proponha suas correções, sugestões e abra uma pull request com as alterações. Veja os [contribuidores](https://github.com/avell-labs/template/graphs/contributors) para maiores informações e leia nosso [código de contribuição](https://github.com/avell-labs/project-template/blob/master/.github/CONTRIBUTING.md).
+-   abra uma [issue](https://github.com/avell-labs/avell-control-center/issues).
+-   proponha suas correções, sugestões e abra uma pull request com as alterações. Veja os [contribuidores](https://github.com/avell-labs/avell-control-center/graphs/contributors) para maiores informações e leia nosso [código de contribuição](https://github.com/avell-labs/avell-control-center/blob/master/.github/CONTRIBUTING.md).
 
 ## 🛑 Aviso
 
@@ -48,7 +51,7 @@ Este software é distribuído **sem qualquer tipo de garantias**.
 Não asseguramos que ele funcionará conforme esperado, nem que será isento de falhas, bugs ou interrupções.
 O uso é por **sua conta e risco**, e nenhuma responsabilidade será assumida por **danos, perdas ou mal funcionamento** decorrentes da sua utilização.
 
-Para mais detalhes, consulte a [LICENÇA](https://github.com/avell-labs/project-template/blob/master/.github/LICENSE).
+Para mais detalhes, consulte a [LICENÇA](https://github.com/avell-labs/avell-control-center/blob/master/.github/LICENSE).
 
 ## Screenshots
 
