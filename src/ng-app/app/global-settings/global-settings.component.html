@@ -252,7 +252,7 @@ along with TUXEDO Control Center.  If not, see <https://www.gnu.org/licenses/>.
                 </div>
             </mat-expansion-panel>
 
-            <mat-expansion-panel (click)="gotoComponent('tomte-gui')" hideToggle>
+            <!-- <mat-expansion-panel (click)="gotoComponent('tomte-gui')" hideToggle>
                 <mat-expansion-panel-header>
                     <mat-panel-title>
                         <mat-icon>
@@ -265,7 +265,7 @@ along with TUXEDO Control Center.  If not, see <https://www.gnu.org/licenses/>.
                 </mat-expansion-panel-header>
                 <div class="content">
                 </div>
-            </mat-expansion-panel>
+            </mat-expansion-panel> -->
 
             <mat-expansion-panel [expanded]="expandPrimeSelect"
                 *ngIf="availability.isIGpuAvailable() && availability.isDGpuAvailable() && primeState != 'off' && primeState != '-1'">

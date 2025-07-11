@@ -16,38 +16,55 @@
  * You should have received a copy of the GNU General Public License
  * along with TUXEDO Control Center.  If not, see <https://www.gnu.org/licenses/>.
  */
-import { app, BrowserWindow, ipcMain, globalShortcut, dialog, screen, powerSaveBlocker, nativeTheme } from 'electron';
-import * as path from 'path';
-import * as child_process from 'child_process';
-import * as fs from 'fs';
-import * as os from 'os';
-import { TccDBusController } from '../common/classes/TccDBusController';
-import { TccProfile } from '../common/models/TccProfile';
-import { TccTray } from './TccTray';
-import { UserConfig } from './UserConfig';
-import { aquarisAPIHandle, AquarisState, ClientAPI, registerAPI } from './AquarisAPI';
-import { DeviceInfo, LCT21001, LCTDeviceModel, PumpVoltage, RGBState } from './LCT21001';
-import { NgTranslations, profileIdToI18nId } from './NgTranslations';
-import { OpenDialogReturnValue, SaveDialogReturnValue } from 'electron/main';
+import {
+    app,
+    BrowserWindow,
+    ipcMain,
+    globalShortcut,
+    dialog,
+    screen,
+    powerSaveBlocker,
+    nativeTheme,
+} from "electron";
+import * as path from "path";
+import * as child_process from "child_process";
+import * as fs from "fs";
+import * as os from "os";
+import { TccDBusController } from "../common/classes/TccDBusController";
+import { TccProfile } from "../common/models/TccProfile";
+import { TccTray } from "./TccTray";
+import { UserConfig } from "./UserConfig";
+import {
+    aquarisAPIHandle,
+    AquarisState,
+    ClientAPI,
+    registerAPI,
+} from "./AquarisAPI";
+import {
+    DeviceInfo,
+    LCT21001,
+    LCTDeviceModel,
+    PumpVoltage,
+    RGBState,
+} from "./LCT21001";
+import { NgTranslations, profileIdToI18nId } from "./NgTranslations";
+import { OpenDialogReturnValue, SaveDialogReturnValue } from "electron/main";
 import electron = require("electron");
 
 // Tweak to get correct dirname for resource files outside app.asar
-const appPath = __dirname.replace('app.asar/', '');
+const appPath = __dirname.replace("app.asar/", "");
 
-const autostartLocation = path.join(os.homedir(), '.config/autostart');
-const autostartDesktopFilename = 'tuxedo-control-center-tray.desktop';
-const tccConfigDir = path.join(os.homedir(), '.tcc');
-const tccStandardConfigFile = path.join(tccConfigDir, 'user.conf');
-const availableLanguages = [
-    'en',
-    'de'
-];
+const autostartLocation = path.join(os.homedir(), ".config/autostart");
+const autostartDesktopFilename = "tuxedo-control-center-tray.desktop";
+const tccConfigDir = path.join(os.homedir(), ".tcc");
+const tccStandardConfigFile = path.join(tccConfigDir, "user.conf");
+const availableLanguages = ["en", "de", "pt"];
 const translation = new NgTranslations();
 let startTCCAccelerator;
 
-startTCCAccelerator = app.commandLine.getSwitchValue('startTCCAccelerator');
-if (startTCCAccelerator === '') {
-    startTCCAccelerator = 'Super+Alt+F6'
+startTCCAccelerator = app.commandLine.getSwitchValue("startTCCAccelerator");
+if (startTCCAccelerator === "") {
+    startTCCAccelerator = "Super+Alt+F6";
 }
 
 let tccWindow: Electron.BrowserWindow;
@@ -55,12 +72,14 @@ let aquarisWindow: Electron.BrowserWindow;
 let webcamWindow: Electron.BrowserWindow;
 let primeWindow: Electron.BrowserWindow;
 
-const tray: TccTray = new TccTray(path.join(__dirname, '../../data/dist-data/tuxedo-control-center_256.png'));
+const tray: TccTray = new TccTray(
+    path.join(__dirname, "../../data/dist-data/tuxedo-control-center_256.png"),
+);
 let tccDBus: TccDBusController;
 
-const watchOption = process.argv.includes('--watch');
-const trayOnlyOption = process.argv.includes('--tray');
-const noTccdVersionCheck = process.argv.includes('--no-tccd-version-check');
+const watchOption = process.argv.includes("--watch");
+const trayOnlyOption = process.argv.includes("--tray");
+const noTccdVersionCheck = process.argv.includes("--no-tccd-version-check");
 
 let profilesHash;
 
@@ -69,12 +88,12 @@ let powersaveBlockerId = undefined;
 // Ensure that only one instance of the application is running
 const applicationLock = app.requestSingleInstanceLock();
 if (!applicationLock) {
-    console.log('TUXEDO Control Center is already running');
+    console.log("TUXEDO Control Center is already running");
     app.exit(0);
 }
 
 if (watchOption) {
-    require('electron-reload')(path.join(__dirname, '..', 'ng-app'));
+    require("electron-reload")(path.join(__dirname, "..", "ng-app"));
 }
 
 if (isFirstStart()) {
@@ -87,7 +106,7 @@ if (!userConfigDirExists()) {
     createUserConfigDir();
 }
 
-app.on('second-instance', (event, cmdLine, workingDir) => {
+app.on("second-instance", (event, cmdLine, workingDir) => {
     // If triggered by a second instance, find/show/start GUI
     activateTccGui();
 });
@@ -100,27 +119,29 @@ app.on("ready", () => {
     });
 });
 
-app.whenReady().then( async () => {
+app.whenReady().then(async () => {
     try {
         const systemLanguageId = app.getLocale().substring(0, 2);
-        if (await userConfig.get('langId') === undefined) {
+        if ((await userConfig.get("langId")) === undefined) {
             if (availableLanguages.includes(systemLanguageId)) {
-                await userConfig.set('langId', systemLanguageId);
+                await userConfig.set("langId", systemLanguageId);
             } else {
-                await userConfig.set('langId', availableLanguages[0]);
+                await userConfig.set("langId", availableLanguages[0]);
             }
         }
-        await loadTranslation(await userConfig.get('langId'));
+        await loadTranslation(await userConfig.get("langId"));
     } catch (err) {
-        console.log('Error determining user language => ' + err);
+        console.log("Error determining user language => " + err);
         quitCurrentTccSession();
     }
 
-    if (startTCCAccelerator !== 'none') {
+    if (startTCCAccelerator !== "none") {
         const success = globalShortcut.register(startTCCAccelerator, () => {
             activateTccGui();
         });
-        if (!success) { console.log('Failed to register global shortcut'); }
+        if (!success) {
+            console.log("Failed to register global shortcut");
+        }
     }
     tccDBus = new TccDBusController();
     startDbusAndInit();
@@ -128,9 +149,9 @@ app.whenReady().then( async () => {
 
 async function startDbusAndInit() {
     const dbusInitialized = await tccDBus.init();
-    if(!dbusInitialized) {
+    if (!dbusInitialized) {
         setTimeout(() => {
-            startDbusAndInit()
+            startDbusAndInit();
         }, 3000);
         return;
     }
@@ -139,17 +160,19 @@ async function startDbusAndInit() {
 }
 
 async function initTray() {
-    tray.state.tccGUIVersion = 'v' + app.getVersion();
+    tray.state.tccGUIVersion = "v" + app.getVersion();
     tray.state.isAutostartTrayInstalled = isAutostartTrayInstalled();
     tray.state.fnLockSupported = await fnLockSupported(tccDBus);
     if (tray.state.fnLockSupported) {
         tray.state.fnLockStatus = await fnLockStatus(tccDBus);
     }
-    [tray.state.isPrimeSupported, tray.state.primeQuery] = await checkPrimeAvailabilityStatus();
+    [tray.state.isPrimeSupported, tray.state.primeQuery] =
+        await checkPrimeAvailabilityStatus();
 
     await updateTrayProfiles(tccDBus);
     tray.events.startTCCClick = () => activateTccGui();
-    tray.events.startAquarisControl = () => activateTccGui('/main-gui/aquaris-control');
+    tray.events.startAquarisControl = () =>
+        activateTccGui("/main-gui/aquaris-control");
     tray.events.exitClick = () => quitCurrentTccSession();
     tray.events.autostartTrayToggle = () => {
         if (tray.state.isAutostartTrayInstalled) {
@@ -160,9 +183,9 @@ async function initTray() {
         tray.state.isAutostartTrayInstalled = isAutostartTrayInstalled();
         tray.create();
     };
-    
+
     tray.events.fnLockClick = (status: boolean) => {
-        tray.state.fnLockStatus = !status
+        tray.state.fnLockStatus = !status;
         tccDBus.setFnLockStatus(tray.state.fnLockStatus);
     };
 
@@ -178,19 +201,29 @@ async function initTray() {
         const langId = await userConfig.get("langId");
         createPrimeWindow(langId, "iGPU");
     };
-    tray.events.profileClick = (profileId: string) => { setTempProfileById(tccDBus, profileId); };
+    tray.events.profileClick = (profileId: string) => {
+        setTempProfileById(tccDBus, profileId);
+    };
     tray.create();
 
-    tray.state.powersaveBlockerActive = powersaveBlockerId !== undefined && powerSaveBlocker.isStarted(powersaveBlockerId);
+    tray.state.powersaveBlockerActive =
+        powersaveBlockerId !== undefined &&
+        powerSaveBlocker.isStarted(powersaveBlockerId);
     tray.events.powersaveBlockerClick = () => {
-        if (powersaveBlockerId !== undefined && powerSaveBlocker.isStarted(powersaveBlockerId)) {
+        if (
+            powersaveBlockerId !== undefined &&
+            powerSaveBlocker.isStarted(powersaveBlockerId)
+        ) {
             powerSaveBlocker.stop(powersaveBlockerId);
         } else {
-            powersaveBlockerId = powerSaveBlocker.start('prevent-display-sleep');
+            powersaveBlockerId = powerSaveBlocker.start(
+                "prevent-display-sleep",
+            );
         }
-        tray.state.powersaveBlockerActive = powerSaveBlocker.isStarted(powersaveBlockerId);
+        tray.state.powersaveBlockerActive =
+            powerSaveBlocker.isStarted(powersaveBlockerId);
         tray.create();
-    }
+    };
 }
 
 async function initMain() {
@@ -204,16 +237,16 @@ async function initMain() {
         setInterval(async () => {
             const tccdVersion = await tccDBus.tccdVersion();
             if (tccdVersion.length > 0 && tccdVersion !== app.getVersion()) {
-                console.log('Other tccd version detected, restarting..');
-                process.on('exit', function () {
+                console.log("Other tccd version detected, restarting..");
+                process.on("exit", function () {
                     child_process.spawn(
                         process.argv[0],
-                        process.argv.slice(1).concat(['--tray']),
+                        process.argv.slice(1).concat(["--tray"]),
                         {
                             cwd: process.cwd(),
-                            detached : true,
-                            stdio: "inherit"
-                        }
+                            detached: true,
+                            stdio: "inherit",
+                        },
                     );
                 });
                 process.exit();
@@ -235,10 +268,12 @@ async function initMain() {
     });
 
     const profilesCheckInterval = 4000;
-    setInterval(async () => { updateTrayProfiles(tccDBus); }, profilesCheckInterval);
+    setInterval(async () => {
+        updateTrayProfiles(tccDBus);
+    }, profilesCheckInterval);
 }
 
-app.on('will-quit', async (event) => {
+app.on("will-quit", async (event) => {
     // Prevent default quit action
     event.preventDefault();
 
@@ -258,13 +293,13 @@ app.on('will-quit', async (event) => {
         if (tccDBus !== undefined) {
             tccDBus.disconnect();
         }
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise((resolve) => setTimeout(resolve, 1000));
         app.exit(0);
         return;
     }
 });
 
-app.on('window-all-closed', () => {
+app.on("window-all-closed", () => {
     if (!tray.isActive()) {
         quitCurrentTccSession();
     }
@@ -274,16 +309,18 @@ let tccWindowLoading = false;
 
 async function activateTccGui(module?: string) {
     if (tccWindow) {
-        if (tccWindow.isMinimized()) { tccWindow.restore(); }
+        if (tccWindow.isMinimized()) {
+            tccWindow.restore();
+        }
         tccWindow.focus();
         const baseURL = tccWindow.webContents.getURL().split("#")[0];
         if (module !== undefined) {
-            tccWindow.loadURL(baseURL + '#' + module);
+            tccWindow.loadURL(baseURL + "#" + module);
         }
     } else {
         if (!tccWindowLoading) {
             tccWindowLoading = true;
-            const langId = await userConfig.get('langId');
+            const langId = await userConfig.get("langId");
             await createTccWindow(langId, module);
             tccWindowLoading = false;
         }
@@ -295,39 +332,53 @@ function createAquarisControl(langId: string) {
     let windowHeight = 400;
 
     aquarisWindow = new BrowserWindow({
-        title: 'Aquaris control',
+        title: "Aquaris control",
         width: windowWidth,
         height: windowHeight,
         frame: true,
         resizable: true,
         minWidth: windowWidth,
         minHeight: windowHeight,
-        icon: path.join(__dirname, '../../data/dist-data/tuxedo-control-center_256.png'),
+        icon: path.join(
+            __dirname,
+            "../../data/dist-data/tuxedo-control-center_256.png",
+        ),
         webPreferences: {
             nodeIntegration: true,
-            contextIsolation: false
-        }
+            contextIsolation: false,
+        },
     });
 
     // Hide menu bar
     aquarisWindow.setMenuBarVisibility(false);
     // Workaround to menu bar appearing after full screen state
-    aquarisWindow.on('leave-full-screen', () => { aquarisWindow.setMenuBarVisibility(false); });
+    aquarisWindow.on("leave-full-screen", () => {
+        aquarisWindow.setMenuBarVisibility(false);
+    });
 
-    aquarisWindow.on('closed', () => {
+    aquarisWindow.on("closed", () => {
         aquarisWindow = null;
     });
 
-    const indexPath = path.join(__dirname, '..', '..', 'ng-app', langId, 'index.html');
-    aquarisWindow.loadFile(indexPath, { hash: '/main-gui/aquaris-control' });
+    const indexPath = path.join(
+        __dirname,
+        "..",
+        "..",
+        "ng-app",
+        langId,
+        "index.html",
+    );
+    aquarisWindow.loadFile(indexPath, { hash: "/main-gui/aquaris-control" });
 }
 
 function activateAquarisGui() {
     if (aquarisWindow) {
-        if (aquarisWindow.isMinimized()) { aquarisWindow.restore(); }
+        if (aquarisWindow.isMinimized()) {
+            aquarisWindow.restore();
+        }
         aquarisWindow.focus();
     } else {
-        userConfig.get('langId').then(langId => {
+        userConfig.get("langId").then((langId) => {
             createAquarisControl(langId);
         });
     }
@@ -347,13 +398,13 @@ async function createWebcamPreview(langId: string, arg: any) {
         minHeight: windowHeight,
         icon: path.join(
             __dirname,
-            "../../data/dist-data/tuxedo-control-center_256.png"
+            "../../data/dist-data/tuxedo-control-center_256.png",
         ),
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
         },
-        show: false
+        show: false,
     });
 
     // Workaround to set window title
@@ -374,7 +425,7 @@ async function createWebcamPreview(langId: string, arg: any) {
         "..",
         "ng-app",
         langId,
-        "index.html"
+        "index.html",
     );
     webcamWindow.loadFile(indexPath, { hash: "/webcam-preview" });
 
@@ -387,10 +438,10 @@ async function createWebcamPreview(langId: string, arg: any) {
         webcamWindow = null;
     });
 
-    webcamWindow.once('ready-to-show', () => {
+    webcamWindow.once("ready-to-show", () => {
         webcamWindow.webContents.send("setting-webcam-with-loading", arg);
-        webcamWindow.show()
-    })
+        webcamWindow.show();
+    });
 }
 
 ipcMain.on("setting-webcam-with-loading", (event, arg) => {
@@ -446,7 +497,7 @@ async function createPrimeWindow(langId: string, primeSelectMode: string) {
         minHeight: windowHeight,
         icon: path.join(
             __dirname,
-            "../../data/dist-data/tuxedo-control-center_256.png"
+            "../../data/dist-data/tuxedo-control-center_256.png",
         ),
         webPreferences: {
             nodeIntegration: true,
@@ -473,7 +524,7 @@ async function createPrimeWindow(langId: string, primeSelectMode: string) {
         "..",
         "ng-app",
         langId,
-        "index.html"
+        "index.html",
     );
     primeWindow.loadFile(indexPath, { hash: "/prime-dialog" });
 
@@ -500,33 +551,36 @@ ipcMain.on("show-prime-window", () => {
 
 async function getProfiles(dbus: TccDBusController): Promise<TccProfile[]> {
     let result = [];
-    if (!await dbus.dbusAvailable()) return [];
+    if (!(await dbus.dbusAvailable())) return [];
     try {
         const profiles: TccProfile[] = JSON.parse(await dbus.getProfilesJSON());
         result = profiles;
     } catch (err) {
-        console.log('Error: ' + err);
+        console.log("Error: " + err);
     }
     return result;
 }
 
 async function setTempProfile(dbus: TccDBusController, profileName: string) {
-    const result = await dbus.dbusAvailable() && await dbus.setTempProfileName(profileName);
+    const result =
+        (await dbus.dbusAvailable()) &&
+        (await dbus.setTempProfileName(profileName));
     return result;
 }
 
 async function setTempProfileById(dbus: TccDBusController, profileId: string) {
-    const result = await dbus.dbusAvailable() && await dbus.setTempProfileById(profileId);
+    const result =
+        (await dbus.dbusAvailable()) &&
+        (await dbus.setTempProfileById(profileId));
     return result;
 }
 
 async function getActiveProfile(dbus: TccDBusController): Promise<TccProfile> {
     let result = undefined;
-    if (!await dbus.dbusAvailable()) return undefined;
+    if (!(await dbus.dbusAvailable())) return undefined;
     try {
         result = JSON.parse(await dbus.getActiveProfileJSON());
-    } catch {
-    }
+    } catch {}
     return result;
 }
 
@@ -541,59 +595,73 @@ async function createTccWindow(langId: string, module?: string) {
     }
 
     tccWindow = new BrowserWindow({
-        title: 'TUXEDO Control Center',
+        title: "TUXEDO Control Center",
         width: windowWidth,
         height: windowHeight,
         frame: true,
         resizable: true,
         minWidth: windowWidth,
         minHeight: windowHeight,
-        icon: path.join(__dirname, '../../data/dist-data/tuxedo-control-center_256.png'),
+        icon: path.join(
+            __dirname,
+            "../../data/dist-data/tuxedo-control-center_256.png",
+        ),
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
             enableRemoteModule: true,
         },
-        show: false
+        show: false,
     });
 
     // Hide menu bar
     tccWindow.setMenuBarVisibility(false);
     // Workaround to menu bar appearing after full screen state
-    tccWindow.on('leave-full-screen', () => { tccWindow.setMenuBarVisibility(false); });
+    tccWindow.on("leave-full-screen", () => {
+        tccWindow.setMenuBarVisibility(false);
+    });
 
-    tccWindow.on('closed', () => {
+    tccWindow.on("closed", () => {
         tccWindow = null;
     });
 
-    tccWindow.on('close', async function (e) {
-        await tccDBus.setSensorDataCollectionStatus(false)
-    
-        let collectionStatus = undefined
-        let retryCount = 0
-        const maxRetries = 5
-        
+    tccWindow.on("close", async function (e) {
+        await tccDBus.setSensorDataCollectionStatus(false);
+
+        let collectionStatus = undefined;
+        let retryCount = 0;
+        const maxRetries = 5;
+
         while (collectionStatus !== false && retryCount < maxRetries) {
-            collectionStatus = await tccDBus.getSensorDataCollectionStatus()
-            retryCount++
+            collectionStatus = await tccDBus.getSensorDataCollectionStatus();
+            retryCount++;
         }
-    
+
         if (collectionStatus !== false) {
-            console.error('Failed to set sensor data collection status after multiple attempts')
+            console.error(
+                "Failed to set sensor data collection status after multiple attempts",
+            );
         }
     });
 
-    const indexPath = path.join(__dirname, '..', '..', 'ng-app', langId, 'index.html');
+    const indexPath = path.join(
+        __dirname,
+        "..",
+        "..",
+        "ng-app",
+        langId,
+        "index.html",
+    );
     if (module !== undefined) {
-        await tccWindow.loadFile(indexPath, { hash: '/' + module });
+        await tccWindow.loadFile(indexPath, { hash: "/" + module });
     } else {
         await tccWindow.loadFile(indexPath);
     }
 }
 
-ipcMain.on('show-tcc-window', (event, arg) => {
+ipcMain.on("show-tcc-window", (event, arg) => {
     if (tccWindow) {
-        tccWindow.show()
+        tccWindow.show();
     }
 });
 
@@ -605,15 +673,18 @@ function quitCurrentTccSession() {
     app.quit();
 }
 
-ipcMain.on('exec-cmd-sync', (event, arg) => {
+ipcMain.on("exec-cmd-sync", (event, arg) => {
     try {
-        event.returnValue = { data: child_process.execSync(arg), error: undefined };
+        event.returnValue = {
+            data: child_process.execSync(arg),
+            error: undefined,
+        };
     } catch (err) {
         event.returnValue = { data: undefined, error: err };
     }
 });
 
-ipcMain.handle('exec-cmd-async', async (event, arg) => {
+ipcMain.handle("exec-cmd-async", async (event, arg) => {
     return new Promise((resolve, reject) => {
         child_process.exec(arg, (err, stdout, stderr) => {
             if (err) {
@@ -625,32 +696,31 @@ ipcMain.handle('exec-cmd-async', async (event, arg) => {
     });
 });
 
-ipcMain.handle('show-save-dialog', async (event, arg) => {
+ipcMain.handle("show-save-dialog", async (event, arg) => {
     return new Promise<SaveDialogReturnValue>((resolve, reject) => {
         let results = dialog.showSaveDialog(arg);
         resolve(results);
     });
 });
 
-
-ipcMain.handle('show-open-dialog', async (event, arg) => {
+ipcMain.handle("show-open-dialog", async (event, arg) => {
     return new Promise<OpenDialogReturnValue>((resolve, reject) => {
         let results = dialog.showOpenDialog(arg);
         resolve(results);
     });
 });
 
-ipcMain.handle('get-path', async (event, arg) => {
+ipcMain.handle("get-path", async (event, arg) => {
     return new Promise<string>((resolve, reject) => {
         let requestedPath = app.getPath(arg);
         resolve(requestedPath);
     });
 });
 
-ipcMain.handle('exec-file-async', async (event, arg) => {
+ipcMain.handle("exec-file-async", async (event, arg) => {
     return new Promise((resolve, reject) => {
         let strArg: string = arg;
-        let cmdList = strArg.split(' ');
+        let cmdList = strArg.split(" ");
         let cmd = cmdList.shift();
         child_process.execFile(cmd, cmdList, (err, stdout, stderr) => {
             if (err) {
@@ -662,60 +732,69 @@ ipcMain.handle('exec-file-async', async (event, arg) => {
     });
 });
 
-ipcMain.on('spawn-external-async', (event, arg) => {
-    child_process.spawn(arg, { detached: true, stdio: 'ignore' }).on('error', (err) => {
-        console.log("\"" + arg + "\" could not be executed.")
-        dialog.showMessageBox({ title: "Notice", buttons: ["OK"], message: "\"" + arg + "\" could not be executed." })
-    });
+ipcMain.on("spawn-external-async", (event, arg) => {
+    child_process
+        .spawn(arg, { detached: true, stdio: "ignore" })
+        .on("error", (err) => {
+            console.log('"' + arg + '" could not be executed.');
+            dialog.showMessageBox({
+                title: "Notice",
+                buttons: ["OK"],
+                message: '"' + arg + '" could not be executed.',
+            });
+        });
 });
 
 // Handle nativeTheme updated event, whether system triggered or from tcc
-nativeTheme.on('updated', () => {
+nativeTheme.on("updated", () => {
     if (tccWindow) {
-        tccWindow.webContents.send('update-brightness-mode');
+        tccWindow.webContents.send("update-brightness-mode");
     }
     if (aquarisWindow) {
-        aquarisWindow.webContents.send('update-brightness-mode');
+        aquarisWindow.webContents.send("update-brightness-mode");
     }
     if (webcamWindow) {
-        webcamWindow.webContents.send('update-brightness-mode');
+        webcamWindow.webContents.send("update-brightness-mode");
     }
 });
 
-type BrightnessModeString = 'light' | 'dark' | 'system';
+type BrightnessModeString = "light" | "dark" | "system";
 async function setBrightnessMode(mode: BrightnessModeString) {
     // Save wish to user config
-    await userConfig.set('brightnessMode', mode);
+    await userConfig.set("brightnessMode", mode);
     // Update electron theme source
     nativeTheme.themeSource = mode;
 }
 
 async function getBrightnessMode(): Promise<BrightnessModeString> {
-    let mode = await userConfig.get('brightnessMode') as BrightnessModeString | undefined;
+    let mode = (await userConfig.get("brightnessMode")) as
+        | BrightnessModeString
+        | undefined;
     switch (mode) {
-        case 'light':
-        case 'dark':
+        case "light":
+        case "dark":
             break;
         default:
-            mode = 'system';
+            mode = "system";
     }
     return mode;
 }
 
 // Renderer to main nativeTheme API
-ipcMain.handle('set-brightness-mode', (event, mode) => setBrightnessMode(mode));
-ipcMain.handle('get-brightness-mode', () => getBrightnessMode());
-ipcMain.handle('get-should-use-dark-colors', () => { return nativeTheme.shouldUseDarkColors; });
+ipcMain.handle("set-brightness-mode", (event, mode) => setBrightnessMode(mode));
+ipcMain.handle("get-brightness-mode", () => getBrightnessMode());
+ipcMain.handle("get-should-use-dark-colors", () => {
+    return nativeTheme.shouldUseDarkColors;
+});
 
 // Initialize brightness mode from user config
 getBrightnessMode().then(async (mode) => {
     await setBrightnessMode(mode);
     // Trigger initial update manually
-    nativeTheme.emit('updated');
+    nativeTheme.emit("updated");
 });
 
 async function loadTranslation(langId) {
-
     // Watch mode Workaround: Waiting for translation when starting in watch mode
     let canLoadTranslation = false;
     while (watchOption && !canLoadTranslation) {
@@ -723,8 +802,8 @@ async function loadTranslation(langId) {
             await translation.loadLanguage(langId);
             canLoadTranslation = true;
         } catch (err) {
-            console.log('Watch mode: Waiting for translation');
-            await new Promise(resolve => setTimeout(resolve, 3000));
+            console.log("Watch mode: Waiting for translation");
+            await new Promise((resolve) => setTimeout(resolve, 3000));
         }
     }
     // End watch mode workaround
@@ -732,24 +811,31 @@ async function loadTranslation(langId) {
     try {
         await translation.loadLanguage(langId);
     } catch (err) {
-        console.log('Failed loading translation => ' + err);
-        const fallbackLangId = 'en';
-        console.log('fallback to \'' + fallbackLangId + '\'');
+        console.log("Failed loading translation => " + err);
+        const fallbackLangId = "en";
+        console.log("fallback to '" + fallbackLangId + "'");
         try {
             await translation.loadLanguage(fallbackLangId);
         } catch (err) {
-            console.log('Failed loading fallback translation => ' + err);
+            console.log("Failed loading fallback translation => " + err);
         }
     }
 }
 
 async function changeLanguage(newLangId: string) {
-    if (newLangId !== await userConfig.get('langId')) {
-        await userConfig.set('langId', newLangId);
+    if (newLangId !== (await userConfig.get("langId"))) {
+        await userConfig.set("langId", newLangId);
         await loadTranslation(newLangId);
         await updateTrayProfiles(tccDBus);
         if (tccWindow) {
-            const indexPath = path.join(__dirname, '..', '..', 'ng-app', newLangId, 'index.html');
+            const indexPath = path.join(
+                __dirname,
+                "..",
+                "..",
+                "ng-app",
+                newLangId,
+                "index.html",
+            );
             await tccWindow.loadFile(indexPath);
         }
     }
@@ -758,7 +844,7 @@ async function changeLanguage(newLangId: string) {
 /**
  * Change user language IPC interface
  */
-ipcMain.on('trigger-language-change', (event, arg) => {
+ipcMain.on("trigger-language-change", (event, arg) => {
     const langId = arg;
     changeLanguage(langId);
 });
@@ -767,33 +853,45 @@ function installAutostartTray(): boolean {
     try {
         fs.mkdirSync(autostartLocation, { recursive: true });
         fs.copyFileSync(
-            path.join(appPath, '../../data/dist-data', autostartDesktopFilename),
-            path.join(autostartLocation, autostartDesktopFilename)
+            path.join(
+                appPath,
+                "../../data/dist-data",
+                autostartDesktopFilename,
+            ),
+            path.join(autostartLocation, autostartDesktopFilename),
         );
         return true;
     } catch (err) {
-        console.log('Failed to install autostart tray -> ' + err);
+        console.log("Failed to install autostart tray -> " + err);
         return false;
     }
 }
 
 function removeAutostartTray(): boolean {
     try {
-        if (fs.existsSync(path.join(autostartLocation, autostartDesktopFilename))) {
-            fs.unlinkSync(path.join(autostartLocation, autostartDesktopFilename));
+        if (
+            fs.existsSync(
+                path.join(autostartLocation, autostartDesktopFilename),
+            )
+        ) {
+            fs.unlinkSync(
+                path.join(autostartLocation, autostartDesktopFilename),
+            );
         }
         return true;
     } catch (err) {
-        console.log('Failed to remove autostart tray -> ' + err);
+        console.log("Failed to remove autostart tray -> " + err);
         return false;
     }
 }
 
 function isAutostartTrayInstalled(): boolean {
     try {
-        return fs.existsSync(path.join(autostartLocation, autostartDesktopFilename));
+        return fs.existsSync(
+            path.join(autostartLocation, autostartDesktopFilename),
+        );
     } catch (err) {
-        console.log('Failed to check if autostart tray is installed -> ' + err);
+        console.log("Failed to check if autostart tray is installed -> " + err);
         return false;
     }
 }
@@ -843,24 +941,40 @@ async function updateTrayProfiles(dbus: TccDBusController) {
         for (const profile of updatedProfiles) {
             const profileTranslationId = profileIdToI18nId.get(profile.id);
             if (profileTranslationId !== undefined) {
-                profile.name = translation.idToString(profileTranslationId.name);
-                profile.description = translation.idToString(profileTranslationId.description);
+                profile.name = translation.idToString(
+                    profileTranslationId.name,
+                );
+                profile.description = translation.idToString(
+                    profileTranslationId.description,
+                );
             }
         }
 
-        if (JSON.stringify({ activeProfile: tray.state.activeProfile, profiles: tray.state.profiles }) !==
-            JSON.stringify({ activeProfile: updatedActiveProfile, profiles: updatedProfiles })
+        if (
+            JSON.stringify({
+                activeProfile: tray.state.activeProfile,
+                profiles: tray.state.profiles,
+            }) !==
+            JSON.stringify({
+                activeProfile: updatedActiveProfile,
+                profiles: updatedProfiles,
+            })
         ) {
             tray.state.activeProfile = updatedActiveProfile;
             tray.state.profiles = updatedProfiles;
             await tray.create();
         }
     } catch (err) {
-        console.log('updateTrayProfiles() exception => ' + err);
+        console.log("updateTrayProfiles() exception => " + err);
     }
 }
 
-async function updateDeviceState(dev: LCT21001, current: AquarisState, next: AquarisState, overrideCheck = false) {
+async function updateDeviceState(
+    dev: LCT21001,
+    current: AquarisState,
+    next: AquarisState,
+    overrideCheck = false,
+) {
     if (!aquarisIoProgress) {
         try {
             aquarisIoProgress = true;
@@ -870,30 +984,41 @@ async function updateDeviceState(dev: LCT21001, current: AquarisState, next: Aqu
                 let updateFan = false;
                 let updatePump = false;
 
-                updateLed = overrideCheck ||
-                            current.red !== next.red || current.green !== next.green || current.blue !== next.blue ||
-                            current.ledMode !== next.ledMode || current.ledOn !== next.ledOn;
+                updateLed =
+                    overrideCheck ||
+                    current.red !== next.red ||
+                    current.green !== next.green ||
+                    current.blue !== next.blue ||
+                    current.ledMode !== next.ledMode ||
+                    current.ledOn !== next.ledOn;
                 if (updateLed) {
                     current.red = next.red;
                     current.green = next.green;
                     current.blue = next.blue;
                     current.ledMode = next.ledMode;
                     current.ledOn = next.ledOn;
-                    if (next.deviceUUID !== 'demo') {
+                    if (next.deviceUUID !== "demo") {
                         if (next.ledOn) {
-                            await dev.writeRGB(next.red, next.green, next.blue, next.ledMode);
+                            await dev.writeRGB(
+                                next.red,
+                                next.green,
+                                next.blue,
+                                next.ledMode,
+                            );
                         } else {
                             await dev.writeRGBOff();
                         }
                     }
                 }
 
-                updateFan = overrideCheck ||
-                            current.fanDutyCycle !== next.fanDutyCycle || current.fanOn !== next.fanOn;
+                updateFan =
+                    overrideCheck ||
+                    current.fanDutyCycle !== next.fanDutyCycle ||
+                    current.fanOn !== next.fanOn;
                 if (updateFan) {
                     current.fanDutyCycle = next.fanDutyCycle;
                     current.fanOn = next.fanOn;
-                    if (next.deviceUUID !== 'demo') {
+                    if (next.deviceUUID !== "demo") {
                         if (next.fanOn) {
                             await dev.writeFanMode(next.fanDutyCycle);
                         } else {
@@ -902,15 +1027,21 @@ async function updateDeviceState(dev: LCT21001, current: AquarisState, next: Aqu
                     }
                 }
 
-                updatePump = overrideCheck ||
-                            current.pumpDutyCycle !== next.pumpDutyCycle || current.pumpVoltage !== next.pumpVoltage || current.pumpOn !== next.pumpOn;
+                updatePump =
+                    overrideCheck ||
+                    current.pumpDutyCycle !== next.pumpDutyCycle ||
+                    current.pumpVoltage !== next.pumpVoltage ||
+                    current.pumpOn !== next.pumpOn;
                 if (updatePump) {
                     current.pumpDutyCycle = next.pumpDutyCycle;
                     current.pumpVoltage = next.pumpVoltage;
                     current.pumpOn = next.pumpOn;
-                    if (next.deviceUUID !== 'demo') {
+                    if (next.deviceUUID !== "demo") {
                         if (next.pumpOn) {
-                            await dev.writePumpMode(next.pumpDutyCycle, next.pumpVoltage);
+                            await dev.writePumpMode(
+                                next.pumpDutyCycle,
+                                next.pumpVoltage,
+                            );
                         } else {
                             await dev.writePumpOff();
                         }
@@ -921,7 +1052,7 @@ async function updateDeviceState(dev: LCT21001, current: AquarisState, next: Aqu
             } while (updatedSomething);
             aquarisIoProgress = false;
         } catch (err) {
-            console.log('updateDeviceState error => ' + err);
+            console.log("updateDeviceState error => " + err);
         } finally {
             aquarisIoProgress = false;
         }
@@ -950,7 +1081,10 @@ async function doSearch() {
     try {
         isSearching = true;
         // Start discover if not started or restart if reached discover max tries
-        if (!await aquaris.isDiscovering()  || discoverTries >= discoverMaxTries) {
+        if (
+            !(await aquaris.isDiscovering()) ||
+            discoverTries >= discoverMaxTries
+        ) {
             discoverTries = 0;
             await aquaris.stopDiscover();
             aquarisHasBluetooth = await aquaris.startDiscover();
@@ -960,7 +1094,7 @@ async function doSearch() {
                 return;
             }
             // Wait a moment after reconnect for initial discovery to have a chance
-            await new Promise(resolve => setTimeout(resolve, 500));
+            await new Promise((resolve) => setTimeout(resolve, 500));
         } else {
             discoverTries += 1;
         }
@@ -989,7 +1123,8 @@ async function startSearch() {
 }
 
 async function stopSearch() {
-    while (aquarisSearchProgress) await new Promise(resolve => setTimeout(resolve, 100));
+    while (aquarisSearchProgress)
+        await new Promise((resolve) => setTimeout(resolve, 100));
     devicesList = [];
     isSearching = false;
     clearTimeout(searchingTimeout);
@@ -1007,7 +1142,10 @@ async function aquarisCleanUp() {
 }
 
 async function aquarisConnectedDemo() {
-    return aquarisStateCurrent !== undefined && aquarisStateCurrent.deviceUUID === 'demo';
+    return (
+        aquarisStateCurrent !== undefined &&
+        aquarisStateCurrent.deviceUUID === "demo"
+    );
 }
 
 let devicesList: DeviceInfo[] = [];
@@ -1018,8 +1156,8 @@ const aquarisHandlers = new Map<string, (...args: any[]) => any>()
         try {
             await stopSearch();
 
-            if (deviceUUID === 'demo') {
-                await new Promise(resolve => setTimeout(resolve, 600));
+            if (deviceUUID === "demo") {
+                await new Promise((resolve) => setTimeout(resolve, 600));
             } else {
                 await aquaris.connect(deviceUUID);
             }
@@ -1035,18 +1173,26 @@ const aquarisHandlers = new Map<string, (...args: any[]) => any>()
                 pumpVoltage: PumpVoltage.V8,
                 ledOn: true,
                 fanOn: true,
-                pumpOn: true
+                pumpOn: true,
             };
-            const aquarisSavedSerialized = await userConfig.get('aquarisSaveState');
+            const aquarisSavedSerialized =
+                await userConfig.get("aquarisSaveState");
             if (aquarisSavedSerialized !== undefined) {
-                aquarisStateExpected = JSON.parse(aquarisSavedSerialized) as AquarisState;
+                aquarisStateExpected = JSON.parse(
+                    aquarisSavedSerialized,
+                ) as AquarisState;
             } else {
                 aquarisStateExpected = Object.assign({}, aquarisStateCurrent);
             }
             aquarisStateExpected.deviceUUID = deviceUUID;
-            await updateDeviceState(aquaris, aquarisStateCurrent, aquarisStateExpected, true);
+            await updateDeviceState(
+                aquaris,
+                aquarisStateCurrent,
+                aquarisStateExpected,
+                true,
+            );
         } catch (err) {
-            console.log('err => ' + err);
+            console.log("err => " + err);
         } finally {
             aquarisConnectProgress = false;
         }
@@ -1054,7 +1200,7 @@ const aquarisHandlers = new Map<string, (...args: any[]) => any>()
 
     .set(ClientAPI.prototype.disconnect.name, async () => {
         if (await aquarisConnectedDemo()) {
-            await new Promise(resolve => setTimeout(resolve, 600));
+            await new Promise((resolve) => setTimeout(resolve, 600));
         } else {
             await aquaris.disconnect();
         }
@@ -1077,16 +1223,12 @@ const aquarisHandlers = new Map<string, (...args: any[]) => any>()
     })
 
     .set(ClientAPI.prototype.hasBluetooth.name, async () => {
-        return aquarisHasBluetooth || await aquarisConnectedDemo();
+        return aquarisHasBluetooth || (await aquarisConnectedDemo());
     })
 
-    .set(ClientAPI.prototype.startDiscover.name, async () => {
+    .set(ClientAPI.prototype.startDiscover.name, async () => {})
 
-    })
-
-    .set(ClientAPI.prototype.stopDiscover.name, async () => {
-
-    })
+    .set(ClientAPI.prototype.stopDiscover.name, async () => {})
 
     .set(ClientAPI.prototype.getDevices.name, async () => {
         await startSearch();
@@ -1101,46 +1243,79 @@ const aquarisHandlers = new Map<string, (...args: any[]) => any>()
         return (await aquaris.readFwVersion()).toString();
     })
 
-    .set(ClientAPI.prototype.updateLED.name, async (red, green, blue, state) => {
-        aquarisStateExpected.red = red;
-        aquarisStateExpected.green = green;
-        aquarisStateExpected.blue = blue;
-        aquarisStateExpected.ledMode = state;
-        aquarisStateExpected.ledOn = true;
-        await updateDeviceState(aquaris, aquarisStateCurrent, aquarisStateExpected);
-    })
+    .set(
+        ClientAPI.prototype.updateLED.name,
+        async (red, green, blue, state) => {
+            aquarisStateExpected.red = red;
+            aquarisStateExpected.green = green;
+            aquarisStateExpected.blue = blue;
+            aquarisStateExpected.ledMode = state;
+            aquarisStateExpected.ledOn = true;
+            await updateDeviceState(
+                aquaris,
+                aquarisStateCurrent,
+                aquarisStateExpected,
+            );
+        },
+    )
 
     .set(ClientAPI.prototype.writeRGBOff.name, async () => {
         aquarisStateExpected.ledOn = false;
-        await updateDeviceState(aquaris, aquarisStateCurrent, aquarisStateExpected);
+        await updateDeviceState(
+            aquaris,
+            aquarisStateCurrent,
+            aquarisStateExpected,
+        );
     })
 
     .set(ClientAPI.prototype.writeFanMode.name, async (dutyCyclePercent) => {
         aquarisStateExpected.fanDutyCycle = dutyCyclePercent;
         aquarisStateExpected.fanOn = true;
-        await updateDeviceState(aquaris, aquarisStateCurrent, aquarisStateExpected);
+        await updateDeviceState(
+            aquaris,
+            aquarisStateCurrent,
+            aquarisStateExpected,
+        );
     })
 
     .set(ClientAPI.prototype.writeFanOff.name, async () => {
         aquarisStateExpected.fanOn = false;
-        await updateDeviceState(aquaris, aquarisStateCurrent, aquarisStateExpected);
+        await updateDeviceState(
+            aquaris,
+            aquarisStateCurrent,
+            aquarisStateExpected,
+        );
     })
 
-    .set(ClientAPI.prototype.writePumpMode.name, async (dutyCyclePercent, voltage) => {
-        aquarisStateExpected.pumpDutyCycle = dutyCyclePercent;
-        aquarisStateExpected.pumpVoltage = voltage;
-        aquarisStateExpected.pumpOn = true;
-        await updateDeviceState(aquaris, aquarisStateCurrent, aquarisStateExpected);
-    })
+    .set(
+        ClientAPI.prototype.writePumpMode.name,
+        async (dutyCyclePercent, voltage) => {
+            aquarisStateExpected.pumpDutyCycle = dutyCyclePercent;
+            aquarisStateExpected.pumpVoltage = voltage;
+            aquarisStateExpected.pumpOn = true;
+            await updateDeviceState(
+                aquaris,
+                aquarisStateCurrent,
+                aquarisStateExpected,
+            );
+        },
+    )
 
     .set(ClientAPI.prototype.writePumpOff.name, async () => {
         aquarisStateExpected.pumpOn = false;
-        await updateDeviceState(aquaris, aquarisStateCurrent, aquarisStateExpected);
+        await updateDeviceState(
+            aquaris,
+            aquarisStateCurrent,
+            aquarisStateExpected,
+        );
     })
-    
+
     .set(ClientAPI.prototype.saveState.name, async () => {
         if (await aquarisConnectedDemo()) return;
-        await userConfig.set('aquarisSaveState', JSON.stringify(aquarisStateCurrent));
+        await userConfig.set(
+            "aquarisSaveState",
+            JSON.stringify(aquarisStateCurrent),
+        );
     });
 
 registerAPI(ipcMain, aquarisAPIHandle, aquarisHandlers);

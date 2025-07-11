@@ -8,8 +8,8 @@
     >
     <body>
       <trans-unit id="8708ca72ec9216a3a521940eeef0be356eebb8dd" datatype="html">
-        <source>TUXEDO Support</source>
-        <target state="translated">TUXEDO Support</target>
+        <source>Avell Support</source>
+        <target state="translated">Suporte Avell</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -21,7 +21,7 @@
         <source>You got a problem with your TUXEDO device?</source>
         <target
                     state="translated"
-                >You got a problem with your TUXEDO device?</target>
+                >Está com problemas com o seu notebook Avell?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -34,7 +34,7 @@
                 >Then please contact us by phone or use our online support.</source>
         <target
                     state="translated"
-                >Then please contact us by phone or use our online support.</target>
+                >Por favor, entre em contato conosco pelo telefone ou utilize nosso suporte online.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -43,8 +43,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="cSupportButtonOnline" datatype="html">
-        <source>TUXEDO online support</source>
-        <target state="translated">TUXEDO online support</target>
+        <source>Avell online support</source>
+        <target state="translated">Suporte online Avell</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -54,7 +54,7 @@
       </trans-unit>
       <trans-unit id="462d1dc78e0991a2763d1e637fca6d1046eb7eb2" datatype="html">
         <source>System diagnostics</source>
-        <target state="translated">System diagnostics</target>
+        <target state="translated">Diagnóstico do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -109,7 +109,7 @@
       </trans-unit>
       <trans-unit id="ef02aa5c00de3a97c06c402cfbf6a764772e0947" datatype="html">
         <source>For further information please click</source>
-        <target state="translated">For further information please click</target>
+        <target state="translated">Para mais informações clique</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -122,7 +122,7 @@
                 >Please enter the ticket number of your support request. If you have not yet submitted a request, please visit the appropriate </source>
         <target
                     state="translated"
-                >Please enter the ticket number of your support request. If you have not yet submitted a request, please visit the appropriate </target>
+                >Por favor insira o número do seu ticket. Se ainda não enviou uma solicitação, visite o</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -132,7 +132,7 @@
       </trans-unit>
       <trans-unit id="0f35774daf67e2f0a41f46b993cf1703729ce6eb" datatype="html">
         <source>online form</source>
-        <target state="translated">online form.</target>
+        <target state="translated">formulário online.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -142,7 +142,7 @@
       </trans-unit>
       <trans-unit id="cSupportTicketNumberInputPlaceholder" datatype="html">
         <source>Ticket number</source>
-        <target state="translated">Ticket number</target>
+        <target state="translated">Número do ticket</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -152,7 +152,7 @@
       </trans-unit>
       <trans-unit id="cSupportTicketStepperButtonNext" datatype="html">
         <source>Next</source>
-        <target state="translated">Next</target>
+        <target state="translated">Próximo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -164,7 +164,7 @@
         <source>Step2: Download and run system info collection program</source>
         <target
                     state="translated"
-                >Step2: Download and run system info collection program</target>
+                >Passo 2: Baixe e execute o programa de coleta de informações do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -200,7 +200,7 @@
       </trans-unit>
       <trans-unit id="cSupportSysInfoButtonStart" datatype="html">
         <source>Start</source>
-        <target state="translated">Start</target>
+        <target state="translated">Iniciar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -210,7 +210,7 @@
       </trans-unit>
       <trans-unit id="cce829a702e81f886537f80d26a35c42ca490493" datatype="html">
         <source>Step 3: Done</source>
-        <target state="translated">Step 3: Done</target>
+        <target state="translated">Passo 3: Finalizado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -223,7 +223,7 @@
                 >Your system diagnostics data has been successfully sent.</source>
         <target
                     state="translated"
-                >Your system diagnostics data has been successfully sent.</target>
+                >Seu diagnóstico de sistema foi enviado com sucesso.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -236,7 +236,7 @@
                 >We will come back to you as soon as this has been evaluated.</source>
         <target
                     state="translated"
-                >We will come back to you as soon as this has been evaluated.</target>
+                >Iremos retornar para você assim que for avaliado.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -246,7 +246,7 @@
       </trans-unit>
       <trans-unit id="05334eb54d90e0decd20459303745a36c8e2fb6e" datatype="html">
         <source>Remote support</source>
-        <target state="translated">Remote support</target>
+        <target state="translated">Suporte remoto</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -334,7 +334,7 @@
       </trans-unit>
       <trans-unit id="c2c9a2834e262fceffd58430cbfbbc0940f4414d" datatype="html">
         <source>Restore system</source>
-        <target state="translated">Restore system</target>
+        <target state="translated">Restaurar sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -364,7 +364,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />With our "Fully Automated Installation", you can easily restore your Linux system to its delivery state within minutes and with a few clicks.<x
+                    />Com nossa ferramenta de instalação, você pode facilmente restaurar o seu sistema Linux para o estado de fábrica em poucos minutos e com poucos cliques..<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -386,7 +386,7 @@
       </trans-unit>
       <trans-unit id="6f4c3c56f07426469538deb72dab3e760f1b6cc4" datatype="html">
         <source>Step1: Input ticket number</source>
-        <target state="translated">Step1: Input ticket number</target>
+        <target state="translated">Passo 1: Digite o número do ticket</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -399,7 +399,7 @@
                 >Ticket number may only contain numbers, starts with 990 and is 9 digits long.</source>
         <target
                     state="translated"
-                >Ticket number may only contain numbers, starts with 990 and is 9 digits long.</target>
+                >O ticket deve conter apenas números, iniciar com o ano vigente e seguir do mês de abertura.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -409,7 +409,7 @@
       </trans-unit>
       <trans-unit id="cSupportAnydeskInstallButton" datatype="html">
         <source>Install Anydesk</source>
-        <target state="translated">Install AnyDesk</target>
+        <target state="translated">Instalar AnyDesk</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -419,7 +419,7 @@
       </trans-unit>
       <trans-unit id="cSupportAnydeskRemoveButton" datatype="html">
         <source>Remove Anydesk</source>
-        <target state="translated">Remove AnyDesk</target>
+        <target state="translated">Remover AnyDesk</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -429,7 +429,7 @@
       </trans-unit>
       <trans-unit id="cSupportAnydeskProgressButton" datatype="html">
         <source>Checking</source>
-        <target state="translated">Checking</target>
+        <target state="translated">Checando</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -439,7 +439,7 @@
       </trans-unit>
       <trans-unit id="cSupportAnydeskStartButton" datatype="html">
         <source>Start Anydesk</source>
-        <target state="translated">Start AnyDesk</target>
+        <target state="translated">Iniciar AnyDesk</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -449,7 +449,7 @@
       </trans-unit>
       <trans-unit id="cSupportWebFAICreatorInstallButton" datatype="html">
         <source>Install WebFAI Creator</source>
-        <target state="translated">Install WebFAI Creator</target>
+        <target state="translated">Instalar WebFAI</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -459,7 +459,7 @@
       </trans-unit>
       <trans-unit id="cSupportWebFAICreatorRemoveButton" datatype="html">
         <source>Remove WebFAI Creator</source>
-        <target state="translated">Remove WebFAI Creator</target>
+        <target state="translated">Remover WebFAI</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -469,7 +469,7 @@
       </trans-unit>
       <trans-unit id="cSupportWebFAICreatorProgressButton" datatype="html">
         <source>Checking</source>
-        <target state="translated">Checking</target>
+        <target state="translated">Checando</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -479,7 +479,7 @@
       </trans-unit>
       <trans-unit id="cSupportWebFAICreatorStartButton" datatype="html">
         <source>Start WebFAI Creator</source>
-        <target state="translated">Start WebFAI Creator</target>
+        <target state="translated">Iniciar WebFAI</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -489,7 +489,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrInvalidNameTitle" datatype="html">
         <source>Invalid input</source>
-        <target state="translated">Invalid input</target>
+        <target state="translated">Campo inválido</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -499,7 +499,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrInvalidNameMessage" datatype="html">
         <source>A name for the profile is required</source>
-        <target state="translated">A name for the profile is required</target>
+        <target state="translated">Nome do perfil é obrigatório</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -509,7 +509,7 @@
       </trans-unit>
       <trans-unit id="pMgrImportLabelFileDialoge" datatype="html">
         <source>Import</source>
-        <target state="translated">Import</target>
+        <target state="translated">Importar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -519,7 +519,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrNewProfileLabel" datatype="html">
         <source>New profile</source>
-        <target state="translated">New profile</target>
+        <target state="translated">Novo perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -531,7 +531,7 @@
         <source>Create a new profile with default settings</source>
         <target
                     state="translated"
-                >Create a new profile with default settings</target>
+                >Crie um novo perfil com configurações padrão</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -541,7 +541,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrCopyProfileLabel" datatype="html">
         <source>Copy this profile</source>
-        <target state="translated">Copy this profile</target>
+        <target state="translated">Copiar este perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -551,7 +551,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrTitle" datatype="html">
         <source>Profiles</source>
-        <target state="translated">Profiles</target>
+        <target state="translated">Perfis</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -561,7 +561,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrButtonImportTooltip" datatype="html">
         <source>Import Profile Settings</source>
-        <target state="translated">Import Profile Settings</target>
+        <target state="translated">Importar configurações do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -571,7 +571,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrButtonExportTooltip" datatype="html">
         <source>Export Profile Settings</source>
-        <target state="translated">Export Profile Settings</target>
+        <target state="translated">Exportar configurações do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -581,7 +581,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterAll" datatype="html">
         <source>All</source>
-        <target state="translated">All</target>
+        <target state="translated">Tudo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -591,7 +591,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterPreset" datatype="html">
         <source>Preset</source>
-        <target state="translated">Preset</target>
+        <target state="translated">Predefinição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -601,7 +601,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterCustom" datatype="html">
         <source>Custom</source>
-        <target state="translated">Custom</target>
+        <target state="translated">Customização</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -611,7 +611,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterUsed" datatype="html">
         <source>In use</source>
-        <target state="translated">In use</target>
+        <target state="translated">Em uso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -621,7 +621,7 @@
       </trans-unit>
       <trans-unit id="52c9a103b812f258bcddc3d90a6e3f46871d25fe" datatype="html">
         <source>Save</source>
-        <target state="translated">Save</target>
+        <target state="translated">Salvar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -631,7 +631,7 @@
       </trans-unit>
       <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
         <source>Cancel</source>
-        <target state="translated">Cancel</target>
+        <target state="translated">Cancelar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -641,7 +641,7 @@
       </trans-unit>
       <trans-unit id="ProfOverviewTileMenuCopy" datatype="html">
         <source>Copy</source>
-        <target state="translated">Copy</target>
+        <target state="translated">Copiar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -651,7 +651,7 @@
       </trans-unit>
       <trans-unit id="ProfOverviewTileMenuDelete" datatype="html">
         <source>Delete</source>
-        <target state="translated">Delete</target>
+        <target state="translated">Deletar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -661,7 +661,7 @@
       </trans-unit>
       <trans-unit id="ProfOverviewTileMenuEdit" datatype="html">
         <source>Edit</source>
-        <target state="translated">Edit</target>
+        <target state="translated">Editar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -671,7 +671,7 @@
       </trans-unit>
       <trans-unit id="ProfOverviewTileMenuView" datatype="html">
         <source>View</source>
-        <target state="translated">View</target>
+        <target state="translated">Visualizar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -681,7 +681,7 @@
       </trans-unit>
       <trans-unit id="ProfMgrOverviewNewProfile" datatype="html">
         <source>New profile</source>
-        <target state="translated">New profile</target>
+        <target state="translated">Novo perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -691,7 +691,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrOverviewCores" datatype="html">
         <source>cores</source>
-        <target state="translated">cores</target>
+        <target state="translated">núcleos</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -701,7 +701,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrOverviewMaxPerf" datatype="html">
         <source>Max performance</source>
-        <target state="translated">Max performance</target>
+        <target state="translated">Máximo desempenho</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -723,7 +723,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrOverviewWebcamStatusOn" datatype="html">
         <source>On</source>
-        <target state="translated">On</target>
+        <target state="translated">Ligado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -733,7 +733,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrOverviewWebcamStatusOff" datatype="html">
         <source>Off</source>
-        <target state="translated">Off</target>
+        <target state="translated">Desligado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -745,7 +745,7 @@
         <source> Create a new profile and configure it as you want </source>
         <target
                     state="translated"
-                > Create a new profile and configure it as you want </target>
+                > Crie um novo perfil e configure-o como desejar </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -755,7 +755,7 @@
       </trans-unit>
       <trans-unit id="odmLEDNone" datatype="html">
         <source>all LEDs off</source>
-        <target state="translated">all LEDs off</target>
+        <target state="translated">desligar todos os LEDs</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -765,7 +765,7 @@
       </trans-unit>
       <trans-unit id="odmLEDOne" datatype="html">
         <source>one LED on</source>
-        <target state="translated">one LED on</target>
+        <target state="translated">ligar um LED</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -775,7 +775,7 @@
       </trans-unit>
       <trans-unit id="odmLEDTwo" datatype="html">
         <source>two LEDs on</source>
-        <target state="translated">two LEDs on</target>
+        <target state="translated">ligar dois LEDs</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -785,7 +785,7 @@
       </trans-unit>
       <trans-unit id="tdpLabelsPL1" datatype="html">
         <source>Sustained Power Limit (PL1)</source>
-        <target state="translated">Sustained Power Limit (PL1)</target>
+        <target state="translated">Limite de Potência Sustentada (PL1)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -803,7 +803,7 @@
         <source>Short-term (max. 28 sec) Power Limit (PL2)</source>
         <target
                     state="translated"
-                >Short-term (max. 28 sec) Power Limit (PL2)</target>
+                >Limite de Potência de Curto Prazo (máx. 28s) (PL2)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -813,7 +813,9 @@
       </trans-unit>
       <trans-unit id="tdpLabelsPL4" datatype="html">
         <source>Peak (max. 8 sec) Power Limit (PL4)</source>
-        <target state="translated">Peak (max. 8 sec) Power Limit (PL4)</target>
+        <target
+                    state="translated"
+                >Limite de Potência de Pico (máx. 8s) (PL4)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -828,7 +830,7 @@
         <source>This feature is currently not supported on Wayland</source>
         <target
                     state="translated"
-                >This feature is currently not supported on Wayland</target>
+                >Este recurso não está disponível no Wayland</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -841,7 +843,7 @@
                 datatype="html"
             >
         <source> (already set)</source>
-        <target state="translated"> (already set)</target>
+        <target state="translated"> (já definido)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -851,7 +853,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrButtonDiscardTooltip" datatype="html">
         <source>Discard changes</source>
-        <target state="translated">Discard changes</target>
+        <target state="translated">Descartar alterações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -867,7 +869,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrButtonSaveTooltip" datatype="html">
         <source>Save changes</source>
-        <target state="translated">Save changes</target>
+        <target state="translated">Salvar alterações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -883,7 +885,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsProfileSettingsLabel" datatype="html">
         <source>Profile settings</source>
-        <target state="translated">Profile settings</target>
+        <target state="translated">Configurações do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -893,7 +895,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsNameLabel" datatype="html">
         <source>Name</source>
-        <target state="translated">Name</target>
+        <target state="translated">Nome</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -903,7 +905,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsDescriptionLabel" datatype="html">
         <source>Description</source>
-        <target state="translated">Description</target>
+        <target state="translated">Descrição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -923,7 +925,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsDisplayHeaderLabel" datatype="html">
         <source>Display</source>
-        <target state="translated">Display</target>
+        <target state="translated">Tela</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -933,7 +935,7 @@
       </trans-unit>
       <trans-unit id="4eaf6bbe34f6c5893d9198aa087353dadeb751cf" datatype="html">
         <source>Set brightness on profile activation</source>
-        <target state="translated">Set brightness on profile activation</target>
+        <target state="translated">Definir brilho ao ativar o perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -943,7 +945,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseBrightnessYes" datatype="html">
         <source>yes</source>
-        <target state="translated">yes</target>
+        <target state="translated">sim</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -959,7 +961,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseBrightnessNo" datatype="html">
         <source>no</source>
-        <target state="translated">no</target>
+        <target state="translated">não</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -975,7 +977,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsBrightnessLabel" datatype="html">
         <source>Backlight brightness</source>
-        <target state="translated">Backlight brightness</target>
+        <target state="translated">Brilho da tela</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1001,7 +1003,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsWebcamStatus" datatype="html">
         <source>Webcam status (on/off)</source>
-        <target state="translated">Webcam status (on/off)</target>
+        <target state="translated">Status da Webcam (on/off)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1011,7 +1013,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsWebcamStatusOn" datatype="html">
         <source>on</source>
-        <target state="translated">on</target>
+        <target state="translated">ligado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1021,7 +1023,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsWebcamStatusOff" datatype="html">
         <source>off</source>
-        <target state="translated">off</target>
+        <target state="translated">desligado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1031,7 +1033,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsSystemControlHeaderLabel" datatype="html">
         <source>System performance</source>
-        <target state="translated">System performance</target>
+        <target state="translated">Performance do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1041,7 +1043,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsCPUFreqLabel" datatype="html">
         <source>CPU frequency control</source>
-        <target state="translated">CPU frequency control</target>
+        <target state="translated">Controle de frequência do CPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1051,7 +1053,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsNrCoresLabel" datatype="html">
         <source>Number of logical cores</source>
-        <target state="translated">Number of logical cores</target>
+        <target state="translated">Quantidade de núcleos lógicos</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1061,7 +1063,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseMaxPerfGovLabel" datatype="html">
         <source>Maximum performance</source>
-        <target state="translated">Maximum performance</target>
+        <target state="translated">Performance máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1071,7 +1073,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseMaxPerfGovYes" datatype="html">
         <source>yes</source>
-        <target state="translated">yes</target>
+        <target state="translated">sim</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1081,7 +1083,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseMaxPerfGovNo" datatype="html">
         <source>no</source>
-        <target state="translated">no</target>
+        <target state="translated">não</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1091,7 +1093,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsMinFreqLabel" datatype="html">
         <source>Minimum frequency</source>
-        <target state="translated">Minimum frequency</target>
+        <target state="translated">Frequência mínima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1101,7 +1103,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsMaxFreqLabel" datatype="html">
         <source>Maximum frequency</source>
-        <target state="translated">Maximum frequency</target>
+        <target state="translated">Frequência máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1111,7 +1113,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsODMProfileLabelLEDInfo" datatype="html">
         <source>Profile indicator</source>
-        <target state="translated">Profile indicator</target>
+        <target state="translated">Indicador de perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1124,7 +1126,7 @@
                 >With the profile indicator you can recognize the active profile with a glance on the TCC button (next to the power button).</source>
         <target
                     state="translated"
-                >With the profile indicator you can recognize the active profile with a glance on the TCC button (next to the power button).</target>
+                >Com o indicador de perfil você consegue identificar o perfil ativo com um toque no botão ACC (próximo ao botão de energia).</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1139,7 +1141,7 @@
         <source>Set refresh rate on profile activation</source>
         <target
                     state="translated"
-                >Set refresh rate on profile activation</target>
+                >Configurar taxa de atualização ao ativar o perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1149,7 +1151,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsRefRateLabelProfile" datatype="html">
         <source>Refresh rate</source>
-        <target state="translated">Refresh rate</target>
+        <target state="translated">Taxa de atualização</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1159,7 +1161,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsFanControlHeaderLabel" datatype="html">
         <source>Fan control</source>
-        <target state="translated">Fan control</target>
+        <target state="translated">Controle da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1169,7 +1171,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsFanProfileLabel" datatype="html">
         <source>Fan profile </source>
-        <target state="needs-adaptation">Fan profile</target>
+        <target state="needs-adaptation">Perfil da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1179,7 +1181,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsMinFanSpeedLabel" datatype="html">
         <source>Minimum fan speed</source>
-        <target state="translated">Minimum fan speed</target>
+        <target state="translated">Velociade mínima da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1189,7 +1191,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsMaxFanSpeedLabel" datatype="html">
         <source>Maximum fan speed</source>
-        <target state="new">Maximum fan speed</target>
+        <target state="translated">Velociade máxima da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1199,7 +1201,9 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsOffsetFanSpeedLabel" datatype="html">
         <source>Offset fan speed</source>
-        <target state="translated">Offset fan speed</target>
+        <target
+                    state="translated"
+                >Compensação da velocidade da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1209,7 +1213,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsToggleFanChartsLabel" datatype="html">
         <source>Toggle fan table chart</source>
-        <target state="translated">Toggle fan table chart</target>
+        <target state="translated">Ativar gráfico das ventoinhas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1225,7 +1229,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsODMTDPLabel" datatype="html">
         <source>CPU power limit control</source>
-        <target state="new">CPU power limit control</target>
+        <target state="new">Controle de limite de potência da CPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1241,7 +1245,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsODMProfileLabel" datatype="html">
         <source>System profile</source>
-        <target state="translated">System profile</target>
+        <target state="translated">Perfil do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1254,7 +1258,7 @@
                 >The system profiles limit the maximal energy consumption of the processors.</source>
         <target
                     state="translated"
-                >The system profiles limit the maximal energy consumption of the processors.</target>
+                >Os perfis do sistema limitam o consumo máximo de energia dos processadores.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1264,7 +1268,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsNVIDIAPowerCTRLLabel" datatype="html">
         <source>NVIDIA power control</source>
-        <target state="needs-translated">NVIDIA power control</target>
+        <target state="needs-translated">Controle de energia NVIDIA</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1276,7 +1280,7 @@
         <source>Configurable graphics power (cTGP)</source>
         <target
                     state="needs-translated"
-                >Configurable graphics power (cTGP)</target>
+                >Potência configurável dos gráficos (cTGP)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1286,7 +1290,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsToggleTGPChartLabel" datatype="html">
         <source>Toggle TGP chart</source>
-        <target state="needs-translated">Toggle TGP chart</target>
+        <target state="needs-translated">Ativar gráfico do TGP</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1298,7 +1302,7 @@
         <source>Configurable graphics power (cTGP)</source>
         <target
                     state="needs-translated"
-                >Configurable graphics power (cTGP)</target>
+                >Potência configurável dos gráficos (cTGP)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1308,7 +1312,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsTGPChartDBLabel" datatype="html">
         <source>Dynamic Boost range</source>
-        <target state="needs-translated">Dynamic Boost range</target>
+        <target state="needs-translated">Faixa do Dynamic Boost</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1321,7 +1325,7 @@
                         id="INTERPOLATION"
                         equiv-text="{{ nvidiaPowerCTRLMaxPowerLimit }}"
                     /> W)</source>
-        <target state="needs-translated">Maximum power limit (<x
+        <target state="needs-translated">Limite máximo de potência (<x
                         id="INTERPOLATION"
                         equiv-text="{{ nvidiaPowerCTRLMaxPowerLimit }}"
                     /> W)</target>
@@ -1334,7 +1338,7 @@
       </trans-unit>
       <trans-unit id="cInfoInfoPanelTitle" datatype="html">
         <source>Info</source>
-        <target state="translated">Info</target>
+        <target state="translated">Informações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1344,10 +1348,10 @@
       </trans-unit>
       <trans-unit id="cInfoTCCDescriptionTextP1" datatype="html">
         <source
-                > With the TUXEDO Control Center, we have developed a unique tool for you to control and monitor all safety, performance, energy, comfort, and lifetime functions of your TUXEDO computer. </source>
+                > With the Avell Control Center, we have developed a unique tool for you to control and monitor all safety, performance, energy, comfort, and lifetime functions of your Avell laptop. </source>
         <target
                     state="translated"
-                > With the TUXEDO Control Center, we have developed a unique tool for you to control and monitor all safety, performance, energy, comfort, and lifetime functions of your TUXEDO computer. </target>
+                > Com o Avell Control Center, trazemos uma ferramenta exclusiva para você controlar e monitorar todas as funções de segurança, desempenho, energia, conforto e durabilidade do seu notebook Avell. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1357,10 +1361,10 @@
       </trans-unit>
       <trans-unit id="cInfoTCCDescriptionTextP2" datatype="html">
         <source
-                > With premade as well as any number of individually configurable profiles, you have the greatest possible control and adaptability of your TUXEDO device to your needs. </source>
+                > With premade as well as any number of individually configurable profiles, you have the greatest possible control and adaptability of your Avell device to your needs. </source>
         <target
                     state="translated"
-                > With premade as well as any number of individually configurable profiles, you have the greatest possible control and adaptability of your TUXEDO device to your needs. </target>
+                > Com perfis predefinidos e qualquer número de perfis configuráveis individualmente, você tem o máximo controle e adaptabilidade do seu dispositivo Avell às suas necessidades. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1370,7 +1374,7 @@
       </trans-unit>
       <trans-unit id="89f1f8c98e581f2a72a68620a75c13f132c34b48" datatype="html">
         <source>Installed version</source>
-        <target state="translated">Installed version</target>
+        <target state="translated">Versão instalada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1390,7 +1394,7 @@
       </trans-unit>
       <trans-unit id="cInfoImprintPanelTitle" datatype="html">
         <source>Imprint</source>
-        <target state="translated">Imprint</target>
+        <target state="translated">Jurídico</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1764,7 +1768,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cGlobalSettingsTemperatureDisplayHeader" datatype="html">
         <source>Temperature Display</source>
-        <target state="translated">Temperature Display</target>
+        <target state="translated">Exibição de temperatura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1815,9 +1819,7 @@ Commercial register number - Part B of the commercial register - 27755
                 datatype="html"
             >
         <source>Switch between Celsius and Fahrenheit </source>
-        <target
-                    state="translated"
-                >Switch between Celsius and Fahrenheit</target>
+        <target state="translated">Altere entre Celsius e Fahrenheit</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1893,7 +1895,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cGlobalSettingsFanControlActivated" datatype="html">
         <source>activated</source>
-        <target state="translated">activated</target>
+        <target state="translated">ativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1903,7 +1905,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cGlobalSettingsFanControlDeactivated" datatype="html">
         <source>deactivated</source>
-        <target state="translated">deactivated</target>
+        <target state="translated">desativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2149,7 +2151,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cryptPasswordTabTitle" datatype="html">
         <source>Change Crypt Password</source>
-        <target state="translated">Change Crypt Password</target>
+        <target state="translated">Alterar senha criptografada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2159,7 +2161,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="menuKeyboardBacklight" datatype="html">
         <source>Keyboard Backlight</source>
-        <target state="translated">Keyboard Backlight</target>
+        <target state="translated">Iluminação do teclado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2179,7 +2181,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cKeyboardBacklightLabel" datatype="html">
         <source>Keyboard Backlight</source>
-        <target state="translated">Keyboard Backlight</target>
+        <target state="translated">Iluminação do teclado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2214,7 +2216,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Your device has no keyboard backlight, is not (yet) supported by this control interface, or the driver is too old. At least tuxedo-drivers 4.0.0 and Linux kernel 5.15 are required for most devices (some devices need newer versions).</source>
         <target
                     state="translated"
-                >Your device has no keyboard backlight, is not (yet) supported by this control interface, or the driver is too old. At least tuxedo-drivers 4.0.0 and Linux kernel 5.15 are required for most devices (some need newer versions).</target>
+                >Seu dispositivo não possui retroiluminação no teclado, ainda não é compatível com esta interface de controle ou o driver está desatualizado. É necessário ao menos o avell-drivers 4.0.0 e o kernel Linux 5.15 para a maioria dos dispositivos (alguns exigem versões mais recentes).</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2224,7 +2226,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cKeyboardBacklightColorLabel" datatype="html">
         <source>Backlight Color:</source>
-        <target state="translated">Backlight Color:</target>
+        <target state="translated">Cor:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2258,7 +2260,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cShutdownTimerHour" datatype="html">
         <source>Hour</source>
-        <target state="translated">Hour</target>
+        <target state="translated">Hora</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2268,7 +2270,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cShutdownTimerMinute" datatype="html">
         <source>Minute</source>
-        <target state="translated">Minute</target>
+        <target state="translated">Minutos</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2278,7 +2280,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cShutdownTimerButtonDeleteTime" datatype="html">
         <source>Delete Time</source>
-        <target state="translated">Delete Time</target>
+        <target state="translated">Deletar hora</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2288,7 +2290,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cShutdownTimerButtonSave" datatype="html">
         <source>Save</source>
-        <target state="translated">Save</target>
+        <target state="translated">Salvar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2302,7 +2304,7 @@ Commercial register number - Part B of the commercial register - 27755
                         equiv-text="{{ appliedTime }}"
                     /></source>
         <target state="translated">
-        Set shutdown time: <x
+        Configurar hora de desligamento: <x
                         id="INTERPOLATION"
                         equiv-text="{{ appliedTime }}"
                     />
@@ -2316,7 +2318,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cryptButtonShowPassword" datatype="html">
         <source>Show Passwords</source>
-        <target state="translated">Show Passwords</target>
+        <target state="translated">Mostrar senhas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2332,7 +2334,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cryptButtonHidePassword" datatype="html">
         <source>Hide Passwords</source>
-        <target state="translated">Hide Passwords</target>
+        <target state="translated">Ocultar senhas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2342,7 +2344,9 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cryptfinishprocess" datatype="html">
         <source>Crypt password changed successfully</source>
-        <target state="translated">Crypt password changed successfully</target>
+        <target
+                    state="translated"
+                >Senha de criptografia alterada com sucesso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2355,7 +2359,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Error: Could not change crypt password (wrong old crypt password?)</source>
         <target
                     state="translated"
-                >Error: Could not change crypt password (wrong old crypt password?)</target>
+                >Erro: Não foi possível alterar a senha de criptografia (senha antiga incorreta?)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2459,7 +2463,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cryptPasswordPlaceholderCryptPassword" datatype="html">
         <source>Current Password</source>
-        <target state="translated">Current Password</target>
+        <target state="translated">Senha atual</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2469,7 +2473,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cryptPasswordPlaceholderNewPassword" datatype="html">
         <source>New Password</source>
-        <target state="translated">New Password</target>
+        <target state="translated">Nova senha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2479,7 +2483,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cryptPasswordPlaceholderConfirmPassword" datatype="html">
         <source>Confirm New Password</source>
-        <target state="translated">Confirm New Password</target>
+        <target state="translated">Confirmar nova senha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2489,7 +2493,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cryptButtonSave" datatype="html">
         <source>Save</source>
-        <target state="translated">Save</target>
+        <target state="translated">Salvar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2533,7 +2537,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="msgboxTitleServiceUnavailable" datatype="html">
         <source>Service unavailable</source>
-        <target state="translated">Service unavailable</target>
+        <target state="translated">Serviço indisponível</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2543,10 +2547,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="msgboxMessageServiceUnavailable" datatype="html">
         <source
-                >Communication with tccd service is unavailable, please restart service and try again.</source>
+                >Communication with accd service is unavailable, please restart service and try again.</source>
         <target
                     state="translated"
-                >Communication with tccd service is unavailable, please restart service and try again.</target>
+                >A comunicação com o serviço accd está indisponível. Reinicie o serviço e tente novamente.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2566,7 +2570,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="menuProfiles" datatype="html">
         <source>Profiles</source>
-        <target state="translated">Profiles</target>
+        <target state="translated">Perfis</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2576,7 +2580,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="menuTools" datatype="html">
         <source>Tools</source>
-        <target state="translated">Tools</target>
+        <target state="translated">Ferramentas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2586,7 +2590,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="menuUsedProfilesLabel" datatype="html">
         <source>Used profiles</source>
-        <target state="translated">Used profiles</target>
+        <target state="translated">Perfis usados</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2596,7 +2600,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="menuSupport" datatype="html">
         <source>Support</source>
-        <target state="translated">Support</target>
+        <target state="translated">Suporte</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2606,7 +2610,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="121cc5391cd2a5115bc2b3160379ee5b36cd7716" datatype="html">
         <source>Settings</source>
-        <target state="translated">Settings</target>
+        <target state="translated">Configurações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2616,7 +2620,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="321e4419a943044e674beb55b8039f42a9761ca5" datatype="html">
         <source>Info</source>
-        <target state="translated">Info</target>
+        <target state="translated">Informação</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2625,8 +2629,8 @@ Commercial register number - Part B of the commercial register - 27755
         </context-group>
       </trans-unit>
       <trans-unit id="494ff5730f58a11907e572e45af00dfe74f329bc" datatype="html">
-        <source>TUXEDO Control Center</source>
-        <target state="translated">TUXEDO Control Center</target>
+        <source>Avell Control Center</source>
+        <target state="translated">Avell Control Center</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2636,7 +2640,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="menuAquaris" datatype="html">
         <source>Aquaris</source>
-        <target state="translated">Aquaris</target>
+        <target state="translated">Ice Mod</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2659,7 +2663,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqFanPresetSlowLabel" datatype="html">
         <source>Slow</source>
-        <target state="translated">Slow</target>
+        <target state="translated">Lento</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2669,7 +2673,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqFanPresetMediumLabel" datatype="html">
         <source>Medium</source>
-        <target state="translated">Medium</target>
+        <target state="translated">Médio</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2679,7 +2683,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqFanPresetFastLabel" datatype="html">
         <source>Fast</source>
-        <target state="translated">Fast</target>
+        <target state="translated">Rápido</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2689,9 +2693,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogConnectTitle" datatype="html">
         <source>Are you ready to connect to your Aquaris?</source>
-        <target
-                    state="translated"
-                >Are you ready to connect to your Aquaris?</target>
+        <target state="translated">Pronto para conectar ao seu Ice Mod?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2704,7 +2706,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Please ensure that your Aquaris' watercooling tubes are plugged into your TUXEDO before pressing the 'Connect' button!</source>
         <target
                     state="translated"
-                >Please ensure that your Aquaris' watercooling tubes are plugged into your TUXEDO before pressing the 'Connect' button!</target>
+                >Certifique-se de que os tubos de resfriamento a água do seu Ice Mod estejam conectados ao seu Avell antes de pressionar o botão 'Conectar'!</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2714,7 +2716,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogConnectLinkLabel" datatype="html">
         <source>Instructions</source>
-        <target state="translated">Instructions</target>
+        <target state="translated">Instruções</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2724,7 +2726,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogButtonAbortConnectLabel" datatype="html">
         <source>Do not connect</source>
-        <target state="translated">Do not connect</target>
+        <target state="translated">Não conectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2734,7 +2736,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogButtonConfirmConnectLabel" datatype="html">
         <source>Connect</source>
-        <target state="translated">Connect</target>
+        <target state="translated">Conectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2744,7 +2746,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogCheckboxNoBotherLabel" datatype="html">
         <source>Don't ask again</source>
-        <target state="translated">Don't ask again</target>
+        <target state="translated">Não perguntar novamente</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2760,9 +2762,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogDisconnectTitle" datatype="html">
         <source>Do you want to disconnect your Aquaris?</source>
-        <target
-                    state="translated"
-                >Do you want to disconnect your Aquaris?</target>
+        <target state="translated">Deseja desconectar o seu Ice Mod?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2772,10 +2772,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogDisconnectDescription" datatype="html">
         <source
-                >Please ensure to follow our instructions carefully in case you want to unplug your Aquaris from your TUXEDO.</source>
+                >Please ensure to follow our instructions carefully in case you want to unplug your Ice Mod from your Avell.</source>
         <target
                     state="translated"
-                >Please ensure to follow our instructions carefully in case you want to unplug your Aquaris from your TUXEDO.</target>
+                >Por favor, siga nossas instruções cuidadosamente caso deseje desconectar seu Ice Mod do seu Avell.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2785,7 +2785,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogDisconnectLinkLabel" datatype="html">
         <source>Instructions</source>
-        <target state="translated">Instructions</target>
+        <target state="translated">Instruções</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2808,7 +2808,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogButtonAbortLabel" datatype="html">
         <source>Stay connected</source>
-        <target state="translated">Stay connected</target>
+        <target state="translated">Mantenha conectado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2818,7 +2818,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogButtonConfirmLabel" datatype="html">
         <source>Disconnect</source>
-        <target state="translated">Disconnect</target>
+        <target state="translated">Desconectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2828,7 +2828,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="8300092213868729072" datatype="html">
         <source>Bluetooth not available</source>
-        <target state="translated">Bluetooth not available</target>
+        <target state="translated">Bluetooth não disponível</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2842,7 +2842,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="3852289441366561594" datatype="html">
         <source>Connecting...</source>
-        <target state="translated">Connecting...</target>
+        <target state="translated">Conectando...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2856,7 +2856,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="2844912541574448086" datatype="html">
         <source>Disconnecting...</source>
-        <target state="translated">Disconnecting...</target>
+        <target state="translated">Desconectando...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2870,7 +2870,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="628702835471697117" datatype="html">
         <source>Connected to</source>
-        <target state="translated">Connected to</target>
+        <target state="translated">Conectado à</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2884,7 +2884,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="245175603611658921" datatype="html">
         <source>Looking for devices...</source>
-        <target state="translated">Looking for devices...</target>
+        <target state="translated">Procurando dispositivos...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2898,7 +2898,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogSelectNameTitle" datatype="html">
         <source>Device name</source>
-        <target state="translated">Device name</target>
+        <target state="translated">Nome do dispositivo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2908,7 +2908,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogSelectNameDescription" datatype="html">
         <source>A descriptive name for the device</source>
-        <target state="translated">A descriptive name for the device</target>
+        <target state="translated">Nome descritivo para o dispositivo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2918,7 +2918,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqTitleOpenInfoTooltip" datatype="html">
         <source>Open info page...</source>
-        <target state="translated">Open info page...</target>
+        <target state="translated">Abrir página de informações...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2928,7 +2928,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqButtonDisconnectLabel" datatype="html">
         <source>Disconnect</source>
-        <target state="translated">Disconnect</target>
+        <target state="translated">Desconectado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2938,7 +2938,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqLabelFanControl" datatype="html">
         <source>Fan control</source>
-        <target state="translated">Fan control</target>
+        <target state="translated">Controle da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2948,7 +2948,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqButtonFanPresetsLabel" datatype="html">
         <source>Fan presets</source>
-        <target state="translated">Fan presets</target>
+        <target state="translated">Predefinição da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2958,7 +2958,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqFanGaugeLegendText" datatype="html">
         <source>Fan speed</source>
-        <target state="translated">Fan speed</target>
+        <target state="translated">Velocidade da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2980,7 +2980,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqLabelLEDControl" datatype="html">
         <source>LED Control</source>
-        <target state="translated">LED Control</target>
+        <target state="translated">Controle de LED</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2990,7 +2990,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqTabLEDColorPickerLabel" datatype="html">
         <source>Pick color</source>
-        <target state="translated">Pick color</target>
+        <target state="translated">Escolha a cor</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3000,7 +3000,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqTabLEDModeLabel" datatype="html">
         <source>Mode</source>
-        <target state="translated">Mode</target>
+        <target state="translated">Modo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3010,7 +3010,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqButtonToggleLEDStaticLabel" datatype="html">
         <source>Single color</source>
-        <target state="translated">Single color</target>
+        <target state="translated">Cor única</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3020,7 +3020,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqButtonToggleLEDRainbowLabel" datatype="html">
         <source>Rainbow</source>
-        <target state="translated">Rainbow</target>
+        <target state="translated">Arco-íris</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3030,7 +3030,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqCheckboxLEDBreatheLabel" datatype="html">
         <source>Breathe</source>
-        <target state="translated">Breathe</target>
+        <target state="translated">Respiração</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3040,10 +3040,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqChooseAquarisText" datatype="html">
         <source
-                >Please choose your TUXEDO Aquaris and click on the connect button</source>
+                >Please choose your Ice Mod and click on the connect button</source>
         <target
                     state="translated"
-                >Please choose your TUXEDO Aquaris and click on the connect button</target>
+                >Por favor, escolha o seu Ice Mod e clique no botão de conectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3053,7 +3053,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqButtonConnectLabel" datatype="html">
         <source>Connect</source>
-        <target state="translated">Connect</target>
+        <target state="translated">Conectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3063,10 +3063,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqNoBluetoothHeadlineText" datatype="html">
         <source
-                >TUXEDO Control Center could not find a Bluetooth connection.</source>
+                >Avell Control Center could not find a Bluetooth connection.</source>
         <target
                     state="translated"
-                >TUXEDO Control Center could not find a Bluetooth connection.</target>
+                >O Avell Control Center não encontrou uma conexão Bluetooth.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3076,7 +3076,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqNoBluetoothVerifyText" datatype="html">
         <source>Please verify that:</source>
-        <target state="translated">Please verify that:</target>
+        <target state="translated">Por favor, verifique se:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3089,7 +3089,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Your Bluetooth adapter is turned on in your system settings.</source>
         <target
                     state="translated"
-                >Your Bluetooth adapter is turned on in your system settings.</target>
+                >O seu adaptador Bluetooth está ligado nas definições do sistema.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3101,7 +3101,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Your Bluetooth adapter is not disabled in the UEFI.</source>
         <target
                     state="translated"
-                >Your Bluetooth adapter is not disabled in the UEFI.</target>
+                >O seu adaptador Bluetooth não está desligado no UEFI.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3114,7 +3114,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >A Bluetooth adapter is installed in your TUXEDO notebook.</source>
         <target
                     state="translated"
-                >A Bluetooth adapter is installed in your TUXEDO notebook.</target>
+                >Um adaptador Bluetooth está instalado no seu notebook Avell.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3123,11 +3123,10 @@ Commercial register number - Part B of the commercial register - 27755
         </context-group>
       </trans-unit>
       <trans-unit id="aqNoDevicesHeadlineText" datatype="html">
-        <source
-                >TUXEDO Control Center could not find your TUXEDO Aquaris</source>
+        <source>Avell Control Center could not find your Ice Mod</source>
         <target
                     state="translated"
-                >TUXEDO Control Center could not find your TUXEDO Aquaris</target>
+                >O Avell Control Center não encontrou seu Ice Mod</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3137,7 +3136,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqNoDevicesVerifyText" datatype="html">
         <source>Please verify that:</source>
-        <target state="translated">Please verify that:</target>
+        <target state="translated">Por favor, verifique se:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3147,10 +3146,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqNoDevicesHintSwitchedOn" datatype="html">
         <source
-                >Your Aquaris is switched on and the blue LED on the power button is blinking.</source>
+                >Your Ice Mod is switched on and the blue LED on the power button is blinking.</source>
         <target
                     state="translated"
-                >Your Aquaris is switched on and the blue LED on the power button is blinking.</target>
+                >O seu Ice Mod está ligado e o LED azul no botão de energia está piscando.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3160,10 +3159,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqNoDevicesHintIsConnected" datatype="html">
         <source
-                >Your Aquaris is connected to your TUXEDO notebook's power supply, which is connected to a power outlet.</source>
+                >Your Ice Mod is connected to your Avell notebook's power supply, which is connected to a power outlet.</source>
         <target
                     state="translated"
-                >Your Aquaris is connected to your TUXEDO notebook's power supply, which is connected to a power outlet.</target>
+                >O seu Ice Mod está conectado na fonte de energia do seu notebook Avell, que está conectado a uma tomada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3173,10 +3172,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqNoDevicesHintIsPluggedIn" datatype="html">
         <source
-                >Your Aquaris' power cable is plugged into your TUXEDO notebook.</source>
+                >Your Ice Mod's power cable is plugged into your Avell notebook.</source>
         <target
                     state="translated"
-                >Your Aquaris' power cable is plugged into your TUXEDO notebook.</target>
+                >Seu Ice Mod está conectado em seu notebook Avell.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3185,8 +3184,8 @@ Commercial register number - Part B of the commercial register - 27755
         </context-group>
       </trans-unit>
       <trans-unit id="aqNoDevicesSuggestDemoMode" datatype="html">
-        <source>Do not have a TUXEDO Aquaris yet?</source>
-        <target state="translated">Do not have a TUXEDO Aquaris yet?</target>
+        <source>Do not have a Ice Mod yet?</source>
+        <target state="translated">Não possuí um Ice Mod ainda?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3196,7 +3195,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqNoDevicesDemoButtonLabel" datatype="html">
         <source>Try demo mode</source>
-        <target state="translated">Try demo mode</target>
+        <target state="translated">Faça um teste</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3209,7 +3208,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Information from command 'tomte list' could not be obtained. Is tomte already running?</source>
         <target
                     state="translated"
-                >Information from command 'tomte list' could not be obtained. Is tomte already running?</target>
+                >Informação do comando 'tomte list' não pode ser obtida. O tomte já está em execução?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3221,7 +3220,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Cannot block a module that is a prerequisite</source>
         <target
                     state="translated"
-                >Cannot block a module that is a prerequisite</target>
+                >Não é possível bloquear um módulo que é um pré-requisito</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3231,7 +3230,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="tomteGuiSliderToolTipUnblock" datatype="html">
         <source>Unblock this module</source>
-        <target state="translated">Unblock this module</target>
+        <target state="translated">Desbloquear este módulo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3241,7 +3240,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="tomteGuiSliderToolTipBlock" datatype="html">
         <source>Block this module</source>
-        <target state="translated">Block this module</target>
+        <target state="translated">Bloquear este módulo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3253,7 +3252,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Cannot uninstall a module that is a prerequisite</source>
         <target
                     state="translated"
-                >Cannot uninstall a module that is a prerequisite</target>
+                >Não é possível desinstalar um módulo que é pré-requisito</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3265,7 +3264,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Cannot un-/install a module that is blocked.</source>
         <target
                     state="translated"
-                >Cannot un-/install a module that is blocked</target>
+                >Não é possível des/instalar um módulo que está bloqueado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3275,7 +3274,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="tomteGuiSliderToolTipBlockUninstall" datatype="html">
         <source>Uninstall this module</source>
-        <target state="translated">Uninstall this module</target>
+        <target state="translated">Desinstalar este módulo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3285,7 +3284,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="tomteGuiSliderToolTipInstall" datatype="html">
         <source>Install this module</source>
-        <target state="translated">Install this module</target>
+        <target state="translated">Instalar este módulo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3295,7 +3294,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="tomteGuiDialogErrorTitle" datatype="html">
         <source>An Error occured!</source>
-        <target state="translated">An Error occured!</target>
+        <target state="translated">Ocorreu um erro!</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3307,7 +3306,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Are you sure you want to issue this command?</source>
         <target
                     state="translated"
-                >Are you sure you want to issue this command?</target>
+                >Tem certeza de que deseja emitir este comando?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3320,7 +3319,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Warning: Changes to the default Tomte-configuration can lead to your device not working properly anymore!</source>
         <target
                     state="translated"
-                >Warning: Changes to the default Tomte-configuration can lead to your device not working properly anymore!</target>
+                >Aviso: Alterações na configuração padrão do Tomte podem levar a seu dispositivo não funcionar corretamente!</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3330,7 +3329,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="tomteAbortButtonLabel" datatype="html">
         <source>Abort</source>
-        <target state="translated">Abort</target>
+        <target state="translated">Cancelar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3346,7 +3345,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="tomteConfirmButtonLabel" datatype="html">
         <source>I understand</source>
-        <target state="translated">I understand</target>
+        <target state="translated">Entendi</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3362,7 +3361,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="tomteDialogCheckboxNoBotherLabel" datatype="html">
         <source>Don't ask again</source>
-        <target state="translated">Don't ask again</target>
+        <target state="translated">Não pergunte novamente</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3374,7 +3373,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Are you sure you want to reset to defaults?</source>
         <target
                     state="translated"
-                >Are you sure you want to reset to defaults?</target>
+                >Tem certeza de que deseja redefinir para os padrões?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3387,7 +3386,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >This will revert any manual configuration you did, are you sure you want to proceed?</source>
         <target
                     state="translated"
-                >This will revert any manual configuration you did, are you sure you want to proceed?</target>
+                >Isto irá reverter qualquer configuração manual que você fez, você tem certeza de que deseja prosseguir?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3400,7 +3399,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Reset failed. Maybe Tomte is already running? If that is the case simply try again later.</source>
         <target
                     state="translated"
-                >Reset failed. Maybe Tomte is already running? If that is the case simply try again later.</target>
+                >Falha ao redefinir. Talvez o Tomte já esteja em execução? Se for o caso, tente novamente mais tarde.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3413,7 +3412,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Tomte failed to install. Do you use a tuxedo device and are using the tuxedo repos?</source>
         <target
                     state="translated"
-                >Tomte failed to install. Do you use a tuxedo device and are using the tuxedo repos?</target>
+                >Falha ao instalar o Tomte. Você usa um dispositivo Avell e está usando os repositórios Avell?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
