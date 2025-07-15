@@ -1404,34 +1404,22 @@
       </trans-unit>
       <trans-unit id="cInfoImprintText" datatype="html">
         <source>
-TUXEDO Computers GmbH
+Avell Notebooks de Alto desempenho
+CNPJ: 19.117.785/0001-05
+Rua Matrinxã, 687, Edifício 3 - Parte 1 Distrito Industrial - Manaus - AM
+CEP: 69.075-150
 
-Alter Postweg 101
-86159 Augsburg
-Germany
-
-Telephone: +49 (0) 821 / 8998 2992
-Telefax: +49 (0) 821 / 8998 2999
-E-Mail: tux@tuxedocomputers.com
-VAT No.: DE815420876
-WEEE reg. no.: DE 93420497
-listed in the commercial register of the local court Augsburg
-Commercial register number - Part B of the commercial register - 27755
+Telefone: +55 (47) 3801-6000
+E-Mail: suporte@avell.com.br
         </source>
         <target state="needs-adaptation">
-TUXEDO Computers GmbH
+Avell Notebooks de Alto desempenho
+CNPJ: 19.117.785/0001-05
+Rua Matrinxã, 687, Edifício 3 - Parte 1 Distrito Industrial - Manaus - AM
+CEP: 69.075-150
 
-Alter Postweg 101
-86159 Augsburg
-Germany
-
-Telephone: +49 (0) 821 / 8998 2992
-Telefax: +49 (0) 821 / 8998 2999
-E-Mail: tux@tuxedocomputers.com
-VAT No.: DE815420876
-WEEE reg. no.: DE 93420497
-listed in the commercial register of the local court Augsburg
-Commercial register number - Part B of the commercial register - 27755
+Telefone: +55 (47) 3801-6000
+E-Mail: suporte@avell.com.br
         </target>
         <context-group purpose="location">
           <context
@@ -2650,10 +2638,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogConnectLinkHref" datatype="html">
         <source
-                >https://www.tuxedocomputers.com/en/TUXEDO-Aquaris.tuxedo</source>
+                >https://avell.com.br/avell-ice-mod-gen2</source>
         <target
                     state="translated"
-                >https://www.tuxedocomputers.com/en/TUXEDO-Aquaris.tuxedo</target>
+                >https://avell.com.br/avell-ice-mod-gen2</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2703,7 +2691,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogConnectDescription" datatype="html">
         <source
-                >Please ensure that your Aquaris' watercooling tubes are plugged into your TUXEDO before pressing the 'Connect' button!</source>
+                >Please ensure that your Aquaris' watercooling tubes are plugged into your Avell before pressing the 'Connect' button!</source>
         <target
                     state="translated"
                 >Certifique-se de que os tubos de resfriamento a água do seu Ice Mod estejam conectados ao seu Avell antes de pressionar o botão 'Conectar'!</target>
@@ -2795,10 +2783,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="aqDialogDisconnectLinkHref" datatype="html">
         <source
-                >https://www.tuxedocomputers.com/en/TUXEDO-Aquaris.tuxedo</source>
+                >https://avell.com.br/avell-ice-mod-gen2</source>
         <target
                     state="translated"
-                >https://www.tuxedocomputers.com/en/TUXEDO-Aquaris.tuxedo</target>
+                >https://avell.com.br/avell-ice-mod-gen2</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2967,10 +2955,10 @@ Commercial register number - Part B of the commercial register - 27755
         </context-group>
       </trans-unit>
       <trans-unit id="aqLowFanSpeedNotice" datatype="html">
-        <source>Low fan speeds (&lt; 50%) may cause interference noise</source>
+        <source>Low fan speeds (< 50%) may cause interference noise</source>
         <target
                     state="translated"
-                >Low fan speeds (&lt; 50%) may cause interference noise</target>
+                >Velocidades baixas da ventoinha (< 50%) podem causar ruído de interferência.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4578,7 +4566,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Deleting default webcam preset failed</source>
         <target
                     state="translated"
-                >Deletando a predefinição da webcam padrão com falha</target>
+                >Falha ao deletar a predefinição padrão da webcam</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4593,7 +4581,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>The default preset cannot be deleted.</source>
         <target
                     state="translated"
-                >The default preset cannot be deleted.</target>
+                >Não foi possível deletar a predefinição padrão.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4603,7 +4591,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogDeletePresetConfirmTitle" datatype="html">
         <source>Deleting webcam preset</source>
-        <target state="translated">Deleting webcam preset</target>
+        <target state="translated">Deletando a predefinição padrão</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4619,7 +4607,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Are you sure that you want to delete this webcam preset?</source>
         <target
                     state="translated"
-                >Are you sure that you want to delete this webcam preset?</target>
+                >Tem certeza de que deseja deletar essa predefinição da webcam?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4629,7 +4617,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamExposureAuto" datatype="html">
         <source>Exposure, Auto</source>
-        <target state="translated">Exposure, Auto</target>
+        <target state="translated">Exposição, Automático</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4639,7 +4627,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamExposureTimeAbsolute" datatype="html">
         <source>Exposure time (absolute)</source>
-        <target state="translated">Exposure time (absolute)</target>
+        <target state="translated">Tempo de exposição (absoluto)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4649,7 +4637,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamExposureDynamicFramerate" datatype="html">
         <source>Exposure dynamic framerate</source>
-        <target state="translated">Exposure dynamic framerate</target>
+        <target state="translated">Taxa de quadros dinâmica da exposição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4659,7 +4647,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamExposureAbsolute" datatype="html">
         <source>Exposure (Absolute)</source>
-        <target state="translated">Exposure (Absolute)</target>
+        <target state="translated">Exposição (Absoluta)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4669,7 +4657,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamExposureAutoPriority" datatype="html">
         <source>Exposure, Auto Priority</source>
-        <target state="translated">Exposure, Auto Priority</target>
+        <target state="translated">Exposição, Prioridade Automática</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4679,7 +4667,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamGain" datatype="html">
         <source>Gain</source>
-        <target state="translated">Gain</target>
+        <target state="translated">Ganho</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4689,7 +4677,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamBacklightCompensation" datatype="html">
         <source>Backlight Compensation</source>
-        <target state="translated">Backlight Compensation</target>
+        <target state="translated">Compensação de Backlight</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4699,7 +4687,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamWhiteBalanceAutomatic" datatype="html">
         <source>White Balance, Auto</source>
-        <target state="translated">White Balance, Auto</target>
+        <target state="translated">Balanço de brancos, Automático</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4709,7 +4697,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamWhiteBalanceTemperatureAuto" datatype="html">
         <source>White Balance Temperature, Auto</source>
-        <target state="translated">White Balance Temperature, Auto</target>
+        <target state="translated">Temperatura do Balanço de Branco, Automático</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4719,7 +4707,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="whiteBalanceTemperature" datatype="html">
         <source>White Balance Temperature</source>
-        <target state="translated">White Balance Temperature</target>
+        <target state="translated">Temperatura do Balanço de Branco</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4729,7 +4717,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamBrightness" datatype="html">
         <source>Brightness</source>
-        <target state="translated">Brightness</target>
+        <target state="translated">Brilho</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4739,7 +4727,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamContrast" datatype="html">
         <source>Contrast</source>
-        <target state="translated">Contrast</target>
+        <target state="translated">Contraste</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4749,7 +4737,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamSaturation" datatype="html">
         <source>Saturation</source>
-        <target state="translated">Saturation</target>
+        <target state="translated">Saturação</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4759,7 +4747,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamSharpness" datatype="html">
         <source>Sharpness</source>
-        <target state="translated">Sharpness</target>
+        <target state="translated">Nitidez</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4769,7 +4757,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamHue" datatype="html">
         <source>Hue</source>
-        <target state="translated">Hue</target>
+        <target state="translated">Matiz</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4779,7 +4767,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamGamma" datatype="html">
         <source>Gamma</source>
-        <target state="translated">Gamma</target>
+        <target state="translated">Gama</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4789,7 +4777,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamResolution" datatype="html">
         <source>Resolution</source>
-        <target state="translated">Resolution</target>
+        <target state="translated">Resolução</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4809,7 +4797,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamAperturePriorityMode" datatype="html">
         <source>Aperture Priority Mode</source>
-        <target state="translated">Aperture Priority Mode</target>
+        <target state="translated">Modo de Prioridade de Abertura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4819,7 +4807,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamManualMode" datatype="html">
         <source>Manual Mode</source>
-        <target state="translated">Manual Mode</target>
+        <target state="translated">Modo manual</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4829,7 +4817,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamTitleGeneral" datatype="html">
         <source>General</source>
-        <target state="translated">General</target>
+        <target state="translated">Geral</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4839,7 +4827,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamTitleExposure" datatype="html">
         <source>Exposure</source>
-        <target state="translated">Exposure</target>
+        <target state="translated">Exposição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4849,7 +4837,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamTitleDynamicRange" datatype="html">
         <source>Dynamic Range</source>
-        <target state="translated">Dynamic Range</target>
+        <target state="translated">Faixa dinâmica</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4859,7 +4847,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamTitleBalance" datatype="html">
         <source>Balance</source>
-        <target state="translated">Balance</target>
+        <target state="translated">Balanço</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4879,7 +4867,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamTitleCapture" datatype="html">
         <source>Capture</source>
-        <target state="translated">Capture</target>
+        <target state="translated">Captura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4889,7 +4877,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="noWebcamFoundInfoTitle" datatype="html">
         <source>No available Webcams found</source>
-        <target state="translated">No available Webcams found</target>
+        <target state="translated">Nenhuma webcam disponível encontrada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4902,7 +4890,7 @@ Commercial register number - Part B of the commercial register - 27755
                 > To configure your webcams, you'll need to plug in an external webcam or turn on the internal webcam. Once you've done that, press reload and you'll be presented with a configuration menu. If you've previously disabled the internal webcam in the profile settings, you'll need to re-enable it in order to configure it. Some laptops also allow you to toggle the webcam quickly with a keyboard shortcut. </source>
         <target
                     state="translated"
-                > To configure your webcams, you'll need to plug in an external webcam or turn on the internal webcam. Once you've done that, press reload and you'll be presented with a configuration menu. If you've previously disabled the internal webcam in the profile settings, you'll need to re-enable it in order to configure it. Some laptops also allow you to toggle the webcam quickly with a keyboard shortcut. </target>
+                > Para configurar suas webcams, conecte uma webcam externa ou ative a webcam interna. Após isso, pressione recarregar para acessar o menu de configuração. Se você desativou a webcam interna nas configurações do perfil, será necessário reativá-la para configurá-la. Alguns notebooks permitem alternar a webcam rapidamente via atalho de teclado. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4912,7 +4900,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="noWebcamFoundInfoReloadButton" datatype="html">
         <source> Reload </source>
-        <target state="translated">Reload</target>
+        <target state="translated">Recarregar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4922,7 +4910,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cProfMgrButtonApplyTooltip" datatype="html">
         <source>Apply changes</source>
-        <target state="translated">Apply changes</target>
+        <target state="translated">Aplicar alterações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4932,7 +4920,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamTabSimpleLabel" datatype="html">
         <source>Basic settings</source>
-        <target state="translated">Basic settings</target>
+        <target state="translated">Configurações básicas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4942,7 +4930,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamTabAdvancedLabel" datatype="html">
         <source>Detailed settings</source>
-        <target state="translated">Detailed settings</target>
+        <target state="translated">Configurações detalhadas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4952,7 +4940,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamPreset" datatype="html">
         <source>Preset</source>
-        <target state="translated">Preset</target>
+        <target state="translated">Predefinição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5145,7 +5133,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="profileNameQuiet" datatype="html">
         <source>Quiet</source>
-        <target state="translated">Quiet</target>
+        <target state="translated">Silencioso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5158,7 +5146,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Low performance for light office tasks for very quiet fans and low power consumption.</source>
         <target
                     state="translated"
-                >Low performance for light office tasks for very quiet fans and low power consumption.</target>
+                >Baixo desempenho para tarefas leves de escritório com ventoinhas muito silenciosas e baixo consumo de energia.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5168,7 +5156,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="profileNameOffice" datatype="html">
         <source>Office and Multimedia</source>
-        <target state="translated">Office and Multimedia</target>
+        <target state="translated">Office e multimídia</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5181,7 +5169,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Mid-tier performance for more demanding office tasks or multimedia usage and quiet fans.</source>
         <target
                     state="translated"
-                >Mid-tier performance for more demanding office tasks or multimedia usage and quiet fans.</target>
+                >Desempenho intermediário para tarefas de escritório mais exigentes ou uso multimídia, com ventoinhas silenciosas.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5191,7 +5179,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="profileNameHighPerformance" datatype="html">
         <source>High Performance</source>
-        <target state="translated">High Performance</target>
+        <target state="translated">Alto desempenho</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5204,7 +5192,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >High performance for gaming and demanding computing tasks at the cost of moderate to high fan noise and higher temperatures.</source>
         <target
                     state="translated"
-                >High performance for gaming and demanding computing tasks at the cost of moderate to high fan noise and higher temperatures.</target>
+                >Alto desempenho para jogos e tarefas computacionais exigentes, com ruído moderado a alto das ventoinhas e temperaturas elevadas.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5214,7 +5202,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="profileNamePowersaveExtreme" datatype="html">
         <source>Powersave extreme</source>
-        <target state="translated">Powersave extreme</target>
+        <target state="translated">Economia máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5227,7 +5215,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Lowest possible power consumption and silent fans at the cost of extremely low performance.</source>
         <target
                     state="translated"
-                >Lowest possible power consumption and silent fans at the cost of extremely low performance.</target>
+                >Consumo de energia mínimo possível e ventoinhas silenciosas, com desempenho extremamente baixo.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5237,7 +5225,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="profileNameLegacyDefault" datatype="html">
         <source>Default</source>
-        <target state="translated">Default</target>
+        <target state="translated">Padrão</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5250,7 +5238,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Full performance at the expense of more noise and high temperatures.</source>
         <target
                     state="translated"
-                >Full performance at the expense of more noise and high temperatures.</target>
+                >Desempenho máximo com aumento de ruído e temperaturas elevadas.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5260,7 +5248,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="profileNameLegacyCoolAndBreezy" datatype="html">
         <source>Cool and breezy</source>
-        <target state="translated">Cool and breezy</target>
+        <target state="translated">Fresco e ventilado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5273,7 +5261,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Reduced power in favor of low temperatures and quiet fan noise.</source>
         <target
                     state="translated"
-                >Reduced power in favor of low temperatures and quiet fan noise.</target>
+                >Potência reduzida em favor de baixas temperaturas e baixo ruído da ventoinha.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5283,7 +5271,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="profileNameLegacyPowersaveExtreme" datatype="html">
         <source>Powersave extreme</source>
-        <target state="translated">Powersave extreme</target>
+        <target state="translated">Economia máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5296,7 +5284,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Heavily reduced performance in favor of lowest possible power consumption and silent cooling.</source>
         <target
                     state="translated"
-                >Heavily reduced performance in favor of lowest possible power consumption and silent cooling.</target>
+                >Desempenho fortemente reduzido em favor do consumo mínimo de energia e resfriamento silencioso.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5306,7 +5294,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogUnsavedChangesTitle" datatype="html">
         <source>Unsaved changes</source>
-        <target state="translated">Unsaved changes</target>
+        <target state="translated">Alterações não salvas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5319,7 +5307,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Changes were not saved. Are you sure that you want to leave before saving?</source>
         <target
                     state="translated"
-                >Changes were not saved. Are you sure that you want to leave before saving?</target>
+                >As alterações não foram salvas. Deseja sair antes de salvar?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5329,7 +5317,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="dialogReturn" datatype="html">
         <source>Go back</source>
-        <target state="translated">Go back</target>
+        <target state="translated">Voltar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5339,7 +5327,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="dialogLeave" datatype="html">
         <source>Leave</source>
-        <target state="translated">Leave</target>
+        <target state="translated">Deixar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5352,7 +5340,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >CPU frequency control deactivated in Settings→Global profile settings</source>
         <target
                     state="translated"
-                >CPU frequency control deactivated in Settings→Global profile settings</target>
+                >Controle de frequência da CPU desativado em Configurações→Configurações globais do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5365,7 +5353,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Fan control deactivated in Settings→Global profile settings</source>
         <target
                     state="translated"
-                >Fan control deactivated in Settings→Global profile settings</target>
+                >Controle da ventoinha desativado em Configurações→Configurações globais do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5378,7 +5366,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Keyboard backlight control deactivated in Settings→Global profile settings</source>
         <target
                     state="translated"
-                >Keyboard backlight control deactivated in Settings→Global profile settings</target>
+                >Controle de iluminação do teclado desativado em Configurações→Configurações globais do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5388,7 +5376,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cProfMgrDetailsFanChartCPULabel" datatype="html">
         <source>CPU Fan</source>
-        <target state="translated">CPU Fan</target>
+        <target state="translated">Ventoinha da CPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5398,7 +5386,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="cProfMgrDetailsFanChartGPULabel" datatype="html">
         <source>GPU Fan</source>
-        <target state="translated">GPU Fan</target>
+        <target state="translated">Ventoinha da GPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5418,7 +5406,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="stateLabelMains" datatype="html">
         <source>Mains</source>
-        <target state="translated">Mains</target>
+        <target state="translated">Principais</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5428,7 +5416,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="stateTooltipMains" datatype="html">
         <source>Mains power adaptor</source>
-        <target state="translated">Mains power adaptor</target>
+        <target state="translated">Adaptador de energia principal</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5438,7 +5426,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="stateLabelBattery" datatype="html">
         <source>Battery</source>
-        <target state="translated">Battery</target>
+        <target state="translated">Bateria</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5448,7 +5436,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="stateTooltipBattery" datatype="html">
         <source>Battery powered</source>
-        <target state="translated">Battery powered</target>
+        <target state="translated">Bateria conectada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
