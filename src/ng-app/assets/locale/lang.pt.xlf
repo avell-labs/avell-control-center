@@ -18,7 +18,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="5bd52d71067c5fc25f6b44e4f061939c021b6401" datatype="html">
-        <source>You got a problem with your TUXEDO device?</source>
+        <source>You got a problem with your Avell device?</source>
         <target
                     state="translated"
                 >Está com problemas com o seu notebook Avell?</target>
@@ -3807,7 +3807,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictWindowTitle" datatype="html">
         <source> Importing Conflict </source>
-        <target state="translated"> Importing Conflict </target>
+        <target state="translated"> Importando conflito </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3817,7 +3817,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictTitleOldProfile" datatype="html">
         <source> Old Profile </source>
-        <target state="translated"> Old Profile </target>
+        <target state="translated"> Perfil antigo </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3827,7 +3827,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictTitleNewProfile" datatype="html">
         <source> New Profile </source>
-        <target state="translated"> New Profile </target>
+        <target state="translated"> Novo perfil </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3837,7 +3837,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonKeepOld" datatype="html">
         <source> Keep Old </source>
-        <target state="translated"> Keep Old </target>
+        <target state="translated"> Manter antigo </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3847,7 +3847,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonKeepNew" datatype="html">
         <source> Keep New </source>
-        <target state="translated"> Keep New </target>
+        <target state="translated"> Manter novo </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3857,7 +3857,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonKeepBoth" datatype="html">
         <source> Keep Both </source>
-        <target state="translated"> Keep Both </target>
+        <target state="translated"> Manter ambos </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3867,7 +3867,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonRename" datatype="html">
         <source> Rename Imported Profile </source>
-        <target state="translated"> Rename Imported Profile </target>
+        <target state="translated"> Renomear perfil importado </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3877,7 +3877,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonCancel" datatype="html">
         <source> Cancel </source>
-        <target state="translated"> Cancel </target>
+        <target state="translated"> Cancelar </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3887,7 +3887,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictFormFieldInputNewName" datatype="html">
         <source> Input a new name </source>
-        <target state="translated"> Input a new name </target>
+        <target state="translated"> Insira um novo nome </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3897,7 +3897,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonSave" datatype="html">
         <source>Save</source>
-        <target state="translated">Save</target>
+        <target state="translated">Salvar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3907,7 +3907,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonGoBack" datatype="html">
         <source> Go back </source>
-        <target state="translated"> Go back </target>
+        <target state="translated"> Retornar </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3930,7 +3930,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingProfileHighCapacityLabel" datatype="html">
         <source>Full capacity</source>
-        <target state="translated">Full capacity</target>
+        <target state="translated">Capacidade máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3940,7 +3940,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingProfileBalancedLabel" datatype="html">
         <source>Reduced capacity</source>
-        <target state="translated">Reduced capacity</target>
+        <target state="translated">Capacidade reduzida</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3950,7 +3950,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingProfileStationaryLabel" datatype="html">
         <source>Stationary use</source>
-        <target state="translated">Stationary use</target>
+        <target state="translated">Modo estacionário</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3963,7 +3963,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >This is the default setting. Fastest charging speed and 100% battery capacity for best possible runtimes.</source>
         <target
                     state="translated"
-                >This is the default setting. Fastest charging speed and 100% battery capacity for best possible runtimes.</target>
+                >Este é o modo padrão. Velocidade de carregamento mais rápida e capacidade de bateria de 100% para o melhor desempenho possível.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3976,7 +3976,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Reduced charging speed and battery capacity (~90 %) for better battery lifespan.</source>
         <target
                     state="translated"
-                >Reduced charging speed and battery capacity (~90 %) for better battery lifespan.</target>
+                >Velocidade reduzida e capacidade de bateria reduzida (~90 %) para uma melhor vida útil da bateria.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3986,10 +3986,10 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingProfileStationaryDescription" datatype="html">
         <source
-                >Very significant reduced charging speed and battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your TUXEDO almost only stationary connected to a wall outlet.</source>
+                >Very significant reduced charging speed and battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your Avell almost only stationary connected to a wall outlet.</source>
         <target
                     state="translated"
-                >Very significant reduced charging speed and battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your TUXEDO almost only stationary connected to a wall outlet.</target>
+                >Velocidade reduzida e capacidade de bateria reduzida (~80 %) para uma melhor vida útil da bateria. Recomendado se você usa seu Avell quase apenas em posição estática conectado a uma tomada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3999,7 +3999,9 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingPriorityChargeBatteryLabel" datatype="html">
         <source>Priorize battery charging speed</source>
-        <target state="translated">Priorize battery charging speed</target>
+        <target
+                    state="translated"
+                >Prioriza a velocidade de carregamento da bateria</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4009,7 +4011,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingPriorityPerformanceLabel" datatype="html">
         <source>Priorize performance</source>
-        <target state="translated">Priorize performance</target>
+        <target state="translated">Prioriza a performance</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4022,7 +4024,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Fast battery charging is priorized at the expense of system performance. Once the battery is charged, full performance is available.</source>
         <target
                     state="translated"
-                >Fast battery charging is priorized at the expense of system performance. Once the battery is charged, full performance is available.</target>
+                >O carregamento rápido da bateria é priorizado em detrimento do desempenho do sistema. Assim que a bateria estiver carregada, o desempenho total estará disponível.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4035,7 +4037,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Performance is priorized over battery charging speed. Under high system load charging speed is reduced for best performance. At low loads full charging speed is available.</source>
         <target
                     state="translated"
-                >Performance is priorized over battery charging speed. Under high system load charging speed is reduced for best performance. At low loads full charging speed is available.</target>
+                >O desempenho é priorizado em relação à velocidade de carregamento da bateria. Sob alta carga do sistema, a velocidade de carregamento é reduzida para obter o melhor desempenho. Com baixa carga, a velocidade máxima de carregamento é disponibilizada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4045,7 +4047,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingProfileLabel" datatype="html">
         <source>Charging profiles</source>
-        <target state="translated">Charging profiles</target>
+        <target state="translated">Perfis de carregamento</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4055,7 +4057,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingProfilesOpenInfoTooltip" datatype="html">
         <source>Open info page...</source>
-        <target state="translated">Open info page...</target>
+        <target state="translated">Abrir página de informações...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4069,8 +4071,7 @@ Commercial register number - Part B of the commercial register - 27755
 </source>
         <target
                     state="translated"
-                > Please note: The system will still show 100% capacity in "Reduced capacity" and "Stationary use" modes. The limitation of the actual capacity takes place in the background on firmware level and is not visible for the operating system.
-</target>
+                >Atenção: o sistema ainda exibirá 100% de capacidade nos modos "Capacidade reduzida" e "Uso estacionário". A limitação da capacidade real ocorre em segundo plano, no nível do firmware, e não é visível para o sistema operacional.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4082,7 +4083,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>USB-C charging options (Power Delivery DC-In)</source>
         <target
                     state="translated"
-                >USB-C charging options (Power Delivery DC-In)</target>
+                >Opções de carregamento USB-C (Power Delivery DC-In)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4092,7 +4093,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingThresholdsLabel" datatype="html">
         <source>Charging thresholds</source>
-        <target state="translated">Charging thresholds</target>
+        <target state="translated">Limites de carregamento</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4102,7 +4103,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelStartThreshold" datatype="html">
         <source>Start threshold</source>
-        <target state="translated">Start threshold</target>
+        <target state="translated">Iniciar limitação</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4112,7 +4113,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelEndThreshold" datatype="html">
         <source>End threshold</source>
-        <target state="translated">End threshold</target>
+        <target state="translated">Encerrar limitação</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4122,7 +4123,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelFullCapacity" datatype="html">
         <source>Full capacity</source>
-        <target state="translated">Full capacity</target>
+        <target state="translated">Capacidade máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4138,7 +4139,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >This is the default setting. Highest capacity for best possible runtimes.</source>
         <target
                     state="translated"
-                >This is the default setting. Highest capacity for best possible runtimes.</target>
+                >Esta é a configuração padrão. Capacidade máxima para os melhores tempos de execução.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4148,7 +4149,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelReducedCapacity" datatype="html">
         <source>Reduced capacity</source>
-        <target state="translated">Reduced capacity</target>
+        <target state="translated">Capacidade reduzida</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4164,7 +4165,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Reduced battery capacity (~90 %) for better battery lifespan.</source>
         <target
                     state="translated"
-                >Reduced battery capacity (~90 %) for better battery lifespan.</target>
+                >Capacidade reduzida (~90 %) para uma melhor vida útil da bateria.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4174,7 +4175,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelStationary" datatype="html">
         <source>Stationary use</source>
-        <target state="translated">Stationary use</target>
+        <target state="translated">Modo estacionário</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4187,7 +4188,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Very significant reduced battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your TUXEDO almost only stationary connected to a wall outlet.</source>
         <target
                     state="translated"
-                >Very significant reduced battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your TUXEDO almost only stationary connected to a wall outlet.</target>
+                >Velocidade reduzida e capacidade de bateria reduzida (~80 %) para uma melhor vida útil da bateria. Recomendado se você usa seu Avell quase apenas em posição estática conectado a uma tomada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4197,7 +4198,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelCustom" datatype="html">
         <source>Custom</source>
-        <target state="translated">Custom</target>
+        <target state="translated">Personalizado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4209,7 +4210,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Manually set battery charging thresholds.</source>
         <target
                     state="translated"
-                >Manually set battery charging thresholds.</target>
+                >Definir manualmente os limites de carregamento da bateria.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4219,7 +4220,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogNotAvailableTitle" datatype="html">
         <source>Access error</source>
-        <target state="translated">Access error</target>
+        <target state="translated">Erro de acesso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4247,7 +4248,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="dialogContinue" datatype="html">
         <source>Continue</source>
-        <target state="translated">Continue</target>
+        <target state="translated">Continuar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4327,7 +4328,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogNotValidPresetTitle" datatype="html">
         <source>Webcam preset faulty</source>
-        <target state="translated">Webcam preset faulty</target>
+        <target state="translated">Predefinição de webcam com falha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4340,7 +4341,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >The webcam preset contains invalid configurations and therefore won't be applied. Reverting to default preset.</source>
         <target
                     state="translated"
-                >The webcam preset contains invalid configurations and therefore won't be applied. Reverting to default preset.</target>
+                >A predefinição da webcam contém configurações inválidas e, portanto, não será aplicada. Revertendo para a predefinição padrão.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4350,7 +4351,9 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogMismatchConfigValuesTitle" datatype="html">
         <source>Mismatch of config values</source>
-        <target state="translated">Mismatch of config values</target>
+        <target
+                    state="translated"
+                >Incompatibilidade de valores de configuração</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4383,7 +4386,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="dialogAbort" datatype="html">
         <source>Cancel</source>
-        <target state="translated">Cancel</target>
+        <target state="translated">Cancelar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4429,7 +4432,9 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogAskOverwriteTitle" datatype="html">
         <source>Webcam preset not avaiable</source>
-        <target state="translated">Webcam preset name not avaiable</target>
+        <target
+                    state="translated"
+                >Nome da predefinição da webcam indisponível</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4441,7 +4446,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Do you want to overwrite the webcam preset?</source>
         <target
                     state="translated"
-                >Do you want to overwrite the webcam preset?</target>
+                >Deseja sobrescrever a predefinição da webcam?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4451,7 +4456,9 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogPresetNameUnsetTitle" datatype="html">
         <source>The webcam preset was not saved</source>
-        <target state="translated">The webcam preset was not saved</target>
+        <target
+                    state="translated"
+                >A predefinição da webcam não foi salva</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4464,7 +4471,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >The webcam preset name was no set and thus the preset was not saved.</source>
         <target
                     state="translated"
-                >The webcam preset name was no set and thus the preset was not saved.</target>
+                >O nome da predefinição da webcam não foi definido e, portanto, a predefinição não foi salva.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4474,7 +4481,9 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogDefaultCanNotOverwriteTitle" datatype="html">
         <source>Overwriting default settings failed</source>
-        <target state="translated">Overwriting default settings failed</target>
+        <target
+                    state="translated"
+                >Sobrescrever as definições padrão falhou</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4489,7 +4498,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Please select a different name for your webcam preset.</source>
         <target
                     state="translated"
-                >Please select a different name for your webcam preset.</target>
+                >Por favor, selecione um nome diferente para sua configuração de câmera.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4499,7 +4508,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogAskPresetOverwriteTitle" datatype="html">
         <source>Overwrite webcam preset?</source>
-        <target state="translated">Overwrite webcam preset?</target>
+        <target state="translated">Sobrescrever configuração de câmera?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4515,7 +4524,7 @@ Commercial register number - Part B of the commercial register - 27755
                 >Do you want to overwrite the current webcam preset or create a new one?</source>
         <target
                     state="translated"
-                >Do you want to overwrite the current webcam preset or create a new one?</target>
+                >Deseja sobrescrever a configuração atual ou criar uma nova?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4525,7 +4534,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="dialogOverwrite" datatype="html">
         <source>Overwrite</source>
-        <target state="translated">Overwrite</target>
+        <target state="translated">Sobrescrever</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4535,7 +4544,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="dialogNewPreset" datatype="html">
         <source>New webcam preset</source>
-        <target state="translated">New webcam preset</target>
+        <target state="translated">Nova predefinição da webcam</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4545,7 +4554,7 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogAskPresetNameTitle" datatype="html">
         <source>Saving webcam preset</source>
-        <target state="translated">Saving webcam preset</target>
+        <target state="translated">Salvando predefinição da webcam</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4555,7 +4564,9 @@ Commercial register number - Part B of the commercial register - 27755
       </trans-unit>
       <trans-unit id="webcamDialogAskPresetNameDescription" datatype="html">
         <source>Set name for webcam preset.</source>
-        <target state="translated">Set name for webcam preset.</target>
+        <target
+                    state="translated"
+                >Defina um nome para a predefinição da webcam.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4567,7 +4578,7 @@ Commercial register number - Part B of the commercial register - 27755
         <source>Deleting default webcam preset failed</source>
         <target
                     state="translated"
-                >Deleting default webcam preset failed</target>
+                >Deletando a predefinição da webcam padrão com falha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
