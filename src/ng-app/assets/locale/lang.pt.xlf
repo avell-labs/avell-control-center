@@ -2637,8 +2637,7 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="aqDialogConnectLinkHref" datatype="html">
-        <source
-                >https://avell.com.br/avell-ice-mod-gen2</source>
+        <source>https://avell.com.br/avell-ice-mod-gen2</source>
         <target
                     state="translated"
                 >https://avell.com.br/avell-ice-mod-gen2</target>
@@ -2782,8 +2781,7 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="aqDialogDisconnectLinkHref" datatype="html">
-        <source
-                >https://avell.com.br/avell-ice-mod-gen2</source>
+        <source>https://avell.com.br/avell-ice-mod-gen2</source>
         <target
                     state="translated"
                 >https://avell.com.br/avell-ice-mod-gen2</target>
@@ -2955,10 +2953,10 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="aqLowFanSpeedNotice" datatype="html">
-        <source>Low fan speeds (< 50%) may cause interference noise</source>
+        <source>Low fan speeds (&lt; 50%) may cause interference noise</source>
         <target
                     state="translated"
-                >Velocidades baixas da ventoinha (< 50%) podem causar ruído de interferência.</target>
+                >Velocidades baixas da ventoinha (&lt; 50%) podem causar ruído de interferência.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4637,7 +4635,9 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="webcamExposureDynamicFramerate" datatype="html">
         <source>Exposure dynamic framerate</source>
-        <target state="translated">Taxa de quadros dinâmica da exposição</target>
+        <target
+                    state="translated"
+                >Taxa de quadros dinâmica da exposição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4697,7 +4697,9 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="webcamWhiteBalanceTemperatureAuto" datatype="html">
         <source>White Balance Temperature, Auto</source>
-        <target state="translated">Temperatura do Balanço de Branco, Automático</target>
+        <target
+                    state="translated"
+                >Temperatura do Balanço de Branco, Automático</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
