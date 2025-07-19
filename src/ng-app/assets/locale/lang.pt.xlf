@@ -581,7 +581,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterAll" datatype="html">
         <source>All</source>
-        <target state="translated">Tudo</target>
+        <target state="translated">Geral</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -591,7 +591,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterPreset" datatype="html">
         <source>Preset</source>
-        <target state="translated">Predefinição</target>
+        <target state="translated">Predefinidos</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -601,7 +601,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterCustom" datatype="html">
         <source>Custom</source>
-        <target state="translated">Customização</target>
+        <target state="translated">Personalizados</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -915,7 +915,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsStateAssignmentLabel" datatype="html">
         <source>Activate profile automatically on</source>
-        <target state="new">Activate profile automatically on</target>
+        <target state="new">Ativar perfil automaticamente em</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1440,7 +1440,9 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="primeSelectIGpu" datatype="html">
         <source>Power-saving CPU graphics processor (iGPU)</source>
-        <target state="new">Power-saving CPU graphics processor (iGPU)</target>
+        <target
+                    state="new"
+                >Economia de energia com a placa de vídeo integrada (iGPU)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1468,7 +1470,9 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="primeSelectDGpu" datatype="html">
         <source>High-performance graphics processor (dGPU)</source>
-        <target state="new">High-performance graphics processor (dGPU)</target>
+        <target
+                    state="new"
+                >Desempenho máximo com a placa de vídeo dedicada (dGPU)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1496,7 +1500,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="primeSelectOnDemand" datatype="html">
         <source>Hybrid graphics mode (on-demand)</source>
-        <target state="new">Hybrid graphics mode (on-demand)</target>
+        <target state="new">Gráficos híbridos (automático)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1518,7 +1522,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardSystemMonitor" datatype="html">
         <source>System monitor</source>
-        <target state="new">System monitor</target>
+        <target state="new">Monitor do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1528,7 +1532,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardMainProcessorMonitor" datatype="html">
         <source>Main processor monitor</source>
-        <target state="new">Main processor monitor</target>
+        <target state="new">Monitor do processador</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1538,7 +1542,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardCpuTemperatureLabel" datatype="html">
         <source>CPU - Temp</source>
-        <target state="new">CPU - Temp</target>
+        <target state="new">CPU - Temperatura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1548,7 +1552,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardCpuFrequencyLabel" datatype="html">
         <source>CPU - Frequency</source>
-        <target state="new">CPU - Frequency</target>
+        <target state="new">CPU - Frequência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1558,7 +1562,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardCpuFanLabel" datatype="html">
         <source>CPU - Fan</source>
-        <target state="new">CPU - Fan</target>
+        <target state="new">CPU - Ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1568,7 +1572,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardActiveProfile" datatype="html">
         <source>Active profile:</source>
-        <target state="new">Active profile:</target>
+        <target state="new">Perfil ativo:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1578,7 +1582,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardCpuPowerLabel" datatype="html">
         <source>CPU - Power</source>
-        <target state="new">CPU - Power</target>
+        <target state="new">CPU - Potência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1588,7 +1592,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardGraphicsCardMonitor" datatype="html">
         <source>Graphics card monitor</source>
-        <target state="new">Graphics card monitor</target>
+        <target state="new">Monitor da placa gráfica</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1598,7 +1602,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardActiveGraphicsMode" datatype="html">
         <source>Active Graphics Mode:</source>
-        <target state="new">Active Graphics Mode:</target>
+        <target state="new">Modo gráfico ativo:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1608,7 +1612,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardIGpuFrequencyLabel" datatype="html">
         <source>iGPU - Frequency</source>
-        <target state="new">iGPU - Frequency</target>
+        <target state="new">iGPU - Frequência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1624,7 +1628,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardIGpuTemperatureLabel" datatype="html">
         <source>iGPU - Temperature</source>
-        <target state="new">iGPU - Temperature</target>
+        <target state="new">iGPU - Temperatura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1640,7 +1644,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardIGpuPowerLabel" datatype="html">
         <source>iGPU - Power</source>
-        <target state="new">iGPU - Power</target>
+        <target state="new">iGPU - Potência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1656,7 +1660,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardDGpuTemperatureLabel" datatype="html">
         <source>dGPU - Temperature</source>
-        <target state="new">dGPU - Temp</target>
+        <target state="new">dGPU - Temperatura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1672,7 +1676,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardDGpuFrequencyLabel" datatype="html">
         <source>dGPU - Frequency</source>
-        <target state="new">dGPU - Frequency</target>
+        <target state="new">dGPU - Frequência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1688,7 +1692,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardDGpuFanLabel" datatype="html">
         <source>dGPU - Fan</source>
-        <target state="new">dGPU - Fan</target>
+        <target state="new">dGPU - Ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1704,7 +1708,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardDGpuPowerLabel" datatype="html">
         <source>dGPU - Power</source>
-        <target state="new">dGPU - Power</target>
+        <target state="new">dGPU - Potência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1720,7 +1724,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsTitle" datatype="html">
         <source>Settings</source>
-        <target state="new">Settings</target>
+        <target state="new">Configurações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1732,7 +1736,7 @@ E-Mail: suporte@avell.com.br
         <source
                 > The settings area contains GUI settings and settings that affects all profiles. </source>
         <target state="new">
-            The settings area contains GUI settings and settings that affects all profiles.
+            A área de configurações contém ajustes de interface gráfica e ajustes que afetam todos os perfis.
         </target>
         <context-group purpose="location">
           <context
@@ -1746,7 +1750,7 @@ E-Mail: suporte@avell.com.br
                 datatype="html"
             >
         <source>Global profile settings</source>
-        <target state="new">Global profile settings</target>
+        <target state="new">Configurações globais do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1817,7 +1821,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsCpuFrequencyHeader" datatype="html">
         <source>CPU Frequency Control</source>
-        <target state="new">CPU Frequency Control</target>
+        <target state="new">Controle de frequência da CPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1827,7 +1831,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsCpuFrequencyActivated" datatype="html">
         <source>activated</source>
-        <target state="new">activated</target>
+        <target state="new">ativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1837,7 +1841,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsCpuFrequencyDeactivated" datatype="html">
         <source>deactivated</source>
-        <target state="new">deactivated</target>
+        <target state="new">desativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1855,15 +1859,15 @@ E-Mail: suporte@avell.com.br
                         ctype="x-strong"
                         equiv-text="&lt;/strong&gt; "
                     /> reset to default. Default settings need to be restored by hand or a system reboot. </source>
-        <target state="new">On deactivate, CPU frequency control is <x
+        <target state="new">Ao desativar, a frequência da CPU <x
                         id="START_TAG_STRONG"
                         ctype="x-strong"
                         equiv-text="&lt;strong&gt;"
-                    />not<x
+                    />não<x
                         id="CLOSE_TAG_STRONG"
                         ctype="x-strong"
                         equiv-text="&lt;/strong&gt; "
-                    /> reset to default. Default settings need to be restored by hand or a system reboot.</target>
+                    /> é restaurada para o padrão. A configuração padrão precisa ser restaurada manualmente ou o sistema reiniciado.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1873,7 +1877,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsFanControlHeader" datatype="html">
         <source>Fan Control</source>
-        <target state="new">Fan Control</target>
+        <target state="new">Controle de ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1906,7 +1910,7 @@ E-Mail: suporte@avell.com.br
                 >On deactivate, the default automatic fan control is restored directly.</source>
         <target
                     state="new"
-                >On deactivate, the default automatic fan control is restored directly.</target>
+                >Ao desativar, o controle automático padrão das ventoinhas é restaurado diretamente.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1916,7 +1920,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsKeyboardBacklightHeader" datatype="html">
         <source>Keyboard Backlight Control</source>
-        <target state="new">Keyboard Backlight Control</target>
+        <target state="new">Controle da iluminação do teclado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1929,7 +1933,7 @@ E-Mail: suporte@avell.com.br
                 datatype="html"
             >
         <source>activated</source>
-        <target state="new">activated</target>
+        <target state="new">ativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1942,7 +1946,7 @@ E-Mail: suporte@avell.com.br
                 datatype="html"
             >
         <source>deactivated</source>
-        <target state="new">deactivated</target>
+        <target state="new">desativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1963,15 +1967,17 @@ E-Mail: suporte@avell.com.br
                         ctype="x-strong"
                         equiv-text="&lt;/strong&gt; "
                     /> reset to default. Default settings need to be restored by hand or a system reboot. </source>
-        <target state="new">On deactivate, keyboard backlight settings are <x
+        <target
+                    state="new"
+                >Ao desativar, as configurações da iluminação do teclado <x
                         id="START_TAG_STRONG"
                         ctype="x-strong"
                         equiv-text="&lt;strong&gt;"
-                    />not<x
+                    />não<x
                         id="CLOSE_TAG_STRONG"
                         ctype="x-strong"
                         equiv-text="&lt;/strong&gt; "
-                    /> reset to default. Default settings need to be restored by hand or a system reboot.</target>
+                    /> são restauradas para o padrão. As configurações padrões devem ser restauradas manualmente ou o sistema reiniciado.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1981,7 +1987,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsBatteryChargingTitle" datatype="html">
         <source>Battery charging options</source>
-        <target state="new">Battery charging options</target>
+        <target state="new">Opções de carregamento da bateria</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1991,7 +1997,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsThemeTitle" datatype="html">
         <source>Theme</source>
-        <target state="new">Theme</target>
+        <target state="new">Tema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2001,7 +2007,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsThemeLightLabel" datatype="html">
         <source>Light</source>
-        <target state="new">Light</target>
+        <target state="new">Claro</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2011,7 +2017,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsThemeDarkLabel" datatype="html">
         <source>Dark</source>
-        <target state="new">Dark</target>
+        <target state="new">Escuro</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2021,7 +2027,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsThemeSystemSettingLabel" datatype="html">
         <source>System setting</source>
-        <target state="new">System setting</target>
+        <target state="new">Definido pelo sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2106,7 +2112,7 @@ E-Mail: suporte@avell.com.br
                 datatype="html"
             >
         <source>activated</source>
-        <target state="new">activated</target>
+        <target state="new">ativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2119,7 +2125,7 @@ E-Mail: suporte@avell.com.br
                 datatype="html"
             >
         <source>deactivated</source>
-        <target state="new">deactivated</target>
+        <target state="new">desativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2129,7 +2135,9 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cGlobalSettingsPrimeSelectTitle" datatype="html">
         <source>Graphics switching (requires PC restart) </source>
-        <target state="new">Graphics switching (requires PC restart)</target>
+        <target
+                    state="new"
+                >Alterar gráficos (requer reinicialização do computador)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2179,7 +2187,9 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cKeyboardBacklightDescription1" datatype="html">
         <source>Click on a key area to select it.</source>
-        <target state="new">Click on a key area to select it.</target>
+        <target
+                    state="new"
+                >Clique em uma área da tecla para selecioná-la.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2191,7 +2201,7 @@ E-Mail: suporte@avell.com.br
         <source>Hold down shift to select multiple key areas. </source>
         <target
                     state="new"
-                >Hold down shift to select multiple key areas. </target>
+                >Segure shift para selecionar várias teclas. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2201,10 +2211,10 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cKeyboardBacklightNotSupported" datatype="html">
         <source
-                >Your device has no keyboard backlight, is not (yet) supported by this control interface, or the driver is too old. At least tuxedo-drivers 4.0.0 and Linux kernel 5.15 are required for most devices (some devices need newer versions).</source>
+                >Your device has no keyboard backlight, is not (yet) supported by this control interface, or the driver is too old. At least avell-drivers 4.0.0 and Linux kernel 5.15 are required for most devices (some devices need newer versions).</source>
         <target
                     state="translated"
-                >Seu dispositivo não possui retroiluminação no teclado, ainda não é compatível com esta interface de controle ou o driver está desatualizado. É necessário ao menos o avell-drivers 4.0.0 e o kernel Linux 5.15 para a maioria dos dispositivos (alguns exigem versões mais recentes).</target>
+                >Seu dispositivo não possui iluminação no teclado, ainda não é compatível com esta interface de controle ou o driver está desatualizado. É necessário ao menos o avell-drivers 4.0.0 e o kernel Linux 5.15 para a maioria dos dispositivos (alguns exigem versões mais recentes).</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2224,7 +2234,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cKeyboardBacklightBrightnessLabel" datatype="html">
         <source>Backlight Brightness</source>
-        <target state="new">Backlight Brightness:</target>
+        <target state="new">Brilho:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4305,6 +4315,9 @@ E-Mail: suporte@avell.com.br
         <target
                     state="new"
                 >Current Webcam can not be accessed. Another application is most likely accessing your webcam. Resolution and frames per second settings only apply for TCC preview.</target>
+        <target
+                    state="translated"
+                >Webcam atual não pode ser acessada. Outro aplicativo provavelmente está acessando sua webcam. Configurações de resolução e quadros por segundo só se aplicam à pré-visualização do ACC.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4353,6 +4366,9 @@ E-Mail: suporte@avell.com.br
         <target
                     state="new"
                 >Due to a recent linux kernel update or due to a misconfigured config file unknown values were found and it can not be guranteed that the preset is unchanged since the last time it was saved. Do you want to resave all presets with adjusted values? This will fix compatibility issues but may result in changed presets. If you decline, the adjusted presets will only be saved the next time you save a preset, because presets need to be adjusted to be fully usable again. If you did not modify the config file manually, make sure that you use the latest version of TCC. If the issue persists, please inform Tuxedo about this and mention the used linux kernel version and devices used.</target>
+        <target
+                    state="translated"
+                >Devido a uma atualização recente do kernel Linux ou a um arquivo de configuração mal configurado, valores desconhecidos foram encontrados e não é possível garantir que o preset permaneça inalterado desde a última vez em que foi salvo. Deseja salvar novamente todos os presets com os valores ajustados? Isso corrigirá problemas de compatibilidade, mas pode resultar em alterações nos presets. Se você recusar, os presets ajustados só serão salvos na próxima vez que você salvar um preset, pois precisam ser ajustados para voltarem a ser totalmente utilizáveis. Se você não modificou o arquivo de configuração manualmente, certifique-se de estar usando a versão mais recente do ACC. Se o problema persistir, informe à Avell e mencione a versão do kernel Linux utilizada e os dispositivos em uso.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4363,6 +4379,7 @@ E-Mail: suporte@avell.com.br
       <trans-unit id="dialogSaveAdjustedPresets" datatype="html">
         <source>Save adjusted presets</source>
         <target state="new">Save adjusted presets</target>
+        <target state="translated">Salvar predefinições ajustadas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4789,7 +4806,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="webcamFps" datatype="html">
         <source>Frames per Second</source>
-        <target state="translated">Frames per Second</target>
+        <target state="translated">Frames por Segundo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4859,7 +4876,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="webcamTitleColor" datatype="html">
         <source>Color</source>
-        <target state="translated">Color</target>
+        <target state="translated">Cor</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4953,6 +4970,7 @@ E-Mail: suporte@avell.com.br
       <trans-unit id="primeSelectDialogApplyProfileTitle" datatype="html">
         <source>Applying Graphics Profile</source>
         <target state="new">Applying Graphics Profile</target>
+        <target state="translated">Aplicando perfil gráfico</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4972,6 +4990,9 @@ E-Mail: suporte@avell.com.br
         <target
                     state="new"
                 >Do not power off your device until the process is complete.</target>
+        <target
+                    state="translated"
+                >Não desligue seu dispositivo até que o processo seja concluído.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4988,6 +5009,7 @@ E-Mail: suporte@avell.com.br
       <trans-unit id="primeSelectAskProceedTitle" datatype="html">
         <source>Warning</source>
         <target state="new">Warning</target>
+        <target state="translated">Aviso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5007,6 +5029,9 @@ E-Mail: suporte@avell.com.br
         <target
                     state="needs-adaptation"
                 >For the change to take effect, your computer must be restarted. If the computer is shut down immediately, unsaved files or changes will be lost. In this case, select 'Reboot later' and shut down your computer at a later time.</target>
+        <target
+                    state="translation"
+                >Para que a alteração tenha efeito, é necessário reiniciar o computador. Se ele for desligado imediatamente, arquivos ou alterações não salvos serão perdidos. Nesse caso, selecione "Reiniciar depois" e desligue o computador posteriormente.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5023,6 +5048,7 @@ E-Mail: suporte@avell.com.br
       <trans-unit id="dialogInstantReboot" datatype="html">
         <source>Instant Reboot</source>
         <target state="new">Instant Reboot</target>
+        <target state="translated">Reiniciar agora</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5039,6 +5065,7 @@ E-Mail: suporte@avell.com.br
       <trans-unit id="dialogRebootLater" datatype="html">
         <source>Reboot later</source>
         <target state="new">Reboot later</target>
+        <target state="translated">Reiniciar depois</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5082,6 +5109,21 @@ E-Mail: suporte@avell.com.br
                         ctype="x-b"
                         equiv-text="&lt;/b&gt; "
                     /> Monitors connected to the high-performance graphics processor do not work in this mode. </target>
+        <target
+                    state="translation"
+                > Exclusivamente usa a placa gráfica integrada ao processador. Útil para economizar energia e necessidade de pouco desempenho gráfico <x
+                        id="LINE_BREAK"
+                        ctype="lb"
+                        equiv-text="&lt;br&gt;&#xA;                "
+                    /><x
+                        id="START_BOLD_TEXT"
+                        ctype="x-b"
+                        equiv-text="&lt;b&gt;"
+                    />Lembre-se:<x
+                        id="CLOSE_BOLD_TEXT"
+                        ctype="x-b"
+                        equiv-text="&lt;/b&gt; "
+                    /> Monitores conectados à placa gráfica integrada ao processador não funcionam nesse modo. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5101,6 +5143,9 @@ E-Mail: suporte@avell.com.br
         <target
                     state="new"
                 > Uses high-performance graphics processor for graphics-intensive tasks, but with higher energy consumption, even at low load and idle. </target>
+        <target
+                    state="translated"
+                > Usa a placa gráfica dedicada para tarefas gráficas intensivas, mas com consumo de energia mais alto, mesmo em baixo uso e ociosidade. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5120,6 +5165,10 @@ E-Mail: suporte@avell.com.br
         <target
                     state="new"
                 > The system prioritizes the energy-saving CPU graphics processor. The high-performance graphics processor can be added by the user if required. Combination of high performance and power saving. </target>
+        <target
+                    state="translated"
+                > O sistema prioriza a placa gráfica integrada à CPU com economia de energia. A placa gráfica de alto desempenho pode ser adicionada pelo usuário, se necessário. Combinação de alto desempenho com economia de energia.
+ </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5399,6 +5448,9 @@ E-Mail: suporte@avell.com.br
       <trans-unit id="compatibilityNotAvailable" datatype="html">
         <source>This feature is currently not available.</source>
         <target state="new">This feature is currently not available.</target>
+        <target
+                    state="translated"
+                >Essa funcionalidade não está disponível no momento.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5408,7 +5460,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="stateLabelMains" datatype="html">
         <source>Mains</source>
-        <target state="translated">Principais</target>
+        <target state="translated">Energia</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"

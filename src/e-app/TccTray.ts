@@ -19,10 +19,9 @@
 
 import { Menu, Tray } from "electron";
 import { TccProfile } from "../common/models/TccProfile";
-import { DMIController } from '../common/classes/DMIController';
+import { DMIController } from "../common/classes/DMIController";
 
 export class TccTray {
-
     private tray: Electron.Tray;
 
     public state = new TrayState();
@@ -39,47 +38,52 @@ export class TccTray {
     }
 
     public async create() {
-        
         if (!this.tray) {
             this.tray = new Tray(this.trayIcon);
-            this.tray.setTitle('TUXEDO Control Center');
-            this.tray.setToolTip('TUXEDO Control Center');
+            this.tray.setTitle("Avell Control Center");
+            this.tray.setToolTip("Avell Control Center");
         }
-    
-        const profilesSubmenu: Object[] = this.state.profiles.map(profile => {
+
+        const profilesSubmenu: Object[] = this.state.profiles.map((profile) => {
             // Creation of each profile selection submenu item
             return {
                 label: profile.name,
                 click: () => this.events.profileClick(profile.id),
-                type: 'radio',
-                checked: profile.id === this.state.activeProfile.id
+                type: "radio",
+                checked: profile.id === this.state.activeProfile.id,
             };
         });
 
         // Add profiles submenu "header"
         profilesSubmenu.unshift(
-            { label: 'Activate profile temporarily', enabled: false },
-            { type: 'separator' }
+            { label: "Activate profile temporarily", enabled: false },
+            { type: "separator" },
         );
 
         // TODO: Manual read until general device id get merged
-        const dmi = new DMIController('/sys/class/dmi/id');
+        const dmi = new DMIController("/sys/class/dmi/id");
         const deviceName = dmi.productSKU.readValueNT();
         const boardVendor = dmi.boardVendor.readValueNT();
         const chassisVendor = dmi.chassisVendor.readValueNT();
         const sysVendor = dmi.sysVendor.readValueNT();
         let showAquarisMenu;
-        const isTuxedo = (boardVendor !== undefined && boardVendor.toLowerCase().includes('tuxedo')) ||
-                         (chassisVendor !== undefined && chassisVendor.toLowerCase().includes('tuxedo')) ||
-                         (sysVendor !== undefined && sysVendor.toLowerCase().includes('tuxedo'));
+        const isTuxedo =
+            (boardVendor !== undefined &&
+                boardVendor.toLowerCase().includes("tuxedo")) ||
+            (chassisVendor !== undefined &&
+                chassisVendor.toLowerCase().includes("tuxedo")) ||
+            (sysVendor !== undefined &&
+                sysVendor.toLowerCase().includes("tuxedo"));
 
         if (isTuxedo) {
-            if (deviceName !== undefined &&
-                (deviceName === 'STELLARIS1XI04' ||
-                 deviceName === 'STEPOL1XA04' ||
-                 deviceName === 'STELLARIS1XI05' ||
-                 deviceName === 'STELLARIS16I06' ||
-                 deviceName === 'STELLARIS17I06')) {
+            if (
+                deviceName !== undefined &&
+                (deviceName === "STELLARIS1XI04" ||
+                    deviceName === "STEPOL1XA04" ||
+                    deviceName === "STELLARIS1XI05" ||
+                    deviceName === "STELLARIS16I06" ||
+                    deviceName === "STELLARIS17I06")
+            ) {
                 showAquarisMenu = true;
             } else {
                 showAquarisMenu = false;
@@ -89,22 +93,35 @@ export class TccTray {
         }
 
         const contextMenu = Menu.buildFromTemplate([
-            { label: 'TUXEDO Control Center', type: 'normal', click: () => this.events.startTCCClick() },
-            { label: 'Aquaris control', type: 'normal', click: () => this.events.startAquarisControl(), visible: showAquarisMenu },
             {
-                label: 'Profiles',
+                label: "Avell Control Center",
+                type: "normal",
+                click: () => this.events.startTCCClick(),
+            },
+            {
+                label: "Ice Mod control",
+                type: "normal",
+                click: () => this.events.startAquarisControl(),
+                visible: showAquarisMenu,
+            },
+            {
+                label: "Profiles",
                 submenu: profilesSubmenu,
-                visible: this.state.profiles.length > 0
+                visible: this.state.profiles.length > 0,
             },
             {
-                    label: 'Tray autostart', type: 'checkbox', checked: this.state.isAutostartTrayInstalled,
-                    click: () => this.events.autostartTrayToggle()
+                label: "Tray autostart",
+                type: "checkbox",
+                checked: this.state.isAutostartTrayInstalled,
+                click: () => this.events.autostartTrayToggle(),
             },
             {
-                label: 'Power save blocker',
-                type: 'checkbox',
-                click: () => { this.events.powersaveBlockerClick(); },
-                checked: this.state.powersaveBlockerActive
+                label: "Power save blocker",
+                type: "checkbox",
+                click: () => {
+                    this.events.powersaveBlockerClick();
+                },
+                checked: this.state.powersaveBlockerActive,
             },
             {
                 label: "Fn-Lock",
@@ -115,35 +132,39 @@ export class TccTray {
                 checked: this.state.fnLockStatus,
                 visible: this.state.fnLockSupported,
             },
-            { type: 'separator', visible: this.state.isPrimeSupported },
+            { type: "separator", visible: this.state.isPrimeSupported },
             {
-                label: 'Graphics',
+                label: "Graphics",
                 visible: this.state.isPrimeSupported,
                 submenu: [
                     {
-                        label: 'Select dGPU',
-                        type: 'normal',
+                        label: "Select dGPU",
+                        type: "normal",
                         click: () => this.events.selectNvidiaClick(),
-                        visible: this.state.primeQuery !== 'dGPU',
+                        visible: this.state.primeQuery !== "dGPU",
                     },
                     {
-                        label: 'Apply on-demand mode',
-                        type: 'normal',
+                        label: "Apply on-demand mode",
+                        type: "normal",
                         click: () => this.events.selectOnDemandClick(),
-                        visible: this.state.primeQuery !== 'on-demand'
+                        visible: this.state.primeQuery !== "on-demand",
                     },
                     {
-                        label: 'Select iGPU',
-                        type: 'normal',
+                        label: "Select iGPU",
+                        type: "normal",
                         click: () => this.events.selectBuiltInClick(),
-                        visible: this.state.primeQuery !== 'iGPU'
-                    }
+                        visible: this.state.primeQuery !== "iGPU",
+                    },
                 ],
             },
-            { type: 'separator' },
-            { label: this.state.tccGUIVersion, type: 'normal', enabled: false },
-            { type: 'separator' },
-            { label: 'Exit', type: 'normal', click: () => this.events.exitClick() }
+            { type: "separator" },
+            { label: this.state.tccGUIVersion, type: "normal", enabled: false },
+            { type: "separator" },
+            {
+                label: "Exit",
+                type: "normal",
+                click: () => this.events.exitClick(),
+            },
         ]);
         this.tray.setContextMenu(contextMenu);
     }
@@ -156,10 +177,10 @@ export class TrayState {
     primeQuery: string;
     activeProfile: TccProfile;
     profiles: TccProfile[];
-    powersaveBlockerActive: boolean
+    powersaveBlockerActive: boolean;
     fnLockSupported: boolean;
     fnLockStatus: boolean;
-};
+}
 
 export class TrayEvents {
     startTCCClick: () => void;

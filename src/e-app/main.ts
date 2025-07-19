@@ -88,7 +88,7 @@ let powersaveBlockerId = undefined;
 // Ensure that only one instance of the application is running
 const applicationLock = app.requestSingleInstanceLock();
 if (!applicationLock) {
-    console.log("TUXEDO Control Center is already running");
+    console.log("Avell Control Center is already running");
     app.exit(0);
 }
 
