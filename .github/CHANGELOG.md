@@ -18,4 +18,6 @@ Texto descritivo atualizado para casos em que o controle da luz de fundo do tecl
 
 #### 🩹 Correções
 
+
 - Diversos problemas relacionados ao `amd-pstate`, conhecidos por ocorrer ao limitar a frequência da CPU de diferentes formas. Ajustado para estar em conformidade com o comportamento atual do kernel e contornar bugs conhecidos.
+

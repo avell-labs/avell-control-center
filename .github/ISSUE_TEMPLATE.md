@@ -6,20 +6,20 @@ Descreva o problema encontrado aqui.
 
 ### 🔍 Qual o tipo da issue? (marque um `x` em uma das `[ ]`)
 
-- [ ] bug;
-- [ ] enhancement (solicitação de funcionalidade);
-- [ ] dúvida;
-- [ ] relacionado à documentação;
-- [ ] relacionado a testes;
-- [ ] discussão;
+-   [ ] bug;
+-   [ ] enhancement (solicitação de funcionalidade);
+-   [ ] dúvida;
+-   [ ] relacionado à documentação;
+-   [ ] relacionado a testes;
+-   [ ] discussão;
 
 <br/>
 
 ### 📌 Requisitos (marque um `x` em cada `[ ]`)
 
-- [ ] Li e entendi as [diretrizes de contribuição](https://github.com/avell-labs/project-template/blob/master/.github/CONTRIBUTING.md) e fiz o meu melhor para segui-las.
-- [ ] Li e concordo com o [código de conduta](https://github.com/avell-labs/project-template/blob/master/.github/CODE_OF_CONDUCT.md).
-- [ ] Pesquisei por issues relacionadas e evitei criar uma duplicada.
+-   [ ] Li e entendi as [diretrizes de contribuição](https://github.com/avell-labs/avell-control-center/blob/master/.github/CONTRIBUTING.md) e fiz o meu melhor para segui-las.
+-   [ ] Li e concordo com o [código de conduta](https://github.com/avell-labs/avell-control-center/blob/master/.github/CODE_OF_CONDUCT.md).
+-   [ ] Pesquisei por issues relacionadas e evitei criar uma duplicada.
 
 ---
 
