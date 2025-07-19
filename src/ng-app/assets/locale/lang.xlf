@@ -792,14 +792,14 @@
         </context-group>
       </trans-unit>
       <trans-unit id="cInfoTCCDescriptionTextP1" datatype="html">
-        <source> With the TUXEDO Control Center, we have developed a unique tool for you to control and monitor all safety, performance, energy, comfort, and lifetime functions of your TUXEDO computer. </source>
+        <source> With the Avell Control Center, we have developed a unique tool for you to control and monitor all safety, performance, energy, comfort, and lifetime functions of your Avell computer. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/ng-app/app/info/info.component.html</context>
           <context context-type="linenumber">32,34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cInfoTCCDescriptionTextP2" datatype="html">
-        <source> With premade as well as any number of individually configurable profiles, you have the greatest possible control and adaptability of your TUXEDO device to your needs. </source>
+        <source> With premade as well as any number of individually configurable profiles, you have the greatest possible control and adaptability of your Avell device to your needs. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/ng-app/app/info/info.component.html</context>
           <context context-type="linenumber">36,38</context>
@@ -828,23 +828,17 @@
       </trans-unit>
       <trans-unit id="cInfoImprintText" datatype="html">
         <source>
-TUXEDO Computers GmbH
+    Avell Notebooks de Alto desempenho
+    CNPJ: 19.117.785/0001-05
+    Rua Matrinxã, 687, Edifício 3 - Parte 1 Distrito Industrial - Manaus - AM
+    CEP: 69.075-150
 
-Alter Postweg 101
-86159 Augsburg
-Germany
-
-Telephone: +49 (0) 821 / 8998 2992
-Telefax: +49 (0) 821 / 8998 2999
-E-Mail: tux@tuxedocomputers.com
-VAT No.: DE815420876
-WEEE reg. no.: DE 93420497
-listed in the commercial register of the local court Augsburg
-Commercial register number - Part B of the commercial register - 27755
+    Telefone: +55 (47) 3801-6000
+    E-Mail: suporte@avell.com.br
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/ng-app/app/info/info.component.html</context>
-          <context context-type="linenumber">127,140</context>
+          <context context-type="linenumber">127,134</context>
         </context-group>
       </trans-unit>
       <trans-unit id="noDashboardValue" datatype="html">

@@ -1,15 +1,15 @@
 {
-    "name": "tuxedo-control-center",
-    "description": "TUXEDO Control Center Application",
+    "name": "avell-control-center",
+    "description": "Avell Control Center Application",
     "version": "2.1.17",
     "main": "./dist/tuxedo-control-center/e-app/e-app/main.js",
     "author": {
-        "name": "TUXEDO Computers GmbH",
-        "email": "tux@tuxedocomputers.com",
-        "url": "https://tuxedocomputers.com"
+        "name": "Avell Labs",
+        "email": "suporte@avell.com.br",
+        "url": "https://avell.com.br/"
     },
     "license": "GPL-3.0",
-    "homepage": "https://tuxedocomputers.com",
+    "homepage": "https://avell.com.br/",
     "scripts": {
         "postinstall": "electron-builder install-app-deps",
         "ver": "sh build-src/inc-version.sh",

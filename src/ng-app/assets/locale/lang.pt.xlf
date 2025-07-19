@@ -85,7 +85,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />For more complex problems it may be necessary to evaluate diagnostic data from your PC.<x
+                    />Para problemas mais complexos, pode ser necessário avaliar dados de diagnóstico do seu PC.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -94,7 +94,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />Our diagnostic program does NOT collect ANY personal data or private login data! Only information about your hardware and software configuration is gathered.<x
+                    />Nosso programa de diagnóstico não coleta NENHUM dado pessoal ou dados de login privados! Apenas informações sobre sua configuração de hardware e software são coletadas.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -186,7 +186,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />When executed our diagnostics script collects the data and thereafter sends it to our support associated with your ticket number.<x
+                    />Quando executado, nosso script de diagnóstico coleta os dados e, em seguida, os envia para nosso suporte associado ao número do seu ticket.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -275,7 +275,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />This way, a support employee can connect online to your TUXEDO computer and solve the problem together with you.<x
+                    />This way, a support employee can connect online to your Avell computer and solve the problem together with you.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -293,7 +293,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />If your problem cannot be solved by means of our system diagnostics, we are happy to offer you free live support via <x
+                    />Se o problema não for resolvido pelo nosso aplicativo de diagnóstico, ficaremos felizes em fornecer um suporte remoto via <x
                         id="START_ITALIC_TEXT"
                         ctype="x-i"
                         equiv-text="&lt;i&gt;"
@@ -301,7 +301,7 @@
                         id="CLOSE_ITALIC_TEXT"
                         ctype="x-i"
                         equiv-text="&lt;/i&gt;"
-                    /> remote maintenance software.<x
+                    />.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -310,7 +310,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />This way, a support employee can connect online to your TUXEDO computer and solve the problem together with you.<x
+                    />Desta forma, um colaborador do suporte pode conectar-se online ao seu computador Avell e resolver o problema junto de você.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -319,7 +319,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />Our support gets access to your system only temporarily and in your presence. NO personal data is collected!<x
+                    />Nosso suporte apenas acessa o seu sistema temporariamente e sob sua supervisão. NENHUM dado pessoal é coletado!<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -355,7 +355,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />Thanks to the cloud-based data, you always get the latest system updates! The TUXEDO WebFAI Creator helps to create the required USB-Stick with only three clicks!<x
+                    />Thanks to the cloud-based data, you always get the latest system updates! The Avell WebFAI Creator helps to create the required USB-Stick with only three clicks!<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -372,7 +372,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />Thanks to the cloud-based data, you always get the latest system updates! The TUXEDO WebFAI Creator helps to create the required USB-Stick with only three clicks!<x
+                    />Thanks to the cloud-based data, you always get the latest system updates! The Avell WebFAI Creator helps to create the required USB-Stick with only three clicks!<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -1522,7 +1522,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardSystemMonitor" datatype="html">
         <source>System monitor</source>
-        <target state="new">Monitor do sistema</target>
+        <target state="new">Monitoramento do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1532,7 +1532,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardMainProcessorMonitor" datatype="html">
         <source>Main processor monitor</source>
-        <target state="new">Monitor do processador</target>
+        <target state="new">Monitoramento do processador</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1592,7 +1592,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cDashboardGraphicsCardMonitor" datatype="html">
         <source>Graphics card monitor</source>
-        <target state="new">Monitor da placa gráfica</target>
+        <target state="new">Monitoramento da placa gráfica</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2247,8 +2247,7 @@ E-Mail: suporte@avell.com.br
                 >This sets a one time shutdown time. It will be automatically cleared on next boot, or when selecting "Delete Time" below.</source>
         <target
                     state="needs-adaptation"
-                >This sets a one time shutdown time. It will be automatically cleared on next
-        boot, or when selecting "Delete Time" below.</target>
+                >Esta configuração define um tempo de desligamento único. Ele será automaticamente limpo na próxima inicialização ou quando selecionar "Excluir Tempo" abaixo.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2378,7 +2377,7 @@ E-Mail: suporte@avell.com.br
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />Disk encryption can only be enabled during installation of your system. If you want to use it, you have to reinstall your TUXEDO using <x
+                    />Disk encryption can only be enabled during installation of your system. If you want to use it, you have to reinstall your Avell using <x
                         id="START_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;b&gt;"
@@ -2404,7 +2403,7 @@ E-Mail: suporte@avell.com.br
                         id="START_HEADING_LEVEL3"
                         ctype="x-h3"
                         equiv-text="&lt;h3&gt;"
-                    />It looks like you are not using disk encryption.<x
+                    />Parece que você não está usando criptografia de disco.<x
                         id="CLOSE_HEADING_LEVEL3"
                         ctype="x-h3"
                         equiv-text="&lt;/h3&gt;"
@@ -2413,8 +2412,7 @@ E-Mail: suporte@avell.com.br
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />Disk encryption can only be enabled during installation of your system. If you want to use it, you have to
-            reinstall your TUXEDO using <x
+                    />A criptografia de disco é uma forma de proteção de dados que pode ser ativada durante a instalação do sistema operacional. Se você deseja usá-la, você precisará reinstalar o seu Avell usando o <x
                         id="START_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;b&gt;"
@@ -2422,12 +2420,11 @@ E-Mail: suporte@avell.com.br
                         id="CLOSE_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;/b&gt;"
-                    />. On the operating system selection screen choose an option ending
-            in "crypt". <x
+                    />. Na tela de seleção do sistema operacional, escolha uma opção que termine com "crypt". <x
                         id="START_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;b&gt;"
-                    />Reinstalling your PC will wipe all data and programs stored on it!<x
+                    />Reinstalar seu PC irá apagar todos os dados e programas armazenados nele!<x
                         id="CLOSE_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;/b&gt;"
@@ -2446,12 +2443,10 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cryptinstallinformation" datatype="html">
         <source
-                >This will change the crypt password of all encrypted partitions at once. It only works if all encrypted partitions have the same password, which is the default on a WebFAI or Factory installation of your TUXEDO device. It will abort otherwise, leaving the current configuration untouched.</source>
+                >This will change the crypt password of all encrypted partitions at once. It only works if all encrypted partitions have the same password, which is the default on a WebFAI or Factory installation of your Avell device. It will abort otherwise, leaving the current configuration untouched.</source>
         <target
                     state="needs-adaptation"
-                >This will change the crypt password of all encrypted partitions at once. It only works if all encrypted
-            partitions have the same password, which is the default on a WebFAI or Factory installation of your TUXEDO
-            device. It will abort otherwise, leaving the current configuration untouched.</target>
+                >Isto irá alterar a senha criptografada de todas as partições criptografadas ao mesmo tempo. Funciona apenas se todas as partições criptografadas tiverem a mesma senha, que é o padrão em uma instalação WebFAI ou Factory do seu dispositivo Avell. Caso contrário, abortará, deixando a configuração atual inalterada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2503,7 +2498,7 @@ E-Mail: suporte@avell.com.br
         <source> Please enter your current crypt password </source>
         <target
                     state="needs-adaptation"
-                >Please enter your current crypt password</target>
+                >Por favor, insira sua senha criptografada atual</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2515,7 +2510,7 @@ E-Mail: suporte@avell.com.br
         <source> Please enter your new crypt password </source>
         <target
                     state="needs-adaptation"
-                >Please enter your new crypt password</target>
+                >Por favor, insira sua nova senha criptografada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2525,7 +2520,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cryptPasswordNotMatch" datatype="html">
         <source> Passwords do not match </source>
-        <target state="needs-adaptation">Passwords do not match</target>
+        <target state="needs-adaptation">Senhas não correspondem</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2637,7 +2632,7 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="menuAquaris" datatype="html">
-        <source>Aquaris</source>
+        <source>Ice Mod</source>
         <target state="translated">Ice Mod</target>
         <context-group purpose="location">
           <context
@@ -2689,7 +2684,7 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="aqDialogConnectTitle" datatype="html">
-        <source>Are you ready to connect to your Aquaris?</source>
+        <source>Are you ready to connect to your Ice Mod?</source>
         <target state="translated">Pronto para conectar ao seu Ice Mod?</target>
         <context-group purpose="location">
           <context
@@ -2700,7 +2695,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="aqDialogConnectDescription" datatype="html">
         <source
-                >Please ensure that your Aquaris' watercooling tubes are plugged into your Avell before pressing the 'Connect' button!</source>
+                >Please ensure that your Ice Mod watercooling tubes are plugged into your Avell before pressing the 'Connect' button!</source>
         <target
                     state="translated"
                 >Certifique-se de que os tubos de resfriamento a água do seu Ice Mod estejam conectados ao seu Avell antes de pressionar o botão 'Conectar'!</target>
@@ -2758,7 +2753,7 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="aqDialogDisconnectTitle" datatype="html">
-        <source>Do you want to disconnect your Aquaris?</source>
+        <source>Do you want to disconnect your Ice Mod?</source>
         <target state="translated">Deseja desconectar o seu Ice Mod?</target>
         <context-group purpose="location">
           <context
@@ -3107,7 +3102,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="aqNoBluetoothHintIsInstalled" datatype="html">
         <source
-                >A Bluetooth adapter is installed in your TUXEDO notebook.</source>
+                >A Bluetooth adapter is installed in your Avell notebook.</source>
         <target
                     state="translated"
                 >Um adaptador Bluetooth está instalado no seu notebook Avell.</target>
@@ -3405,7 +3400,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="tomteGuiInstallErrorMessagePopup" datatype="html">
         <source
-                >Tomte failed to install. Do you use a tuxedo device and are using the tuxedo repos?</source>
+                >Tomte failed to install. Do you use a Avell device and are using the Avell repos?</source>
         <target
                     state="translated"
                 >Falha ao instalar o Tomte. Você usa um dispositivo Avell e está usando os repositórios Avell?</target>
@@ -3417,8 +3412,8 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="cTomteGuiTomteHeader" datatype="html">
-        <source>TUXEDO Tomte</source>
-        <target state="translated">TUXEDO Tomte</target>
+        <source>Avell Tomte</source>
+        <target state="translated">Avell Tomte</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3428,10 +3423,10 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cTomteGuiTomteDescription" datatype="html">
         <source
-                > TUXEDO Tomte is a configuration service that only works with TUXEDO hardware and automatically checks your computer for missing drivers or required packages, relieving users of tedious troubleshooting and problem solving. </source>
+                > Avell Tomte is a configuration service that only works with Avell hardware and automatically checks your computer for missing drivers or required packages, relieving users of tedious troubleshooting and problem solving. </source>
         <target
                     state="translated"
-                > TUXEDO Tomte is a configuration service that only works with TUXEDO hardware and automatically checks your computer for missing drivers or required packages, relieving users of tedious troubleshooting and problem solving. </target>
+                > Avell Tomte is a configuration service that only works with Avell hardware and automatically checks your computer for missing drivers or required packages, relieving users of tedious troubleshooting and problem solving. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3454,10 +3449,10 @@ E-Mail: suporte@avell.com.br
                 datatype="html"
             >
         <source
-                > TUXEDO Tomte ran into a timeout. Maybe it is already running. </source>
+                > Avell Tomte ran into a timeout. Maybe it is already running. </source>
         <target
                     state="translated"
-                > TUXEDO Tomte ran into a timeout. Maybe it is already running. </target>
+                > Avell Tomte ran into a timeout. Maybe it is already running. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3479,8 +3474,8 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="cTomteGuiInstallTomteHeader" datatype="html">
-        <source> Install TUXEDO Tomte </source>
-        <target state="translated"> Install TUXEDO Tomte </target>
+        <source> Install Avell Tomte </source>
+        <target state="translated"> Install Avell Tomte </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3489,10 +3484,10 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="cTomteGuiInstallTomteDescription" datatype="html">
-        <source> Install TUXEDO Tomte now by pressing this button: </source>
+        <source> Install Avell Tomte now by pressing this button: </source>
         <target
                     state="translated"
-                > Install TUXEDO Tomte now by pressing this button: </target>
+                > Install Avell Tomte now by pressing this button: </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3523,8 +3518,8 @@ E-Mail: suporte@avell.com.br
         </context-group>
       </trans-unit>
       <trans-unit id="cTomteGuiNotTuxedoDeviceHeader" datatype="html">
-        <source> TUXEDO Tomte not producing output </source>
-        <target state="translated"> TUXEDO Tomte not producing output </target>
+        <source> Avell Tomte not producing output </source>
+        <target state="translated"> Avell Tomte not producing output </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3534,10 +3529,10 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cTomteGuiNotTuxedoDeviceDescription" datatype="html">
         <source
-                > TUXEDO Tomte seems to be installed, but is not producing any output. This could mean that you are using a non TUXEDO device or a TUXEDO desktop. If you are using a TUXEDO laptop this could mean that something went wrong. TUXEDO Tomtes job is it to automatically install fixes for TUXEDO laptops, so if you are experiencing problems—like a non-working touchpad—and see this message, contact our tech support telling them that tomte is installed but seems to not work properly. </source>
+                > Avell Tomte seems to be installed, but is not producing any output. This could mean that you are using a non Avell device or a Avell desktop. If you are using a Avell laptop this could mean that something went wrong. Avell Tomtes job is it to automatically install fixes for Avell laptops, so if you are experiencing problems—like a non-working touchpad—and see this message, contact our tech support telling them that tomte is installed but seems to not work properly. </source>
         <target
                     state="translated"
-                > TUXEDO Tomte seems to be installed, but is not producing any output. This could mean that you are using a non TUXEDO device or a TUXEDO desktop. If you are using a TUXEDO laptop this could mean that something went wrong. TUXEDO Tomtes job is it to automatically install fixes for TUXEDO laptops, so if you are experiencing problems—like a non-working touchpad—and see this message, contact our tech support telling them that tomte is installed but seems to not work properly. </target>
+                > Avell Tomte seems to be installed, but is not producing any output. This could mean that you are using a non Avell device or a Avell desktop. If you are using a Avell laptop this could mean that something went wrong. Avell Tomtes job is it to automatically install fixes for Avell laptops, so if you are experiencing problems—like a non-working touchpad—and see this message, contact our tech support telling them that tomte is installed but seems to not work properly. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3667,10 +3662,10 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="cTomteGuiJsonErrorWarning" datatype="html">
         <source
-                > An error occured while trying to parse the output of TUXEDO Tomte. Maybe you are running an outdated version of TUXEDO Tomte. Try updating and see if this error persists. If it does, feel free to create a support ticket. </source>
+                > An error occured while trying to parse the output of Avell Tomte. Maybe you are running an outdated version of Avell Tomte. Try updating and see if this error persists. If it does, feel free to create a support ticket. </source>
         <target
                     state="translated"
-                > An error occured while trying to parse the output of TUXEDO Tomte. Maybe you are running an outdated version of TUXEDO Tomte. Try updating and see if this error persists. If it does, feel free to create a support ticket. </target>
+                > An error occured while trying to parse the output of Avell Tomte. Maybe you are running an outdated version of Avell Tomte. Try updating and see if this error persists. If it does, feel free to create a support ticket. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3913,10 +3908,10 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="chargingProfilesInfoLinkHref" datatype="html">
         <source
-                >https://www.tuxedocomputers.com/en/Battery-charging-profiles-inside-the-TUXEDO-Control-Center.tuxedo</source>
+                >https://avell.com.br/blog/conhecendo-o-avell-custom-control</source>
         <target
                     state="translated"
-                >https://www.tuxedocomputers.com/en/Battery-charging-profiles-inside-the-TUXEDO-Control-Center.tuxedo</target>
+                >https://avell.com.br/blog/conhecendo-o-avell-custom-control</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4181,7 +4176,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="chargingThresholdsDescriptionStationary" datatype="html">
         <source
-                >Very significant reduced battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your TUXEDO almost only stationary connected to a wall outlet.</source>
+                >Very significant reduced battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your Avell almost only stationary connected to a wall outlet.</source>
         <target
                     state="translated"
                 >Velocidade reduzida e capacidade de bateria reduzida (~80 %) para uma melhor vida útil da bateria. Recomendado se você usa seu Avell quase apenas em posição estática conectado a uma tomada.</target>
@@ -4234,7 +4229,7 @@ E-Mail: suporte@avell.com.br
         <source>Webcam can not be accessed. Reloading all webcams.</source>
         <target
                     state="new"
-                >Webcam can not be accessed. Reloading all webcams.</target>
+                >A webcam não pode ser acessada. Recarregando todas as câmeras.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4314,9 +4309,6 @@ E-Mail: suporte@avell.com.br
                 >Current Webcam can not be accessed. Another application is most likely accessing your webcam. Resolution and frames per second settings only apply for TCC preview.</source>
         <target
                     state="new"
-                >Current Webcam can not be accessed. Another application is most likely accessing your webcam. Resolution and frames per second settings only apply for TCC preview.</target>
-        <target
-                    state="translated"
                 >Webcam atual não pode ser acessada. Outro aplicativo provavelmente está acessando sua webcam. Configurações de resolução e quadros por segundo só se aplicam à pré-visualização do ACC.</target>
         <context-group purpose="location">
           <context
@@ -4362,12 +4354,9 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="webcamDialogMismatchConfigValuesDialog" datatype="html">
         <source
-                >Unknown values detected. Want to resave all presets with adjusted values for compatibility? This may alter presets. If you decline, they'll be adjusted next time you save. If not a config file issue, ensure latest TCC. Otherwise, contact Tuxedo with kernel and device details.</source>
+                >Unknown values detected. Want to resave all presets with adjusted values for compatibility? This may alter presets. If you decline, they'll be adjusted next time you save. If not a config file issue, ensure latest TCC. Otherwise, contact Avell with kernel and device details.</source>
         <target
                     state="new"
-                >Due to a recent linux kernel update or due to a misconfigured config file unknown values were found and it can not be guranteed that the preset is unchanged since the last time it was saved. Do you want to resave all presets with adjusted values? This will fix compatibility issues but may result in changed presets. If you decline, the adjusted presets will only be saved the next time you save a preset, because presets need to be adjusted to be fully usable again. If you did not modify the config file manually, make sure that you use the latest version of TCC. If the issue persists, please inform Tuxedo about this and mention the used linux kernel version and devices used.</target>
-        <target
-                    state="translated"
                 >Devido a uma atualização recente do kernel Linux ou a um arquivo de configuração mal configurado, valores desconhecidos foram encontrados e não é possível garantir que o preset permaneça inalterado desde a última vez em que foi salvo. Deseja salvar novamente todos os presets com os valores ajustados? Isso corrigirá problemas de compatibilidade, mas pode resultar em alterações nos presets. Se você recusar, os presets ajustados só serão salvos na próxima vez que você salvar um preset, pois precisam ser ajustados para voltarem a ser totalmente utilizáveis. Se você não modificou o arquivo de configuração manualmente, certifique-se de estar usando a versão mais recente do ACC. Se o problema persistir, informe à Avell e mencione a versão do kernel Linux utilizada e os dispositivos em uso.</target>
         <context-group purpose="location">
           <context
@@ -4378,8 +4367,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="dialogSaveAdjustedPresets" datatype="html">
         <source>Save adjusted presets</source>
-        <target state="new">Save adjusted presets</target>
-        <target state="translated">Salvar predefinições ajustadas</target>
+        <target state="new">Salvar predefinições ajustadas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4969,8 +4957,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="primeSelectDialogApplyProfileTitle" datatype="html">
         <source>Applying Graphics Profile</source>
-        <target state="new">Applying Graphics Profile</target>
-        <target state="translated">Aplicando perfil gráfico</target>
+        <target state="new">Aplicando perfil gráfico</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4989,9 +4976,6 @@ E-Mail: suporte@avell.com.br
                 >Do not power off your device until the process is complete.</source>
         <target
                     state="new"
-                >Do not power off your device until the process is complete.</target>
-        <target
-                    state="translated"
                 >Não desligue seu dispositivo até que o processo seja concluído.</target>
         <context-group purpose="location">
           <context
@@ -5008,8 +4992,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="primeSelectAskProceedTitle" datatype="html">
         <source>Warning</source>
-        <target state="new">Warning</target>
-        <target state="translated">Aviso</target>
+        <target state="new">Aviso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5028,9 +5011,6 @@ E-Mail: suporte@avell.com.br
                 >For the change to take effect, your computer must be restarted. If the computer is shut down immediately, unsaved files or changes will be lost. In this case, select 'Reboot later' and shut down your computer at a later time.</source>
         <target
                     state="needs-adaptation"
-                >For the change to take effect, your computer must be restarted. If the computer is shut down immediately, unsaved files or changes will be lost. In this case, select 'Reboot later' and shut down your computer at a later time.</target>
-        <target
-                    state="translation"
                 >Para que a alteração tenha efeito, é necessário reiniciar o computador. Se ele for desligado imediatamente, arquivos ou alterações não salvos serão perdidos. Nesse caso, selecione "Reiniciar depois" e desligue o computador posteriormente.</target>
         <context-group purpose="location">
           <context
@@ -5047,8 +5027,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="dialogInstantReboot" datatype="html">
         <source>Instant Reboot</source>
-        <target state="new">Instant Reboot</target>
-        <target state="translated">Reiniciar agora</target>
+        <target state="new">Reiniciar agora</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5064,8 +5043,7 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="dialogRebootLater" datatype="html">
         <source>Reboot later</source>
-        <target state="new">Reboot later</target>
-        <target state="translated">Reiniciar depois</target>
+        <target state="new">Reiniciar depois</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5094,23 +5072,8 @@ E-Mail: suporte@avell.com.br
                         ctype="x-b"
                         equiv-text="&lt;/b&gt; "
                     /> Monitors connected to the high-performance graphics processor do not work in this mode. </source>
-        <target
+                <target
                     state="needs-adaptation"
-                > Exclusively uses the graphics processor integrated in the main processor. Suitable for power saving and low graphics performance requirements. <x
-                        id="LINE_BREAK"
-                        ctype="lb"
-                        equiv-text="&lt;br&gt;&#xA;                "
-                    /><x
-                        id="START_BOLD_TEXT"
-                        ctype="x-b"
-                        equiv-text="&lt;b&gt;"
-                    />Please note:<x
-                        id="CLOSE_BOLD_TEXT"
-                        ctype="x-b"
-                        equiv-text="&lt;/b&gt; "
-                    /> Monitors connected to the high-performance graphics processor do not work in this mode. </target>
-        <target
-                    state="translation"
                 > Exclusivamente usa a placa gráfica integrada ao processador. Útil para economizar energia e necessidade de pouco desempenho gráfico <x
                         id="LINE_BREAK"
                         ctype="lb"
@@ -5142,9 +5105,6 @@ E-Mail: suporte@avell.com.br
                 > Uses high-performance graphics processor for graphics-intensive tasks, but with higher energy consumption, even at low load and idle. </source>
         <target
                     state="new"
-                > Uses high-performance graphics processor for graphics-intensive tasks, but with higher energy consumption, even at low load and idle. </target>
-        <target
-                    state="translated"
                 > Usa a placa gráfica dedicada para tarefas gráficas intensivas, mas com consumo de energia mais alto, mesmo em baixo uso e ociosidade. </target>
         <context-group purpose="location">
           <context
@@ -5162,11 +5122,8 @@ E-Mail: suporte@avell.com.br
       <trans-unit id="primeSelectOnDemandDescription" datatype="html">
         <source
                 > The system prioritizes the energy-saving CPU graphics processor. The high-performance graphics processor can be added by the user if required. Combination of high performance and power saving. </source>
-        <target
+       <target
                     state="new"
-                > The system prioritizes the energy-saving CPU graphics processor. The high-performance graphics processor can be added by the user if required. Combination of high performance and power saving. </target>
-        <target
-                    state="translated"
                 > O sistema prioriza a placa gráfica integrada à CPU com economia de energia. A placa gráfica de alto desempenho pode ser adicionada pelo usuário, se necessário. Combinação de alto desempenho com economia de energia.
  </target>
         <context-group purpose="location">
@@ -5447,9 +5404,8 @@ E-Mail: suporte@avell.com.br
       </trans-unit>
       <trans-unit id="compatibilityNotAvailable" datatype="html">
         <source>This feature is currently not available.</source>
-        <target state="new">This feature is currently not available.</target>
         <target
-                    state="translated"
+                    state="new"
                 >Essa funcionalidade não está disponível no momento.</target>
         <context-group purpose="location">
           <context
