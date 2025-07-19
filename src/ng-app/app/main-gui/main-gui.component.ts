@@ -16,24 +16,23 @@
  * You should have received a copy of the GNU General Public License
  * along with TUXEDO Control Center.  If not, see <https://www.gnu.org/licenses/>.
  */
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ElectronService } from 'ngx-electron';
-import { Subscription } from 'rxjs';
-import { ITccProfile } from '../../../common/models/TccProfile';
-import { ITccSettings } from '../../../common/models/TccSettings';
-import { CompatibilityService } from '../compatibility.service';
-import { ConfigService } from '../config.service';
-import { IStateInfo, StateService } from '../state.service';
-import { UtilsService } from '../utils.service';
-import { ActivatedRoute } from '@angular/router';
+import { Component, OnDestroy, OnInit } from "@angular/core";
+import { ElectronService } from "ngx-electron";
+import { Subscription } from "rxjs";
+import { ITccProfile } from "../../../common/models/TccProfile";
+import { ITccSettings } from "../../../common/models/TccSettings";
+import { CompatibilityService } from "../compatibility.service";
+import { ConfigService } from "../config.service";
+import { IStateInfo, StateService } from "../state.service";
+import { UtilsService } from "../utils.service";
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
-  selector: 'app-main-gui',
-  templateUrl: './main-gui.component.html',
-  styleUrls: ['./main-gui.component.scss']
+    selector: "app-main-gui",
+    templateUrl: "./main-gui.component.html",
+    styleUrls: ["./main-gui.component.scss"],
 })
 export class MainGuiComponent implements OnInit, OnDestroy {
-
     public profileSelect: string;
     public activeProfileName: string;
 
@@ -50,31 +49,34 @@ export class MainGuiComponent implements OnInit, OnDestroy {
         private utils: UtilsService,
         public compat: CompatibilityService,
         private route: ActivatedRoute,
-        ) {
-            const data = this.route.snapshot.data;
-            this.dataLoaded = data.loaded === true;
-        }
+    ) {
+        const data = this.route.snapshot.data;
+        this.dataLoaded = data.loaded === true;
+    }
 
     public buttonLanguageLabel: string;
 
     public ngOnInit(): void {
-
         this.updateLanguageName();
         this.getSettings();
         // this.subscriptions.add(this.config.observeSettings.subscribe(newSettings => { this.getSettings(); }));
-        this.subscriptions.add(this.state.activeProfile.subscribe(activeProfile => { this.getSettings(); }));
+        this.subscriptions.add(
+            this.state.activeProfile.subscribe((activeProfile) => {
+                this.getSettings();
+            }),
+        );
 
         if (!this.dataLoaded) {
             this.electron.remote.dialog.showMessageBox(
                 this.electron.remote.getCurrentWindow(),
                 {
-                  title: $localize `:@@msgboxTitleServiceUnavailable:Service unavailable`,
-                  message: $localize `:@@msgboxMessageServiceUnavailable:Communication with tccd service is unavailable, please restart service and try again.`,
-                  type: 'error',
-                  buttons: ['ok']
-                }
-              );
-              this.electron.remote.getCurrentWindow().close();
+                    title: $localize`:@@msgboxTitleServiceUnavailable:Service unavailable`,
+                    message: $localize`:@@msgboxMessageServiceUnavailable:Communication with tccd service is unavailable, please restart service and try again.`,
+                    type: "error",
+                    buttons: ["ok"],
+                },
+            );
+            this.electron.remote.getCurrentWindow().close();
         }
     }
 
@@ -115,14 +117,42 @@ export class MainGuiComponent implements OnInit, OnDestroy {
         return this.utils.getLanguageData(langId);
     }
 
-    public buttonToggleLanguage() {
-        this.electron.ipcRenderer.send("close-webcam-preview");
-        this.utils.changeLanguage(this.utils.getLanguagesMenuArray().find(lang => lang.id !== this.utils.getCurrentLanguageId()).id);
+    // old version with only two languages
+    // public buttonToggleLanguage() {
+    //     this.electron.ipcRenderer.send("close-webcam-preview");
+    //     this.utils.changeLanguage(this.utils.getLanguagesMenuArray().find(lang => lang.id !== this.utils.getCurrentLanguageId()).id);
+    //     this.updateLanguageName();
+    // }
+
+    public buttonCycleLanguage(): void {
+        let curLangIndex: number = this.utils
+            .getLanguagesMenuArray()
+            .findIndex((lang) => lang.id === this.utils.getCurrentLanguageId());
+        let newLangIndex: number =
+            (curLangIndex + 1) % this.utils.getLanguagesMenuArray().length;
+        let newLangID: string =
+            this.utils.getLanguagesMenuArray()[newLangIndex].id;
+        this.utils.changeLanguage(newLangID);
         this.updateLanguageName();
     }
+    // old version with only two languages
+    // public updateLanguageName(): void {
+    //     this.buttonLanguageLabel = this.utils
+    //         .getLanguagesMenuArray()
+    //         .find(
+    //             (lang) => lang.id !== this.utils.getCurrentLanguageId(),
+    //         ).label;
+    // }
 
     public updateLanguageName(): void {
-        this.buttonLanguageLabel = this.utils.getLanguagesMenuArray().find(lang => lang.id !== this.utils.getCurrentLanguageId()).label;
+        let curLangIndex: number = this.utils
+            .getLanguagesMenuArray()
+            .findIndex((lang) => lang.id === this.utils.getCurrentLanguageId());
+        let nextLangIndex: number =
+            (curLangIndex + 1) % this.utils.getLanguagesMenuArray().length;
+        let nextLangLabel: string =
+            this.utils.getLanguagesMenuArray()[nextLangIndex].label;
+        this.buttonLanguageLabel = nextLangLabel;
     }
 
     public getStateInputs(): IStateInfo[] {
@@ -135,11 +165,12 @@ export class MainGuiComponent implements OnInit, OnDestroy {
 
     public getStateProfileName(state: IStateInfo) {
         if (!this.getSettings()) {
-            return undefined
+            return undefined;
         }
 
         const stateProfileId = this.getSettings().stateMap[state.value];
-        const defaultProfileName = this.utils.getDefaultProfileName(stateProfileId);
+        const defaultProfileName =
+            this.utils.getDefaultProfileName(stateProfileId);
         if (defaultProfileName !== undefined) {
             return defaultProfileName;
         } else {
@@ -154,8 +185,8 @@ export class MainGuiComponent implements OnInit, OnDestroy {
 
     public getProfileLink(state: any) {
         if (!this.getSettings()) {
-            return 'profile-manager/'
+            return "profile-manager/";
         }
-        return 'profile-manager/' + this.getSettings()?.stateMap[state.value]
+        return "profile-manager/" + this.getSettings()?.stateMap[state.value];
     }
 }

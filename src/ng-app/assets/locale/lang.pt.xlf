@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file
-        source-language="en-US"
+        source-language="pt-BR"
         datatype="plaintext"
         original="ng2.template"
-        target-language="en"
+        target-language="pt"
     >
     <body>
       <trans-unit id="8708ca72ec9216a3a521940eeef0be356eebb8dd" datatype="html">
         <source>Avell Support</source>
-        <target state="translated">Avell Support</target>
+        <target state="translated">Suporte Avell</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -21,7 +21,7 @@
         <source>You got a problem with your Avell device?</source>
         <target
                     state="translated"
-                >You got a problem with your Avell device?</target>
+                >Está com problemas com o seu notebook Avell?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -34,7 +34,7 @@
                 >Then please contact us by phone or use our online support.</source>
         <target
                     state="translated"
-                >Then please contact us by phone or use our online support.</target>
+                >Por favor, entre em contato conosco pelo telefone ou utilize nosso suporte online.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -44,7 +44,7 @@
       </trans-unit>
       <trans-unit id="cSupportButtonOnline" datatype="html">
         <source>Avell online support</source>
-        <target state="translated">Avell online support</target>
+        <target state="translated">Suporte online Avell</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -54,7 +54,7 @@
       </trans-unit>
       <trans-unit id="462d1dc78e0991a2763d1e637fca6d1046eb7eb2" datatype="html">
         <source>System diagnostics</source>
-        <target state="translated">System diagnostics</target>
+        <target state="translated">Diagnóstico do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -85,7 +85,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />For more complex problems it may be necessary to evaluate diagnostic data from your PC.<x
+                    />Para problemas mais complexos, pode ser necessário avaliar dados de diagnóstico do seu PC.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -94,7 +94,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />Our diagnostic program does NOT collect ANY personal data or private login data! Only information about your hardware and software configuration is gathered.<x
+                    />Nosso programa de diagnóstico não coleta NENHUM dado pessoal ou dados de login privados! Apenas informações sobre sua configuração de hardware e software são coletadas.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -109,7 +109,7 @@
       </trans-unit>
       <trans-unit id="ef02aa5c00de3a97c06c402cfbf6a764772e0947" datatype="html">
         <source>For further information please click</source>
-        <target state="translated">For further information please click</target>
+        <target state="translated">Para mais informações clique</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -122,7 +122,7 @@
                 >Please enter the ticket number of your support request. If you have not yet submitted a request, please visit the appropriate </source>
         <target
                     state="translated"
-                >Please enter the ticket number of your support request. If you have not yet submitted a request, please visit the appropriate </target>
+                >Por favor insira o número do seu ticket. Se ainda não enviou uma solicitação, visite o</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -132,7 +132,7 @@
       </trans-unit>
       <trans-unit id="0f35774daf67e2f0a41f46b993cf1703729ce6eb" datatype="html">
         <source>online form</source>
-        <target state="translated">online form.</target>
+        <target state="translated">formulário online.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -142,7 +142,7 @@
       </trans-unit>
       <trans-unit id="cSupportTicketNumberInputPlaceholder" datatype="html">
         <source>Ticket number</source>
-        <target state="translated">Ticket number</target>
+        <target state="translated">Número do ticket</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -152,7 +152,7 @@
       </trans-unit>
       <trans-unit id="cSupportTicketStepperButtonNext" datatype="html">
         <source>Next</source>
-        <target state="translated">Next</target>
+        <target state="translated">Próximo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -164,7 +164,7 @@
         <source>Step2: Download and run system info collection program</source>
         <target
                     state="translated"
-                >Step2: Download and run system info collection program</target>
+                >Passo 2: Baixe e execute o programa de coleta de informações do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -186,7 +186,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />When executed our diagnostics script collects the data and thereafter sends it to our support associated with your ticket number.<x
+                    />Quando executado, nosso script de diagnóstico coleta os dados e, em seguida, os envia para nosso suporte associado ao número do seu ticket.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -200,7 +200,7 @@
       </trans-unit>
       <trans-unit id="cSupportSysInfoButtonStart" datatype="html">
         <source>Start</source>
-        <target state="translated">Start</target>
+        <target state="translated">Iniciar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -210,7 +210,7 @@
       </trans-unit>
       <trans-unit id="cce829a702e81f886537f80d26a35c42ca490493" datatype="html">
         <source>Step 3: Done</source>
-        <target state="translated">Step 3: Done</target>
+        <target state="translated">Passo 3: Finalizado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -223,7 +223,7 @@
                 >Your system diagnostics data has been successfully sent.</source>
         <target
                     state="translated"
-                >Your system diagnostics data has been successfully sent.</target>
+                >Seu diagnóstico de sistema foi enviado com sucesso.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -236,7 +236,7 @@
                 >We will come back to you as soon as this has been evaluated.</source>
         <target
                     state="translated"
-                >We will come back to you as soon as this has been evaluated.</target>
+                >Iremos retornar para você assim que for avaliado.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -246,7 +246,7 @@
       </trans-unit>
       <trans-unit id="05334eb54d90e0decd20459303745a36c8e2fb6e" datatype="html">
         <source>Remote support</source>
-        <target state="translated">Remote support</target>
+        <target state="translated">Suporte remoto</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -293,7 +293,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />If your problem cannot be solved by means of our system diagnostics, we are happy to offer you free live support via <x
+                    />Se o problema não for resolvido pelo nosso aplicativo de diagnóstico, ficaremos felizes em fornecer um suporte remoto via <x
                         id="START_ITALIC_TEXT"
                         ctype="x-i"
                         equiv-text="&lt;i&gt;"
@@ -301,7 +301,7 @@
                         id="CLOSE_ITALIC_TEXT"
                         ctype="x-i"
                         equiv-text="&lt;/i&gt;"
-                    /> remote maintenance software.<x
+                    />.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -310,7 +310,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />This way, a support employee can connect online to your Avell computer and solve the problem together with you.<x
+                    />Desta forma, um colaborador do suporte pode conectar-se online ao seu computador Avell e resolver o problema junto de você.<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -319,7 +319,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />Our support gets access to your system only temporarily and in your presence. NO personal data is collected!<x
+                    />Nosso suporte apenas acessa o seu sistema temporariamente e sob sua supervisão. NENHUM dado pessoal é coletado!<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -334,7 +334,7 @@
       </trans-unit>
       <trans-unit id="c2c9a2834e262fceffd58430cbfbbc0940f4414d" datatype="html">
         <source>Restore system</source>
-        <target state="translated">Restore system</target>
+        <target state="translated">Restaurar sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -364,7 +364,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />With our "Fully Automated Installation", you can easily restore your Linux system to its delivery state within minutes and with a few clicks.<x
+                    />Com nossa ferramenta de instalação, você pode facilmente restaurar o seu sistema Linux para o estado de fábrica em poucos minutos e com poucos cliques..<x
                         id="CLOSE_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;/p&gt;"
@@ -386,7 +386,7 @@
       </trans-unit>
       <trans-unit id="6f4c3c56f07426469538deb72dab3e760f1b6cc4" datatype="html">
         <source>Step1: Input ticket number</source>
-        <target state="translated">Step1: Input ticket number</target>
+        <target state="translated">Passo 1: Digite o número do ticket</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -399,7 +399,7 @@
                 >Ticket number may only contain numbers, starts with 990 and is 9 digits long.</source>
         <target
                     state="translated"
-                >Ticket number may only contain numbers, starts with 990 and is 9 digits long.</target>
+                >O ticket deve conter apenas números, iniciar com o ano vigente e seguir do mês de abertura.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -409,7 +409,7 @@
       </trans-unit>
       <trans-unit id="cSupportAnydeskInstallButton" datatype="html">
         <source>Install Anydesk</source>
-        <target state="translated">Install AnyDesk</target>
+        <target state="translated">Instalar AnyDesk</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -419,7 +419,7 @@
       </trans-unit>
       <trans-unit id="cSupportAnydeskRemoveButton" datatype="html">
         <source>Remove Anydesk</source>
-        <target state="translated">Remove AnyDesk</target>
+        <target state="translated">Remover AnyDesk</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -429,7 +429,7 @@
       </trans-unit>
       <trans-unit id="cSupportAnydeskProgressButton" datatype="html">
         <source>Checking</source>
-        <target state="translated">Checking</target>
+        <target state="translated">Checando</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -439,7 +439,7 @@
       </trans-unit>
       <trans-unit id="cSupportAnydeskStartButton" datatype="html">
         <source>Start Anydesk</source>
-        <target state="translated">Start AnyDesk</target>
+        <target state="translated">Iniciar AnyDesk</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -449,7 +449,7 @@
       </trans-unit>
       <trans-unit id="cSupportWebFAICreatorInstallButton" datatype="html">
         <source>Install WebFAI Creator</source>
-        <target state="translated">Install WebFAI Creator</target>
+        <target state="translated">Instalar WebFAI</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -459,7 +459,7 @@
       </trans-unit>
       <trans-unit id="cSupportWebFAICreatorRemoveButton" datatype="html">
         <source>Remove WebFAI Creator</source>
-        <target state="translated">Remove WebFAI Creator</target>
+        <target state="translated">Remover WebFAI</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -469,7 +469,7 @@
       </trans-unit>
       <trans-unit id="cSupportWebFAICreatorProgressButton" datatype="html">
         <source>Checking</source>
-        <target state="translated">Checking</target>
+        <target state="translated">Checando</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -479,7 +479,7 @@
       </trans-unit>
       <trans-unit id="cSupportWebFAICreatorStartButton" datatype="html">
         <source>Start WebFAI Creator</source>
-        <target state="translated">Start WebFAI Creator</target>
+        <target state="translated">Iniciar WebFAI</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -489,7 +489,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrInvalidNameTitle" datatype="html">
         <source>Invalid input</source>
-        <target state="translated">Invalid input</target>
+        <target state="translated">Campo inválido</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -499,7 +499,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrInvalidNameMessage" datatype="html">
         <source>A name for the profile is required</source>
-        <target state="translated">A name for the profile is required</target>
+        <target state="translated">Nome do perfil é obrigatório</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -509,7 +509,7 @@
       </trans-unit>
       <trans-unit id="pMgrImportLabelFileDialoge" datatype="html">
         <source>Import</source>
-        <target state="translated">Import</target>
+        <target state="translated">Importar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -519,7 +519,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrNewProfileLabel" datatype="html">
         <source>New profile</source>
-        <target state="translated">New profile</target>
+        <target state="translated">Novo perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -531,7 +531,7 @@
         <source>Create a new profile with default settings</source>
         <target
                     state="translated"
-                >Create a new profile with default settings</target>
+                >Crie um novo perfil com configurações padrão</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -541,7 +541,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrCopyProfileLabel" datatype="html">
         <source>Copy this profile</source>
-        <target state="translated">Copy this profile</target>
+        <target state="translated">Copiar este perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -551,7 +551,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrTitle" datatype="html">
         <source>Profiles</source>
-        <target state="translated">Profiles</target>
+        <target state="translated">Perfis</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -561,7 +561,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrButtonImportTooltip" datatype="html">
         <source>Import Profile Settings</source>
-        <target state="translated">Import Profile Settings</target>
+        <target state="translated">Importar configurações do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -571,7 +571,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrButtonExportTooltip" datatype="html">
         <source>Export Profile Settings</source>
-        <target state="translated">Export Profile Settings</target>
+        <target state="translated">Exportar configurações do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -581,7 +581,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterAll" datatype="html">
         <source>All</source>
-        <target state="translated">All</target>
+        <target state="translated">Geral</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -591,7 +591,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterPreset" datatype="html">
         <source>Preset</source>
-        <target state="translated">Preset</target>
+        <target state="translated">Predefinidos</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -601,7 +601,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterCustom" datatype="html">
         <source>Custom</source>
-        <target state="translated">Custom</target>
+        <target state="translated">Personalizados</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -611,7 +611,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrFilterUsed" datatype="html">
         <source>In use</source>
-        <target state="translated">In use</target>
+        <target state="translated">Em uso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -621,7 +621,7 @@
       </trans-unit>
       <trans-unit id="52c9a103b812f258bcddc3d90a6e3f46871d25fe" datatype="html">
         <source>Save</source>
-        <target state="translated">Save</target>
+        <target state="translated">Salvar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -631,7 +631,7 @@
       </trans-unit>
       <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
         <source>Cancel</source>
-        <target state="translated">Cancel</target>
+        <target state="translated">Cancelar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -641,7 +641,7 @@
       </trans-unit>
       <trans-unit id="ProfOverviewTileMenuCopy" datatype="html">
         <source>Copy</source>
-        <target state="translated">Copy</target>
+        <target state="translated">Copiar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -651,7 +651,7 @@
       </trans-unit>
       <trans-unit id="ProfOverviewTileMenuDelete" datatype="html">
         <source>Delete</source>
-        <target state="translated">Delete</target>
+        <target state="translated">Deletar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -661,7 +661,7 @@
       </trans-unit>
       <trans-unit id="ProfOverviewTileMenuEdit" datatype="html">
         <source>Edit</source>
-        <target state="translated">Edit</target>
+        <target state="translated">Editar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -671,7 +671,7 @@
       </trans-unit>
       <trans-unit id="ProfOverviewTileMenuView" datatype="html">
         <source>View</source>
-        <target state="translated">View</target>
+        <target state="translated">Visualizar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -681,7 +681,7 @@
       </trans-unit>
       <trans-unit id="ProfMgrOverviewNewProfile" datatype="html">
         <source>New profile</source>
-        <target state="translated">New profile</target>
+        <target state="translated">Novo perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -691,7 +691,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrOverviewCores" datatype="html">
         <source>cores</source>
-        <target state="translated">cores</target>
+        <target state="translated">núcleos</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -701,7 +701,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrOverviewMaxPerf" datatype="html">
         <source>Max performance</source>
-        <target state="translated">Max performance</target>
+        <target state="translated">Máximo desempenho</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -723,7 +723,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrOverviewWebcamStatusOn" datatype="html">
         <source>On</source>
-        <target state="translated">On</target>
+        <target state="translated">Ligado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -733,7 +733,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrOverviewWebcamStatusOff" datatype="html">
         <source>Off</source>
-        <target state="translated">Off</target>
+        <target state="translated">Desligado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -745,7 +745,7 @@
         <source> Create a new profile and configure it as you want </source>
         <target
                     state="translated"
-                > Create a new profile and configure it as you want </target>
+                > Crie um novo perfil e configure-o como desejar </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -755,7 +755,7 @@
       </trans-unit>
       <trans-unit id="odmLEDNone" datatype="html">
         <source>all LEDs off</source>
-        <target state="translated">all LEDs off</target>
+        <target state="translated">desligar todos os LEDs</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -765,7 +765,7 @@
       </trans-unit>
       <trans-unit id="odmLEDOne" datatype="html">
         <source>one LED on</source>
-        <target state="translated">one LED on</target>
+        <target state="translated">ligar um LED</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -775,7 +775,7 @@
       </trans-unit>
       <trans-unit id="odmLEDTwo" datatype="html">
         <source>two LEDs on</source>
-        <target state="translated">two LEDs on</target>
+        <target state="translated">ligar dois LEDs</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -785,7 +785,7 @@
       </trans-unit>
       <trans-unit id="tdpLabelsPL1" datatype="html">
         <source>Sustained Power Limit (PL1)</source>
-        <target state="translated">Sustained Power Limit (PL1)</target>
+        <target state="translated">Limite de Potência Sustentada (PL1)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -803,7 +803,7 @@
         <source>Short-term (max. 28 sec) Power Limit (PL2)</source>
         <target
                     state="translated"
-                >Short-term (max. 28 sec) Power Limit (PL2)</target>
+                >Limite de Potência de Curto Prazo (máx. 28s) (PL2)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -813,7 +813,9 @@
       </trans-unit>
       <trans-unit id="tdpLabelsPL4" datatype="html">
         <source>Peak (max. 8 sec) Power Limit (PL4)</source>
-        <target state="translated">Peak (max. 8 sec) Power Limit (PL4)</target>
+        <target
+                    state="translated"
+                >Limite de Potência de Pico (máx. 8s) (PL4)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -828,7 +830,7 @@
         <source>This feature is currently not supported on Wayland</source>
         <target
                     state="translated"
-                >This feature is currently not supported on Wayland</target>
+                >Este recurso não está disponível no Wayland</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -841,7 +843,7 @@
                 datatype="html"
             >
         <source> (already set)</source>
-        <target state="translated"> (already set)</target>
+        <target state="translated"> (já definido)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -851,7 +853,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrButtonDiscardTooltip" datatype="html">
         <source>Discard changes</source>
-        <target state="translated">Discard changes</target>
+        <target state="translated">Descartar alterações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -867,7 +869,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrButtonSaveTooltip" datatype="html">
         <source>Save changes</source>
-        <target state="translated">Save changes</target>
+        <target state="translated">Salvar alterações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -883,7 +885,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsProfileSettingsLabel" datatype="html">
         <source>Profile settings</source>
-        <target state="translated">Profile settings</target>
+        <target state="translated">Configurações do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -893,7 +895,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsNameLabel" datatype="html">
         <source>Name</source>
-        <target state="translated">Name</target>
+        <target state="translated">Nome</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -903,7 +905,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsDescriptionLabel" datatype="html">
         <source>Description</source>
-        <target state="translated">Description</target>
+        <target state="translated">Descrição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -913,7 +915,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsStateAssignmentLabel" datatype="html">
         <source>Activate profile automatically on</source>
-        <target state="new">Activate profile automatically on</target>
+        <target state="new">Ativar perfil automaticamente em</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -923,7 +925,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsDisplayHeaderLabel" datatype="html">
         <source>Display</source>
-        <target state="translated">Display</target>
+        <target state="translated">Tela</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -933,7 +935,7 @@
       </trans-unit>
       <trans-unit id="4eaf6bbe34f6c5893d9198aa087353dadeb751cf" datatype="html">
         <source>Set brightness on profile activation</source>
-        <target state="translated">Set brightness on profile activation</target>
+        <target state="translated">Definir brilho ao ativar o perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -943,7 +945,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseBrightnessYes" datatype="html">
         <source>yes</source>
-        <target state="translated">yes</target>
+        <target state="translated">sim</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -959,7 +961,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseBrightnessNo" datatype="html">
         <source>no</source>
-        <target state="translated">no</target>
+        <target state="translated">não</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -975,7 +977,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsBrightnessLabel" datatype="html">
         <source>Backlight brightness</source>
-        <target state="translated">Backlight brightness</target>
+        <target state="translated">Brilho da tela</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1001,7 +1003,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsWebcamStatus" datatype="html">
         <source>Webcam status (on/off)</source>
-        <target state="translated">Webcam status (on/off)</target>
+        <target state="translated">Status da Webcam (on/off)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1011,7 +1013,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsWebcamStatusOn" datatype="html">
         <source>on</source>
-        <target state="translated">on</target>
+        <target state="translated">ligado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1021,7 +1023,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsWebcamStatusOff" datatype="html">
         <source>off</source>
-        <target state="translated">off</target>
+        <target state="translated">desligado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1031,7 +1033,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsSystemControlHeaderLabel" datatype="html">
         <source>System performance</source>
-        <target state="translated">System performance</target>
+        <target state="translated">Performance do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1041,7 +1043,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsCPUFreqLabel" datatype="html">
         <source>CPU frequency control</source>
-        <target state="translated">CPU frequency control</target>
+        <target state="translated">Controle de frequência do CPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1051,7 +1053,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsNrCoresLabel" datatype="html">
         <source>Number of logical cores</source>
-        <target state="translated">Number of logical cores</target>
+        <target state="translated">Quantidade de núcleos lógicos</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1061,7 +1063,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseMaxPerfGovLabel" datatype="html">
         <source>Maximum performance</source>
-        <target state="translated">Maximum performance</target>
+        <target state="translated">Performance máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1071,7 +1073,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseMaxPerfGovYes" datatype="html">
         <source>yes</source>
-        <target state="translated">yes</target>
+        <target state="translated">sim</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1081,7 +1083,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsUseMaxPerfGovNo" datatype="html">
         <source>no</source>
-        <target state="translated">no</target>
+        <target state="translated">não</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1091,7 +1093,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsMinFreqLabel" datatype="html">
         <source>Minimum frequency</source>
-        <target state="translated">Minimum frequency</target>
+        <target state="translated">Frequência mínima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1101,7 +1103,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsMaxFreqLabel" datatype="html">
         <source>Maximum frequency</source>
-        <target state="translated">Maximum frequency</target>
+        <target state="translated">Frequência máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1111,7 +1113,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsODMProfileLabelLEDInfo" datatype="html">
         <source>Profile indicator</source>
-        <target state="translated">Profile indicator</target>
+        <target state="translated">Indicador de perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1124,7 +1126,7 @@
                 >With the profile indicator you can recognize the active profile with a glance on the TCC button (next to the power button).</source>
         <target
                     state="translated"
-                >With the profile indicator you can recognize the active profile with a glance on the TCC button (next to the power button).</target>
+                >Com o indicador de perfil você consegue identificar o perfil ativo com um toque no botão ACC (próximo ao botão de energia).</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1139,7 +1141,7 @@
         <source>Set refresh rate on profile activation</source>
         <target
                     state="translated"
-                >Set refresh rate on profile activation</target>
+                >Configurar taxa de atualização ao ativar o perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1149,7 +1151,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsRefRateLabelProfile" datatype="html">
         <source>Refresh rate</source>
-        <target state="translated">Refresh rate</target>
+        <target state="translated">Taxa de atualização</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1159,7 +1161,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsFanControlHeaderLabel" datatype="html">
         <source>Fan control</source>
-        <target state="translated">Fan control</target>
+        <target state="translated">Controle da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1169,7 +1171,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsFanProfileLabel" datatype="html">
         <source>Fan profile </source>
-        <target state="needs-adaptation">Fan profile</target>
+        <target state="needs-adaptation">Perfil da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1179,7 +1181,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsMinFanSpeedLabel" datatype="html">
         <source>Minimum fan speed</source>
-        <target state="translated">Minimum fan speed</target>
+        <target state="translated">Velociade mínima da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1189,7 +1191,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsMaxFanSpeedLabel" datatype="html">
         <source>Maximum fan speed</source>
-        <target state="new">Maximum fan speed</target>
+        <target state="translated">Velociade máxima da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1199,7 +1201,9 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsOffsetFanSpeedLabel" datatype="html">
         <source>Offset fan speed</source>
-        <target state="translated">Offset fan speed</target>
+        <target
+                    state="translated"
+                >Compensação da velocidade da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1209,7 +1213,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsToggleFanChartsLabel" datatype="html">
         <source>Toggle fan table chart</source>
-        <target state="translated">Toggle fan table chart</target>
+        <target state="translated">Ativar gráfico das ventoinhas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1225,7 +1229,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsODMTDPLabel" datatype="html">
         <source>CPU power limit control</source>
-        <target state="new">CPU power limit control</target>
+        <target state="new">Controle de limite de potência da CPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1241,7 +1245,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsODMProfileLabel" datatype="html">
         <source>System profile</source>
-        <target state="translated">System profile</target>
+        <target state="translated">Perfil do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1254,7 +1258,7 @@
                 >The system profiles limit the maximal energy consumption of the processors.</source>
         <target
                     state="translated"
-                >The system profiles limit the maximal energy consumption of the processors.</target>
+                >Os perfis do sistema limitam o consumo máximo de energia dos processadores.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1264,7 +1268,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsNVIDIAPowerCTRLLabel" datatype="html">
         <source>NVIDIA power control</source>
-        <target state="needs-translated">NVIDIA power control</target>
+        <target state="needs-translated">Controle de energia NVIDIA</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1276,7 +1280,7 @@
         <source>Configurable graphics power (cTGP)</source>
         <target
                     state="needs-translated"
-                >Configurable graphics power (cTGP)</target>
+                >Potência configurável dos gráficos (cTGP)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1286,7 +1290,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsToggleTGPChartLabel" datatype="html">
         <source>Toggle TGP chart</source>
-        <target state="needs-translated">Toggle TGP chart</target>
+        <target state="needs-translated">Ativar gráfico do TGP</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1298,7 +1302,7 @@
         <source>Configurable graphics power (cTGP)</source>
         <target
                     state="needs-translated"
-                >Configurable graphics power (cTGP)</target>
+                >Potência configurável dos gráficos (cTGP)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1308,7 +1312,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsTGPChartDBLabel" datatype="html">
         <source>Dynamic Boost range</source>
-        <target state="needs-translated">Dynamic Boost range</target>
+        <target state="needs-translated">Faixa do Dynamic Boost</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1321,7 +1325,7 @@
                         id="INTERPOLATION"
                         equiv-text="{{ nvidiaPowerCTRLMaxPowerLimit }}"
                     /> W)</source>
-        <target state="needs-translated">Maximum power limit (<x
+        <target state="needs-translated">Limite máximo de potência (<x
                         id="INTERPOLATION"
                         equiv-text="{{ nvidiaPowerCTRLMaxPowerLimit }}"
                     /> W)</target>
@@ -1334,7 +1338,7 @@
       </trans-unit>
       <trans-unit id="cInfoInfoPanelTitle" datatype="html">
         <source>Info</source>
-        <target state="translated">Info</target>
+        <target state="translated">Informações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1344,10 +1348,10 @@
       </trans-unit>
       <trans-unit id="cInfoTCCDescriptionTextP1" datatype="html">
         <source
-                > With the Avell Control Center, we have developed a unique tool for you to control and monitor all safety, performance, energy, comfort, and lifetime functions of your Avell computer. </source>
+                > With the Avell Control Center, we have developed a unique tool for you to control and monitor all safety, performance, energy, comfort, and lifetime functions of your Avell laptop. </source>
         <target
                     state="translated"
-                > With the Avell Control Center, we have developed a unique tool for you to control and monitor all safety, performance, energy, comfort, and lifetime functions of your Avell computer. </target>
+                > Com o Avell Control Center, trazemos uma ferramenta exclusiva para você controlar e monitorar todas as funções de segurança, desempenho, energia, conforto e durabilidade do seu notebook Avell. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1360,7 +1364,7 @@
                 > With premade as well as any number of individually configurable profiles, you have the greatest possible control and adaptability of your Avell device to your needs. </source>
         <target
                     state="translated"
-                > With premade as well as any number of individually configurable profiles, you have the greatest possible control and adaptability of your Avell device to your needs. </target>
+                > Com perfis predefinidos e qualquer número de perfis configuráveis individualmente, você tem o máximo controle e adaptabilidade do seu dispositivo Avell às suas necessidades. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1370,7 +1374,7 @@
       </trans-unit>
       <trans-unit id="89f1f8c98e581f2a72a68620a75c13f132c34b48" datatype="html">
         <source>Installed version</source>
-        <target state="translated">Installed version</target>
+        <target state="translated">Versão instalada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1390,7 +1394,7 @@
       </trans-unit>
       <trans-unit id="cInfoImprintPanelTitle" datatype="html">
         <source>Imprint</source>
-        <target state="translated">Imprint</target>
+        <target state="translated">Jurídico</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1400,22 +1404,22 @@
       </trans-unit>
       <trans-unit id="cInfoImprintText" datatype="html">
         <source>
-        Avell Notebooks de Alto desempenho
-        CNPJ: 19.117.785/0001-05
-        Rua Matrinxã, 687, Edifício 3 - Parte 1 Distrito Industrial - Manaus - AM
-        CEP: 69.075-150
+Avell Notebooks de Alto desempenho
+CNPJ: 19.117.785/0001-05
+Rua Matrinxã, 687, Edifício 3 - Parte 1 Distrito Industrial - Manaus - AM
+CEP: 69.075-150
 
-        Telefone: +55 (47) 3801-6000
-        E-Mail: suporte@avell.com.br
+Telefone: +55 (47) 3801-6000
+E-Mail: suporte@avell.com.br
         </source>
         <target state="needs-adaptation">
-        Avell Notebooks de Alto desempenho
-        CNPJ: 19.117.785/0001-05
-        Rua Matrinxã, 687, Edifício 3 - Parte 1 Distrito Industrial - Manaus - AM
-        CEP: 69.075-150
+Avell Notebooks de Alto desempenho
+CNPJ: 19.117.785/0001-05
+Rua Matrinxã, 687, Edifício 3 - Parte 1 Distrito Industrial - Manaus - AM
+CEP: 69.075-150
 
-        Telefone: +55 (47) 3801-6000
-        E-Mail: suporte@avell.com.br
+Telefone: +55 (47) 3801-6000
+E-Mail: suporte@avell.com.br
         </target>
         <context-group purpose="location">
           <context
@@ -1436,7 +1440,9 @@
       </trans-unit>
       <trans-unit id="primeSelectIGpu" datatype="html">
         <source>Power-saving CPU graphics processor (iGPU)</source>
-        <target state="new">Power-saving CPU graphics processor (iGPU)</target>
+        <target
+                    state="new"
+                >Economia de energia com a placa de vídeo integrada (iGPU)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1464,7 +1470,9 @@
       </trans-unit>
       <trans-unit id="primeSelectDGpu" datatype="html">
         <source>High-performance graphics processor (dGPU)</source>
-        <target state="new">High-performance graphics processor (dGPU)</target>
+        <target
+                    state="new"
+                >Desempenho máximo com a placa de vídeo dedicada (dGPU)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1492,7 +1500,7 @@
       </trans-unit>
       <trans-unit id="primeSelectOnDemand" datatype="html">
         <source>Hybrid graphics mode (on-demand)</source>
-        <target state="new">Hybrid graphics mode (on-demand)</target>
+        <target state="new">Gráficos híbridos (automático)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1514,7 +1522,7 @@
       </trans-unit>
       <trans-unit id="cDashboardSystemMonitor" datatype="html">
         <source>System monitor</source>
-        <target state="new">System monitor</target>
+        <target state="new">Monitoramento do sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1524,7 +1532,7 @@
       </trans-unit>
       <trans-unit id="cDashboardMainProcessorMonitor" datatype="html">
         <source>Main processor monitor</source>
-        <target state="new">Main processor monitor</target>
+        <target state="new">Monitoramento do processador</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1534,7 +1542,7 @@
       </trans-unit>
       <trans-unit id="cDashboardCpuTemperatureLabel" datatype="html">
         <source>CPU - Temp</source>
-        <target state="new">CPU - Temp</target>
+        <target state="new">CPU - Temperatura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1544,7 +1552,7 @@
       </trans-unit>
       <trans-unit id="cDashboardCpuFrequencyLabel" datatype="html">
         <source>CPU - Frequency</source>
-        <target state="new">CPU - Frequency</target>
+        <target state="new">CPU - Frequência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1554,7 +1562,7 @@
       </trans-unit>
       <trans-unit id="cDashboardCpuFanLabel" datatype="html">
         <source>CPU - Fan</source>
-        <target state="new">CPU - Fan</target>
+        <target state="new">CPU - Ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1564,7 +1572,7 @@
       </trans-unit>
       <trans-unit id="cDashboardActiveProfile" datatype="html">
         <source>Active profile:</source>
-        <target state="new">Active profile:</target>
+        <target state="new">Perfil ativo:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1574,7 +1582,7 @@
       </trans-unit>
       <trans-unit id="cDashboardCpuPowerLabel" datatype="html">
         <source>CPU - Power</source>
-        <target state="new">CPU - Power</target>
+        <target state="new">CPU - Potência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1584,7 +1592,7 @@
       </trans-unit>
       <trans-unit id="cDashboardGraphicsCardMonitor" datatype="html">
         <source>Graphics card monitor</source>
-        <target state="new">Graphics card monitor</target>
+        <target state="new">Monitoramento da placa gráfica</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1594,7 +1602,7 @@
       </trans-unit>
       <trans-unit id="cDashboardActiveGraphicsMode" datatype="html">
         <source>Active Graphics Mode:</source>
-        <target state="new">Active Graphics Mode:</target>
+        <target state="new">Modo gráfico ativo:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1604,7 +1612,7 @@
       </trans-unit>
       <trans-unit id="cDashboardIGpuFrequencyLabel" datatype="html">
         <source>iGPU - Frequency</source>
-        <target state="new">iGPU - Frequency</target>
+        <target state="new">iGPU - Frequência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1620,7 +1628,7 @@
       </trans-unit>
       <trans-unit id="cDashboardIGpuTemperatureLabel" datatype="html">
         <source>iGPU - Temperature</source>
-        <target state="new">iGPU - Temperature</target>
+        <target state="new">iGPU - Temperatura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1636,7 +1644,7 @@
       </trans-unit>
       <trans-unit id="cDashboardIGpuPowerLabel" datatype="html">
         <source>iGPU - Power</source>
-        <target state="new">iGPU - Power</target>
+        <target state="new">iGPU - Potência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1652,7 +1660,7 @@
       </trans-unit>
       <trans-unit id="cDashboardDGpuTemperatureLabel" datatype="html">
         <source>dGPU - Temperature</source>
-        <target state="new">dGPU - Temp</target>
+        <target state="new">dGPU - Temperatura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1668,7 +1676,7 @@
       </trans-unit>
       <trans-unit id="cDashboardDGpuFrequencyLabel" datatype="html">
         <source>dGPU - Frequency</source>
-        <target state="new">dGPU - Frequency</target>
+        <target state="new">dGPU - Frequência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1684,7 +1692,7 @@
       </trans-unit>
       <trans-unit id="cDashboardDGpuFanLabel" datatype="html">
         <source>dGPU - Fan</source>
-        <target state="new">dGPU - Fan</target>
+        <target state="new">dGPU - Ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1700,7 +1708,7 @@
       </trans-unit>
       <trans-unit id="cDashboardDGpuPowerLabel" datatype="html">
         <source>dGPU - Power</source>
-        <target state="new">dGPU - Power</target>
+        <target state="new">dGPU - Potência</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1716,7 +1724,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsTitle" datatype="html">
         <source>Settings</source>
-        <target state="new">Settings</target>
+        <target state="new">Configurações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1728,7 +1736,7 @@
         <source
                 > The settings area contains GUI settings and settings that affects all profiles. </source>
         <target state="new">
-            The settings area contains GUI settings and settings that affects all profiles.
+            A área de configurações contém ajustes de interface gráfica e ajustes que afetam todos os perfis.
         </target>
         <context-group purpose="location">
           <context
@@ -1742,7 +1750,7 @@
                 datatype="html"
             >
         <source>Global profile settings</source>
-        <target state="new">Global profile settings</target>
+        <target state="new">Configurações globais do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1752,7 +1760,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsTemperatureDisplayHeader" datatype="html">
         <source>Temperature Display</source>
-        <target state="translated">Temperature Display</target>
+        <target state="translated">Exibição de temperatura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1803,9 +1811,7 @@
                 datatype="html"
             >
         <source>Switch between Celsius and Fahrenheit </source>
-        <target
-                    state="translated"
-                >Switch between Celsius and Fahrenheit</target>
+        <target state="translated">Altere entre Celsius e Fahrenheit</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1815,7 +1821,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsCpuFrequencyHeader" datatype="html">
         <source>CPU Frequency Control</source>
-        <target state="new">CPU Frequency Control</target>
+        <target state="new">Controle de frequência da CPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1825,7 +1831,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsCpuFrequencyActivated" datatype="html">
         <source>activated</source>
-        <target state="new">activated</target>
+        <target state="new">ativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1835,7 +1841,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsCpuFrequencyDeactivated" datatype="html">
         <source>deactivated</source>
-        <target state="new">deactivated</target>
+        <target state="new">desativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1853,15 +1859,15 @@
                         ctype="x-strong"
                         equiv-text="&lt;/strong&gt; "
                     /> reset to default. Default settings need to be restored by hand or a system reboot. </source>
-        <target state="new">On deactivate, CPU frequency control is <x
+        <target state="new">Ao desativar, a frequência da CPU <x
                         id="START_TAG_STRONG"
                         ctype="x-strong"
                         equiv-text="&lt;strong&gt;"
-                    />not<x
+                    />não<x
                         id="CLOSE_TAG_STRONG"
                         ctype="x-strong"
                         equiv-text="&lt;/strong&gt; "
-                    /> reset to default. Default settings need to be restored by hand or a system reboot.</target>
+                    /> é restaurada para o padrão. A configuração padrão precisa ser restaurada manualmente ou o sistema reiniciado.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1871,7 +1877,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsFanControlHeader" datatype="html">
         <source>Fan Control</source>
-        <target state="new">Fan Control</target>
+        <target state="new">Controle de ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1881,7 +1887,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsFanControlActivated" datatype="html">
         <source>activated</source>
-        <target state="translated">activated</target>
+        <target state="translated">ativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1891,7 +1897,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsFanControlDeactivated" datatype="html">
         <source>deactivated</source>
-        <target state="translated">deactivated</target>
+        <target state="translated">desativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1904,7 +1910,7 @@
                 >On deactivate, the default automatic fan control is restored directly.</source>
         <target
                     state="new"
-                >On deactivate, the default automatic fan control is restored directly.</target>
+                >Ao desativar, o controle automático padrão das ventoinhas é restaurado diretamente.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1914,7 +1920,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsKeyboardBacklightHeader" datatype="html">
         <source>Keyboard Backlight Control</source>
-        <target state="new">Keyboard Backlight Control</target>
+        <target state="new">Controle da iluminação do teclado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1927,7 +1933,7 @@
                 datatype="html"
             >
         <source>activated</source>
-        <target state="new">activated</target>
+        <target state="new">ativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1940,7 +1946,7 @@
                 datatype="html"
             >
         <source>deactivated</source>
-        <target state="new">deactivated</target>
+        <target state="new">desativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1961,15 +1967,17 @@
                         ctype="x-strong"
                         equiv-text="&lt;/strong&gt; "
                     /> reset to default. Default settings need to be restored by hand or a system reboot. </source>
-        <target state="new">On deactivate, keyboard backlight settings are <x
+        <target
+                    state="new"
+                >Ao desativar, as configurações da iluminação do teclado <x
                         id="START_TAG_STRONG"
                         ctype="x-strong"
                         equiv-text="&lt;strong&gt;"
-                    />not<x
+                    />não<x
                         id="CLOSE_TAG_STRONG"
                         ctype="x-strong"
                         equiv-text="&lt;/strong&gt; "
-                    /> reset to default. Default settings need to be restored by hand or a system reboot.</target>
+                    /> são restauradas para o padrão. As configurações padrões devem ser restauradas manualmente ou o sistema reiniciado.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1979,7 +1987,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsBatteryChargingTitle" datatype="html">
         <source>Battery charging options</source>
-        <target state="new">Battery charging options</target>
+        <target state="new">Opções de carregamento da bateria</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1989,7 +1997,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsThemeTitle" datatype="html">
         <source>Theme</source>
-        <target state="new">Theme</target>
+        <target state="new">Tema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -1999,7 +2007,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsThemeLightLabel" datatype="html">
         <source>Light</source>
-        <target state="new">Light</target>
+        <target state="new">Claro</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2009,7 +2017,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsThemeDarkLabel" datatype="html">
         <source>Dark</source>
-        <target state="new">Dark</target>
+        <target state="new">Escuro</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2019,7 +2027,7 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsThemeSystemSettingLabel" datatype="html">
         <source>System setting</source>
-        <target state="new">System setting</target>
+        <target state="new">Definido pelo sistema</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2104,7 +2112,7 @@
                 datatype="html"
             >
         <source>activated</source>
-        <target state="new">activated</target>
+        <target state="new">ativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2117,7 +2125,7 @@
                 datatype="html"
             >
         <source>deactivated</source>
-        <target state="new">deactivated</target>
+        <target state="new">desativado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2127,7 +2135,9 @@
       </trans-unit>
       <trans-unit id="cGlobalSettingsPrimeSelectTitle" datatype="html">
         <source>Graphics switching (requires PC restart) </source>
-        <target state="new">Graphics switching (requires PC restart)</target>
+        <target
+                    state="new"
+                >Alterar gráficos (requer reinicialização do computador)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2137,7 +2147,7 @@
       </trans-unit>
       <trans-unit id="cryptPasswordTabTitle" datatype="html">
         <source>Change Crypt Password</source>
-        <target state="translated">Change Crypt Password</target>
+        <target state="translated">Alterar senha criptografada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2147,7 +2157,7 @@
       </trans-unit>
       <trans-unit id="menuKeyboardBacklight" datatype="html">
         <source>Keyboard Backlight</source>
-        <target state="translated">Keyboard Backlight</target>
+        <target state="translated">Iluminação do teclado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2167,7 +2177,7 @@
       </trans-unit>
       <trans-unit id="cKeyboardBacklightLabel" datatype="html">
         <source>Keyboard Backlight</source>
-        <target state="translated">Keyboard Backlight</target>
+        <target state="translated">Iluminação do teclado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2177,7 +2187,9 @@
       </trans-unit>
       <trans-unit id="cKeyboardBacklightDescription1" datatype="html">
         <source>Click on a key area to select it.</source>
-        <target state="new">Click on a key area to select it.</target>
+        <target
+                    state="new"
+                >Clique em uma área da tecla para selecioná-la.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2189,7 +2201,7 @@
         <source>Hold down shift to select multiple key areas. </source>
         <target
                     state="new"
-                >Hold down shift to select multiple key areas. </target>
+                >Segure shift para selecionar várias teclas. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2202,7 +2214,7 @@
                 >Your device has no keyboard backlight, is not (yet) supported by this control interface, or the driver is too old. At least avell-drivers 4.0.0 and Linux kernel 5.15 are required for most devices (some devices need newer versions).</source>
         <target
                     state="translated"
-                >Your device has no keyboard backlight, is not (yet) supported by this control interface, or the driver is too old. At least avell-drivers 4.0.0 and Linux kernel 5.15 are required for most devices (some need newer versions).</target>
+                >Seu dispositivo não possui iluminação no teclado, ainda não é compatível com esta interface de controle ou o driver está desatualizado. É necessário ao menos o avell-drivers 4.0.0 e o kernel Linux 5.15 para a maioria dos dispositivos (alguns exigem versões mais recentes).</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2212,7 +2224,7 @@
       </trans-unit>
       <trans-unit id="cKeyboardBacklightColorLabel" datatype="html">
         <source>Backlight Color:</source>
-        <target state="translated">Backlight Color:</target>
+        <target state="translated">Cor:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2222,7 +2234,7 @@
       </trans-unit>
       <trans-unit id="cKeyboardBacklightBrightnessLabel" datatype="html">
         <source>Backlight Brightness</source>
-        <target state="new">Backlight Brightness:</target>
+        <target state="new">Brilho:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2235,8 +2247,7 @@
                 >This sets a one time shutdown time. It will be automatically cleared on next boot, or when selecting "Delete Time" below.</source>
         <target
                     state="needs-adaptation"
-                >This sets a one time shutdown time. It will be automatically cleared on next
-        boot, or when selecting "Delete Time" below.</target>
+                >Esta configuração define um tempo de desligamento único. Ele será automaticamente limpo na próxima inicialização ou quando selecionar "Excluir Tempo" abaixo.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2246,7 +2257,7 @@
       </trans-unit>
       <trans-unit id="cShutdownTimerHour" datatype="html">
         <source>Hour</source>
-        <target state="translated">Hour</target>
+        <target state="translated">Hora</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2256,7 +2267,7 @@
       </trans-unit>
       <trans-unit id="cShutdownTimerMinute" datatype="html">
         <source>Minute</source>
-        <target state="translated">Minute</target>
+        <target state="translated">Minutos</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2266,7 +2277,7 @@
       </trans-unit>
       <trans-unit id="cShutdownTimerButtonDeleteTime" datatype="html">
         <source>Delete Time</source>
-        <target state="translated">Delete Time</target>
+        <target state="translated">Deletar hora</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2276,7 +2287,7 @@
       </trans-unit>
       <trans-unit id="cShutdownTimerButtonSave" datatype="html">
         <source>Save</source>
-        <target state="translated">Save</target>
+        <target state="translated">Salvar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2290,7 +2301,7 @@
                         equiv-text="{{ appliedTime }}"
                     /></source>
         <target state="translated">
-        Set shutdown time: <x
+        Configurar hora de desligamento: <x
                         id="INTERPOLATION"
                         equiv-text="{{ appliedTime }}"
                     />
@@ -2304,7 +2315,7 @@
       </trans-unit>
       <trans-unit id="cryptButtonShowPassword" datatype="html">
         <source>Show Passwords</source>
-        <target state="translated">Show Passwords</target>
+        <target state="translated">Mostrar senhas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2320,7 +2331,7 @@
       </trans-unit>
       <trans-unit id="cryptButtonHidePassword" datatype="html">
         <source>Hide Passwords</source>
-        <target state="translated">Hide Passwords</target>
+        <target state="translated">Ocultar senhas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2330,7 +2341,9 @@
       </trans-unit>
       <trans-unit id="cryptfinishprocess" datatype="html">
         <source>Crypt password changed successfully</source>
-        <target state="translated">Crypt password changed successfully</target>
+        <target
+                    state="translated"
+                >Senha de criptografia alterada com sucesso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2343,7 +2356,7 @@
                 >Error: Could not change crypt password (wrong old crypt password?)</source>
         <target
                     state="translated"
-                >Error: Could not change crypt password (wrong old crypt password?)</target>
+                >Erro: Não foi possível alterar a senha de criptografia (senha antiga incorreta?)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2390,7 +2403,7 @@
                         id="START_HEADING_LEVEL3"
                         ctype="x-h3"
                         equiv-text="&lt;h3&gt;"
-                    />It looks like you are not using disk encryption.<x
+                    />Parece que você não está usando criptografia de disco.<x
                         id="CLOSE_HEADING_LEVEL3"
                         ctype="x-h3"
                         equiv-text="&lt;/h3&gt;"
@@ -2399,8 +2412,7 @@
                         id="START_PARAGRAPH"
                         ctype="x-p"
                         equiv-text="&lt;p&gt;"
-                    />Disk encryption can only be enabled during installation of your system. If you want to use it, you have to
-            reinstall your Avell using <x
+                    />A criptografia de disco é uma forma de proteção de dados que pode ser ativada durante a instalação do sistema operacional. Se você deseja usá-la, você precisará reinstalar o seu Avell usando o <x
                         id="START_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;b&gt;"
@@ -2408,12 +2420,11 @@
                         id="CLOSE_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;/b&gt;"
-                    />. On the operating system selection screen choose an option ending
-            in "crypt". <x
+                    />. Na tela de seleção do sistema operacional, escolha uma opção que termine com "crypt". <x
                         id="START_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;b&gt;"
-                    />Reinstalling your PC will wipe all data and programs stored on it!<x
+                    />Reinstalar seu PC irá apagar todos os dados e programas armazenados nele!<x
                         id="CLOSE_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;/b&gt;"
@@ -2435,9 +2446,7 @@
                 >This will change the crypt password of all encrypted partitions at once. It only works if all encrypted partitions have the same password, which is the default on a WebFAI or Factory installation of your Avell device. It will abort otherwise, leaving the current configuration untouched.</source>
         <target
                     state="needs-adaptation"
-                >This will change the crypt password of all encrypted partitions at once. It only works if all encrypted
-            partitions have the same password, which is the default on a WebFAI or Factory installation of your Avell
-            device. It will abort otherwise, leaving the current configuration untouched.</target>
+                >Isto irá alterar a senha criptografada de todas as partições criptografadas ao mesmo tempo. Funciona apenas se todas as partições criptografadas tiverem a mesma senha, que é o padrão em uma instalação WebFAI ou Factory do seu dispositivo Avell. Caso contrário, abortará, deixando a configuração atual inalterada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2447,7 +2456,7 @@
       </trans-unit>
       <trans-unit id="cryptPasswordPlaceholderCryptPassword" datatype="html">
         <source>Current Password</source>
-        <target state="translated">Current Password</target>
+        <target state="translated">Senha atual</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2457,7 +2466,7 @@
       </trans-unit>
       <trans-unit id="cryptPasswordPlaceholderNewPassword" datatype="html">
         <source>New Password</source>
-        <target state="translated">New Password</target>
+        <target state="translated">Nova senha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2467,7 +2476,7 @@
       </trans-unit>
       <trans-unit id="cryptPasswordPlaceholderConfirmPassword" datatype="html">
         <source>Confirm New Password</source>
-        <target state="translated">Confirm New Password</target>
+        <target state="translated">Confirmar nova senha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2477,7 +2486,7 @@
       </trans-unit>
       <trans-unit id="cryptButtonSave" datatype="html">
         <source>Save</source>
-        <target state="translated">Save</target>
+        <target state="translated">Salvar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2489,7 +2498,7 @@
         <source> Please enter your current crypt password </source>
         <target
                     state="needs-adaptation"
-                >Please enter your current crypt password</target>
+                >Por favor, insira sua senha criptografada atual</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2501,7 +2510,7 @@
         <source> Please enter your new crypt password </source>
         <target
                     state="needs-adaptation"
-                >Please enter your new crypt password</target>
+                >Por favor, insira sua nova senha criptografada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2511,7 +2520,7 @@
       </trans-unit>
       <trans-unit id="cryptPasswordNotMatch" datatype="html">
         <source> Passwords do not match </source>
-        <target state="needs-adaptation">Passwords do not match</target>
+        <target state="needs-adaptation">Senhas não correspondem</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2521,7 +2530,7 @@
       </trans-unit>
       <trans-unit id="msgboxTitleServiceUnavailable" datatype="html">
         <source>Service unavailable</source>
-        <target state="translated">Service unavailable</target>
+        <target state="translated">Serviço indisponível</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2531,10 +2540,10 @@
       </trans-unit>
       <trans-unit id="msgboxMessageServiceUnavailable" datatype="html">
         <source
-                >Communication with tccd service is unavailable, please restart service and try again.</source>
+                >Communication with accd service is unavailable, please restart service and try again.</source>
         <target
                     state="translated"
-                >Communication with tccd service is unavailable, please restart service and try again.</target>
+                >A comunicação com o serviço accd está indisponível. Reinicie o serviço e tente novamente.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2554,7 +2563,7 @@
       </trans-unit>
       <trans-unit id="menuProfiles" datatype="html">
         <source>Profiles</source>
-        <target state="translated">Profiles</target>
+        <target state="translated">Perfis</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2564,7 +2573,7 @@
       </trans-unit>
       <trans-unit id="menuTools" datatype="html">
         <source>Tools</source>
-        <target state="translated">Tools</target>
+        <target state="translated">Ferramentas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2574,7 +2583,7 @@
       </trans-unit>
       <trans-unit id="menuUsedProfilesLabel" datatype="html">
         <source>Used profiles</source>
-        <target state="translated">Used profiles</target>
+        <target state="translated">Perfis usados</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2584,7 +2593,7 @@
       </trans-unit>
       <trans-unit id="menuSupport" datatype="html">
         <source>Support</source>
-        <target state="translated">Support</target>
+        <target state="translated">Suporte</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2594,7 +2603,7 @@
       </trans-unit>
       <trans-unit id="121cc5391cd2a5115bc2b3160379ee5b36cd7716" datatype="html">
         <source>Settings</source>
-        <target state="translated">Settings</target>
+        <target state="translated">Configurações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2604,7 +2613,7 @@
       </trans-unit>
       <trans-unit id="321e4419a943044e674beb55b8039f42a9761ca5" datatype="html">
         <source>Info</source>
-        <target state="translated">Info</target>
+        <target state="translated">Informação</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2646,7 +2655,7 @@
       </trans-unit>
       <trans-unit id="aqFanPresetSlowLabel" datatype="html">
         <source>Slow</source>
-        <target state="translated">Slow</target>
+        <target state="translated">Lento</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2656,7 +2665,7 @@
       </trans-unit>
       <trans-unit id="aqFanPresetMediumLabel" datatype="html">
         <source>Medium</source>
-        <target state="translated">Medium</target>
+        <target state="translated">Médio</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2666,7 +2675,7 @@
       </trans-unit>
       <trans-unit id="aqFanPresetFastLabel" datatype="html">
         <source>Fast</source>
-        <target state="translated">Fast</target>
+        <target state="translated">Rápido</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2676,9 +2685,7 @@
       </trans-unit>
       <trans-unit id="aqDialogConnectTitle" datatype="html">
         <source>Are you ready to connect to your Ice Mod?</source>
-        <target
-                    state="translated"
-                >Are you ready to connect to your Ice Mod?</target>
+        <target state="translated">Pronto para conectar ao seu Ice Mod?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2691,7 +2698,7 @@
                 >Please ensure that your Ice Mod watercooling tubes are plugged into your Avell before pressing the 'Connect' button!</source>
         <target
                     state="translated"
-                >Please ensure that your Ice Mod watercooling tubes are plugged into your Avell before pressing the 'Connect' button!</target>
+                >Certifique-se de que os tubos de resfriamento a água do seu Ice Mod estejam conectados ao seu Avell antes de pressionar o botão 'Conectar'!</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2701,7 +2708,7 @@
       </trans-unit>
       <trans-unit id="aqDialogConnectLinkLabel" datatype="html">
         <source>Instructions</source>
-        <target state="translated">Instructions</target>
+        <target state="translated">Instruções</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2711,7 +2718,7 @@
       </trans-unit>
       <trans-unit id="aqDialogButtonAbortConnectLabel" datatype="html">
         <source>Do not connect</source>
-        <target state="translated">Do not connect</target>
+        <target state="translated">Não conectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2721,7 +2728,7 @@
       </trans-unit>
       <trans-unit id="aqDialogButtonConfirmConnectLabel" datatype="html">
         <source>Connect</source>
-        <target state="translated">Connect</target>
+        <target state="translated">Conectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2731,7 +2738,7 @@
       </trans-unit>
       <trans-unit id="aqDialogCheckboxNoBotherLabel" datatype="html">
         <source>Don't ask again</source>
-        <target state="translated">Don't ask again</target>
+        <target state="translated">Não perguntar novamente</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2747,9 +2754,7 @@
       </trans-unit>
       <trans-unit id="aqDialogDisconnectTitle" datatype="html">
         <source>Do you want to disconnect your Ice Mod?</source>
-        <target
-                    state="translated"
-                >Do you want to disconnect your Ice Mod?</target>
+        <target state="translated">Deseja desconectar o seu Ice Mod?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2762,7 +2767,7 @@
                 >Please ensure to follow our instructions carefully in case you want to unplug your Ice Mod from your Avell.</source>
         <target
                     state="translated"
-                >Please ensure to follow our instructions carefully in case you want to unplug your Ice Mod from your Avell.</target>
+                >Por favor, siga nossas instruções cuidadosamente caso deseje desconectar seu Ice Mod do seu Avell.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2772,7 +2777,7 @@
       </trans-unit>
       <trans-unit id="aqDialogDisconnectLinkLabel" datatype="html">
         <source>Instructions</source>
-        <target state="translated">Instructions</target>
+        <target state="translated">Instruções</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2794,7 +2799,7 @@
       </trans-unit>
       <trans-unit id="aqDialogButtonAbortLabel" datatype="html">
         <source>Stay connected</source>
-        <target state="translated">Stay connected</target>
+        <target state="translated">Mantenha conectado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2804,7 +2809,7 @@
       </trans-unit>
       <trans-unit id="aqDialogButtonConfirmLabel" datatype="html">
         <source>Disconnect</source>
-        <target state="translated">Disconnect</target>
+        <target state="translated">Desconectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2814,7 +2819,7 @@
       </trans-unit>
       <trans-unit id="8300092213868729072" datatype="html">
         <source>Bluetooth not available</source>
-        <target state="translated">Bluetooth not available</target>
+        <target state="translated">Bluetooth não disponível</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2828,7 +2833,7 @@
       </trans-unit>
       <trans-unit id="3852289441366561594" datatype="html">
         <source>Connecting...</source>
-        <target state="translated">Connecting...</target>
+        <target state="translated">Conectando...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2842,7 +2847,7 @@
       </trans-unit>
       <trans-unit id="2844912541574448086" datatype="html">
         <source>Disconnecting...</source>
-        <target state="translated">Disconnecting...</target>
+        <target state="translated">Desconectando...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2856,7 +2861,7 @@
       </trans-unit>
       <trans-unit id="628702835471697117" datatype="html">
         <source>Connected to</source>
-        <target state="translated">Connected to</target>
+        <target state="translated">Conectado à</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2870,7 +2875,7 @@
       </trans-unit>
       <trans-unit id="245175603611658921" datatype="html">
         <source>Looking for devices...</source>
-        <target state="translated">Looking for devices...</target>
+        <target state="translated">Procurando dispositivos...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2884,7 +2889,7 @@
       </trans-unit>
       <trans-unit id="aqDialogSelectNameTitle" datatype="html">
         <source>Device name</source>
-        <target state="translated">Device name</target>
+        <target state="translated">Nome do dispositivo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2894,7 +2899,7 @@
       </trans-unit>
       <trans-unit id="aqDialogSelectNameDescription" datatype="html">
         <source>A descriptive name for the device</source>
-        <target state="translated">A descriptive name for the device</target>
+        <target state="translated">Nome descritivo para o dispositivo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2904,7 +2909,7 @@
       </trans-unit>
       <trans-unit id="aqTitleOpenInfoTooltip" datatype="html">
         <source>Open info page...</source>
-        <target state="translated">Open info page...</target>
+        <target state="translated">Abrir página de informações...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2914,7 +2919,7 @@
       </trans-unit>
       <trans-unit id="aqButtonDisconnectLabel" datatype="html">
         <source>Disconnect</source>
-        <target state="translated">Disconnect</target>
+        <target state="translated">Desconectado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2924,7 +2929,7 @@
       </trans-unit>
       <trans-unit id="aqLabelFanControl" datatype="html">
         <source>Fan control</source>
-        <target state="translated">Fan control</target>
+        <target state="translated">Controle da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2934,7 +2939,7 @@
       </trans-unit>
       <trans-unit id="aqButtonFanPresetsLabel" datatype="html">
         <source>Fan presets</source>
-        <target state="translated">Fan presets</target>
+        <target state="translated">Predefinição da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2944,7 +2949,7 @@
       </trans-unit>
       <trans-unit id="aqFanGaugeLegendText" datatype="html">
         <source>Fan speed</source>
-        <target state="translated">Fan speed</target>
+        <target state="translated">Velocidade da ventoinha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2956,7 +2961,7 @@
         <source>Low fan speeds (&lt; 50%) may cause interference noise</source>
         <target
                     state="translated"
-                >Low fan speeds (&lt; 50%) may cause interference noise</target>
+                >Velocidades baixas da ventoinha (&lt; 50%) podem causar ruído de interferência.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2966,7 +2971,7 @@
       </trans-unit>
       <trans-unit id="aqLabelLEDControl" datatype="html">
         <source>LED Control</source>
-        <target state="translated">LED Control</target>
+        <target state="translated">Controle de LED</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2976,7 +2981,7 @@
       </trans-unit>
       <trans-unit id="aqTabLEDColorPickerLabel" datatype="html">
         <source>Pick color</source>
-        <target state="translated">Pick color</target>
+        <target state="translated">Escolha a cor</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2986,7 +2991,7 @@
       </trans-unit>
       <trans-unit id="aqTabLEDModeLabel" datatype="html">
         <source>Mode</source>
-        <target state="translated">Mode</target>
+        <target state="translated">Modo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -2996,7 +3001,7 @@
       </trans-unit>
       <trans-unit id="aqButtonToggleLEDStaticLabel" datatype="html">
         <source>Single color</source>
-        <target state="translated">Single color</target>
+        <target state="translated">Cor única</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3006,7 +3011,7 @@
       </trans-unit>
       <trans-unit id="aqButtonToggleLEDRainbowLabel" datatype="html">
         <source>Rainbow</source>
-        <target state="translated">Rainbow</target>
+        <target state="translated">Arco-íris</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3016,7 +3021,7 @@
       </trans-unit>
       <trans-unit id="aqCheckboxLEDBreatheLabel" datatype="html">
         <source>Breathe</source>
-        <target state="translated">Breathe</target>
+        <target state="translated">Respiração</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3026,10 +3031,10 @@
       </trans-unit>
       <trans-unit id="aqChooseAquarisText" datatype="html">
         <source
-                >Please choose your Avell Ice Mod and click on the connect button</source>
+                >Please choose your Ice Mod and click on the connect button</source>
         <target
                     state="translated"
-                >Please choose your Avell Ice Mod and click on the connect button</target>
+                >Por favor, escolha o seu Ice Mod e clique no botão de conectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3039,7 +3044,7 @@
       </trans-unit>
       <trans-unit id="aqButtonConnectLabel" datatype="html">
         <source>Connect</source>
-        <target state="translated">Connect</target>
+        <target state="translated">Conectar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3052,7 +3057,7 @@
                 >Avell Control Center could not find a Bluetooth connection.</source>
         <target
                     state="translated"
-                >Avell Control Center could not find a Bluetooth connection.</target>
+                >O Avell Control Center não encontrou uma conexão Bluetooth.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3062,7 +3067,7 @@
       </trans-unit>
       <trans-unit id="aqNoBluetoothVerifyText" datatype="html">
         <source>Please verify that:</source>
-        <target state="translated">Please verify that:</target>
+        <target state="translated">Por favor, verifique se:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3075,7 +3080,7 @@
                 >Your Bluetooth adapter is turned on in your system settings.</source>
         <target
                     state="translated"
-                >Your Bluetooth adapter is turned on in your system settings.</target>
+                >O seu adaptador Bluetooth está ligado nas definições do sistema.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3087,7 +3092,7 @@
         <source>Your Bluetooth adapter is not disabled in the UEFI.</source>
         <target
                     state="translated"
-                >Your Bluetooth adapter is not disabled in the UEFI.</target>
+                >O seu adaptador Bluetooth não está desligado no UEFI.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3100,7 +3105,7 @@
                 >A Bluetooth adapter is installed in your Avell notebook.</source>
         <target
                     state="translated"
-                >A Bluetooth adapter is installed in your Avell notebook.</target>
+                >Um adaptador Bluetooth está instalado no seu notebook Avell.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3109,10 +3114,10 @@
         </context-group>
       </trans-unit>
       <trans-unit id="aqNoDevicesHeadlineText" datatype="html">
-        <source>Avell Control Center could not find your Avell Ice Mod</source>
+        <source>Avell Control Center could not find your Ice Mod</source>
         <target
                     state="translated"
-                >Avell Control Center could not find your Avell Ice Mod</target>
+                >O Avell Control Center não encontrou seu Ice Mod</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3122,7 +3127,7 @@
       </trans-unit>
       <trans-unit id="aqNoDevicesVerifyText" datatype="html">
         <source>Please verify that:</source>
-        <target state="translated">Please verify that:</target>
+        <target state="translated">Por favor, verifique se:</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3135,7 +3140,7 @@
                 >Your Ice Mod is switched on and the blue LED on the power button is blinking.</source>
         <target
                     state="translated"
-                >Your Ice Mod is switched on and the blue LED on the power button is blinking.</target>
+                >O seu Ice Mod está ligado e o LED azul no botão de energia está piscando.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3148,7 +3153,7 @@
                 >Your Ice Mod is connected to your Avell notebook's power supply, which is connected to a power outlet.</source>
         <target
                     state="translated"
-                >Your Ice Mod is connected to your Avell notebook's power supply, which is connected to a power outlet.</target>
+                >O seu Ice Mod está conectado na fonte de energia do seu notebook Avell, que está conectado a uma tomada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3158,10 +3163,10 @@
       </trans-unit>
       <trans-unit id="aqNoDevicesHintIsPluggedIn" datatype="html">
         <source
-                >Your Ice Mod power cable is plugged into your Avell notebook.</source>
+                >Your Ice Mod's power cable is plugged into your Avell notebook.</source>
         <target
                     state="translated"
-                >Your Ice Mod power cable is plugged into your Avell notebook.</target>
+                >Seu Ice Mod está conectado em seu notebook Avell.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3170,8 +3175,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="aqNoDevicesSuggestDemoMode" datatype="html">
-        <source>Do not have a Avell Ice Mod yet?</source>
-        <target state="translated">Do not have a Avell Ice Mod yet?</target>
+        <source>Do not have a Ice Mod yet?</source>
+        <target state="translated">Não possuí um Ice Mod ainda?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3181,7 +3186,7 @@
       </trans-unit>
       <trans-unit id="aqNoDevicesDemoButtonLabel" datatype="html">
         <source>Try demo mode</source>
-        <target state="translated">Try demo mode</target>
+        <target state="translated">Faça um teste</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3194,7 +3199,7 @@
                 >Information from command 'tomte list' could not be obtained. Is tomte already running?</source>
         <target
                     state="translated"
-                >Information from command 'tomte list' could not be obtained. Is tomte already running?</target>
+                >Informação do comando 'tomte list' não pode ser obtida. O tomte já está em execução?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3206,7 +3211,7 @@
         <source>Cannot block a module that is a prerequisite</source>
         <target
                     state="translated"
-                >Cannot block a module that is a prerequisite</target>
+                >Não é possível bloquear um módulo que é um pré-requisito</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3216,7 +3221,7 @@
       </trans-unit>
       <trans-unit id="tomteGuiSliderToolTipUnblock" datatype="html">
         <source>Unblock this module</source>
-        <target state="translated">Unblock this module</target>
+        <target state="translated">Desbloquear este módulo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3226,7 +3231,7 @@
       </trans-unit>
       <trans-unit id="tomteGuiSliderToolTipBlock" datatype="html">
         <source>Block this module</source>
-        <target state="translated">Block this module</target>
+        <target state="translated">Bloquear este módulo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3238,7 +3243,7 @@
         <source>Cannot uninstall a module that is a prerequisite</source>
         <target
                     state="translated"
-                >Cannot uninstall a module that is a prerequisite</target>
+                >Não é possível desinstalar um módulo que é pré-requisito</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3250,7 +3255,7 @@
         <source>Cannot un-/install a module that is blocked.</source>
         <target
                     state="translated"
-                >Cannot un-/install a module that is blocked</target>
+                >Não é possível des/instalar um módulo que está bloqueado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3260,7 +3265,7 @@
       </trans-unit>
       <trans-unit id="tomteGuiSliderToolTipBlockUninstall" datatype="html">
         <source>Uninstall this module</source>
-        <target state="translated">Uninstall this module</target>
+        <target state="translated">Desinstalar este módulo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3270,7 +3275,7 @@
       </trans-unit>
       <trans-unit id="tomteGuiSliderToolTipInstall" datatype="html">
         <source>Install this module</source>
-        <target state="translated">Install this module</target>
+        <target state="translated">Instalar este módulo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3280,7 +3285,7 @@
       </trans-unit>
       <trans-unit id="tomteGuiDialogErrorTitle" datatype="html">
         <source>An Error occured!</source>
-        <target state="translated">An Error occured!</target>
+        <target state="translated">Ocorreu um erro!</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3292,7 +3297,7 @@
         <source>Are you sure you want to issue this command?</source>
         <target
                     state="translated"
-                >Are you sure you want to issue this command?</target>
+                >Tem certeza de que deseja emitir este comando?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3305,7 +3310,7 @@
                 >Warning: Changes to the default Tomte-configuration can lead to your device not working properly anymore!</source>
         <target
                     state="translated"
-                >Warning: Changes to the default Tomte-configuration can lead to your device not working properly anymore!</target>
+                >Aviso: Alterações na configuração padrão do Tomte podem levar a seu dispositivo não funcionar corretamente!</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3315,7 +3320,7 @@
       </trans-unit>
       <trans-unit id="tomteAbortButtonLabel" datatype="html">
         <source>Abort</source>
-        <target state="translated">Abort</target>
+        <target state="translated">Cancelar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3331,7 +3336,7 @@
       </trans-unit>
       <trans-unit id="tomteConfirmButtonLabel" datatype="html">
         <source>I understand</source>
-        <target state="translated">I understand</target>
+        <target state="translated">Entendi</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3347,7 +3352,7 @@
       </trans-unit>
       <trans-unit id="tomteDialogCheckboxNoBotherLabel" datatype="html">
         <source>Don't ask again</source>
-        <target state="translated">Don't ask again</target>
+        <target state="translated">Não pergunte novamente</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3359,7 +3364,7 @@
         <source>Are you sure you want to reset to defaults?</source>
         <target
                     state="translated"
-                >Are you sure you want to reset to defaults?</target>
+                >Tem certeza de que deseja redefinir para os padrões?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3372,7 +3377,7 @@
                 >This will revert any manual configuration you did, are you sure you want to proceed?</source>
         <target
                     state="translated"
-                >This will revert any manual configuration you did, are you sure you want to proceed?</target>
+                >Isto irá reverter qualquer configuração manual que você fez, você tem certeza de que deseja prosseguir?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3385,7 +3390,7 @@
                 >Reset failed. Maybe Tomte is already running? If that is the case simply try again later.</source>
         <target
                     state="translated"
-                >Reset failed. Maybe Tomte is already running? If that is the case simply try again later.</target>
+                >Falha ao redefinir. Talvez o Tomte já esteja em execução? Se for o caso, tente novamente mais tarde.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3395,10 +3400,10 @@
       </trans-unit>
       <trans-unit id="tomteGuiInstallErrorMessagePopup" datatype="html">
         <source
-                >Tomte failed to install. Do you use a avell device and are using the avell repos?</source>
+                >Tomte failed to install. Do you use a Avell device and are using the Avell repos?</source>
         <target
                     state="translated"
-                >Tomte failed to install. Do you use a avell device and are using the avell repos?</target>
+                >Falha ao instalar o Tomte. Você usa um dispositivo Avell e está usando os repositórios Avell?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3793,7 +3798,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictWindowTitle" datatype="html">
         <source> Importing Conflict </source>
-        <target state="translated"> Importing Conflict </target>
+        <target state="translated"> Importando conflito </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3803,7 +3808,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictTitleOldProfile" datatype="html">
         <source> Old Profile </source>
-        <target state="translated"> Old Profile </target>
+        <target state="translated"> Perfil antigo </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3813,7 +3818,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictTitleNewProfile" datatype="html">
         <source> New Profile </source>
-        <target state="translated"> New Profile </target>
+        <target state="translated"> Novo perfil </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3823,7 +3828,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonKeepOld" datatype="html">
         <source> Keep Old </source>
-        <target state="translated"> Keep Old </target>
+        <target state="translated"> Manter antigo </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3833,7 +3838,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonKeepNew" datatype="html">
         <source> Keep New </source>
-        <target state="translated"> Keep New </target>
+        <target state="translated"> Manter novo </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3843,7 +3848,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonKeepBoth" datatype="html">
         <source> Keep Both </source>
-        <target state="translated"> Keep Both </target>
+        <target state="translated"> Manter ambos </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3853,7 +3858,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonRename" datatype="html">
         <source> Rename Imported Profile </source>
-        <target state="translated"> Rename Imported Profile </target>
+        <target state="translated"> Renomear perfil importado </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3863,7 +3868,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonCancel" datatype="html">
         <source> Cancel </source>
-        <target state="translated"> Cancel </target>
+        <target state="translated"> Cancelar </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3873,7 +3878,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictFormFieldInputNewName" datatype="html">
         <source> Input a new name </source>
-        <target state="translated"> Input a new name </target>
+        <target state="translated"> Insira um novo nome </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3883,7 +3888,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonSave" datatype="html">
         <source>Save</source>
-        <target state="translated">Save</target>
+        <target state="translated">Salvar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3893,7 +3898,7 @@
       </trans-unit>
       <trans-unit id="@cProfMgrConflictButtonGoBack" datatype="html">
         <source> Go back </source>
-        <target state="translated"> Go back </target>
+        <target state="translated"> Retornar </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3916,7 +3921,7 @@
       </trans-unit>
       <trans-unit id="chargingProfileHighCapacityLabel" datatype="html">
         <source>Full capacity</source>
-        <target state="translated">Full capacity</target>
+        <target state="translated">Capacidade máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3926,7 +3931,7 @@
       </trans-unit>
       <trans-unit id="chargingProfileBalancedLabel" datatype="html">
         <source>Reduced capacity</source>
-        <target state="translated">Reduced capacity</target>
+        <target state="translated">Capacidade reduzida</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3936,7 +3941,7 @@
       </trans-unit>
       <trans-unit id="chargingProfileStationaryLabel" datatype="html">
         <source>Stationary use</source>
-        <target state="translated">Stationary use</target>
+        <target state="translated">Modo estacionário</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3949,7 +3954,7 @@
                 >This is the default setting. Fastest charging speed and 100% battery capacity for best possible runtimes.</source>
         <target
                     state="translated"
-                >This is the default setting. Fastest charging speed and 100% battery capacity for best possible runtimes.</target>
+                >Este é o modo padrão. Velocidade de carregamento mais rápida e capacidade de bateria de 100% para o melhor desempenho possível.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3962,7 +3967,7 @@
                 >Reduced charging speed and battery capacity (~90 %) for better battery lifespan.</source>
         <target
                     state="translated"
-                >Reduced charging speed and battery capacity (~90 %) for better battery lifespan.</target>
+                >Velocidade reduzida e capacidade de bateria reduzida (~90 %) para uma melhor vida útil da bateria.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3975,7 +3980,7 @@
                 >Very significant reduced charging speed and battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your Avell almost only stationary connected to a wall outlet.</source>
         <target
                     state="translated"
-                >Very significant reduced charging speed and battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your Avell almost only stationary connected to a wall outlet.</target>
+                >Velocidade reduzida e capacidade de bateria reduzida (~80 %) para uma melhor vida útil da bateria. Recomendado se você usa seu Avell quase apenas em posição estática conectado a uma tomada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3985,7 +3990,9 @@
       </trans-unit>
       <trans-unit id="chargingPriorityChargeBatteryLabel" datatype="html">
         <source>Priorize battery charging speed</source>
-        <target state="translated">Priorize battery charging speed</target>
+        <target
+                    state="translated"
+                >Prioriza a velocidade de carregamento da bateria</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -3995,7 +4002,7 @@
       </trans-unit>
       <trans-unit id="chargingPriorityPerformanceLabel" datatype="html">
         <source>Priorize performance</source>
-        <target state="translated">Priorize performance</target>
+        <target state="translated">Prioriza a performance</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4008,7 +4015,7 @@
                 >Fast battery charging is priorized at the expense of system performance. Once the battery is charged, full performance is available.</source>
         <target
                     state="translated"
-                >Fast battery charging is priorized at the expense of system performance. Once the battery is charged, full performance is available.</target>
+                >O carregamento rápido da bateria é priorizado em detrimento do desempenho do sistema. Assim que a bateria estiver carregada, o desempenho total estará disponível.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4021,7 +4028,7 @@
                 >Performance is priorized over battery charging speed. Under high system load charging speed is reduced for best performance. At low loads full charging speed is available.</source>
         <target
                     state="translated"
-                >Performance is priorized over battery charging speed. Under high system load charging speed is reduced for best performance. At low loads full charging speed is available.</target>
+                >O desempenho é priorizado em relação à velocidade de carregamento da bateria. Sob alta carga do sistema, a velocidade de carregamento é reduzida para obter o melhor desempenho. Com baixa carga, a velocidade máxima de carregamento é disponibilizada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4031,7 +4038,7 @@
       </trans-unit>
       <trans-unit id="chargingProfileLabel" datatype="html">
         <source>Charging profiles</source>
-        <target state="translated">Charging profiles</target>
+        <target state="translated">Perfis de carregamento</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4041,7 +4048,7 @@
       </trans-unit>
       <trans-unit id="chargingProfilesOpenInfoTooltip" datatype="html">
         <source>Open info page...</source>
-        <target state="translated">Open info page...</target>
+        <target state="translated">Abrir página de informações...</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4055,8 +4062,7 @@
 </source>
         <target
                     state="translated"
-                > Please note: The system will still show 100% capacity in "Reduced capacity" and "Stationary use" modes. The limitation of the actual capacity takes place in the background on firmware level and is not visible for the operating system.
-</target>
+                >Atenção: o sistema ainda exibirá 100% de capacidade nos modos "Capacidade reduzida" e "Uso estacionário". A limitação da capacidade real ocorre em segundo plano, no nível do firmware, e não é visível para o sistema operacional.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4068,7 +4074,7 @@
         <source>USB-C charging options (Power Delivery DC-In)</source>
         <target
                     state="translated"
-                >USB-C charging options (Power Delivery DC-In)</target>
+                >Opções de carregamento USB-C (Power Delivery DC-In)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4078,7 +4084,7 @@
       </trans-unit>
       <trans-unit id="chargingThresholdsLabel" datatype="html">
         <source>Charging thresholds</source>
-        <target state="translated">Charging thresholds</target>
+        <target state="translated">Limites de carregamento</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4088,7 +4094,7 @@
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelStartThreshold" datatype="html">
         <source>Start threshold</source>
-        <target state="translated">Start threshold</target>
+        <target state="translated">Iniciar limitação</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4098,7 +4104,7 @@
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelEndThreshold" datatype="html">
         <source>End threshold</source>
-        <target state="translated">End threshold</target>
+        <target state="translated">Encerrar limitação</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4108,7 +4114,7 @@
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelFullCapacity" datatype="html">
         <source>Full capacity</source>
-        <target state="translated">Full capacity</target>
+        <target state="translated">Capacidade máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4124,7 +4130,7 @@
                 >This is the default setting. Highest capacity for best possible runtimes.</source>
         <target
                     state="translated"
-                >This is the default setting. Highest capacity for best possible runtimes.</target>
+                >Esta é a configuração padrão. Capacidade máxima para os melhores tempos de execução.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4134,7 +4140,7 @@
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelReducedCapacity" datatype="html">
         <source>Reduced capacity</source>
-        <target state="translated">Reduced capacity</target>
+        <target state="translated">Capacidade reduzida</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4150,7 +4156,7 @@
                 >Reduced battery capacity (~90 %) for better battery lifespan.</source>
         <target
                     state="translated"
-                >Reduced battery capacity (~90 %) for better battery lifespan.</target>
+                >Capacidade reduzida (~90 %) para uma melhor vida útil da bateria.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4160,7 +4166,7 @@
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelStationary" datatype="html">
         <source>Stationary use</source>
-        <target state="translated">Stationary use</target>
+        <target state="translated">Modo estacionário</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4173,7 +4179,7 @@
                 >Very significant reduced battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your Avell almost only stationary connected to a wall outlet.</source>
         <target
                     state="translated"
-                >Very significant reduced battery capacity (~80 %) for best possible battery lifespan. This is recommended if you use your Avell almost only stationary connected to a wall outlet.</target>
+                >Velocidade reduzida e capacidade de bateria reduzida (~80 %) para uma melhor vida útil da bateria. Recomendado se você usa seu Avell quase apenas em posição estática conectado a uma tomada.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4183,7 +4189,7 @@
       </trans-unit>
       <trans-unit id="chargingThresholdsLabelCustom" datatype="html">
         <source>Custom</source>
-        <target state="translated">Custom</target>
+        <target state="translated">Personalizado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4195,7 +4201,7 @@
         <source>Manually set battery charging thresholds.</source>
         <target
                     state="translated"
-                >Manually set battery charging thresholds.</target>
+                >Definir manualmente os limites de carregamento da bateria.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4205,7 +4211,7 @@
       </trans-unit>
       <trans-unit id="webcamDialogNotAvailableTitle" datatype="html">
         <source>Access error</source>
-        <target state="translated">Access error</target>
+        <target state="translated">Erro de acesso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4223,7 +4229,7 @@
         <source>Webcam can not be accessed. Reloading all webcams.</source>
         <target
                     state="new"
-                >Webcam can not be accessed. Reloading all webcams.</target>
+                >A webcam não pode ser acessada. Recarregando todas as câmeras.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4233,7 +4239,7 @@
       </trans-unit>
       <trans-unit id="dialogContinue" datatype="html">
         <source>Continue</source>
-        <target state="translated">Continue</target>
+        <target state="translated">Continuar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4303,7 +4309,7 @@
                 >Current Webcam can not be accessed. Another application is most likely accessing your webcam. Resolution and frames per second settings only apply for TCC preview.</source>
         <target
                     state="new"
-                >Current Webcam can not be accessed. Another application is most likely accessing your webcam. Resolution and frames per second settings only apply for TCC preview.</target>
+                >Webcam atual não pode ser acessada. Outro aplicativo provavelmente está acessando sua webcam. Configurações de resolução e quadros por segundo só se aplicam à pré-visualização do ACC.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4313,7 +4319,7 @@
       </trans-unit>
       <trans-unit id="webcamDialogNotValidPresetTitle" datatype="html">
         <source>Webcam preset faulty</source>
-        <target state="translated">Webcam preset faulty</target>
+        <target state="translated">Predefinição de webcam com falha</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4326,7 +4332,7 @@
                 >The webcam preset contains invalid configurations and therefore won't be applied. Reverting to default preset.</source>
         <target
                     state="translated"
-                >The webcam preset contains invalid configurations and therefore won't be applied. Reverting to default preset.</target>
+                >A predefinição da webcam contém configurações inválidas e, portanto, não será aplicada. Revertendo para a predefinição padrão.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4336,7 +4342,9 @@
       </trans-unit>
       <trans-unit id="webcamDialogMismatchConfigValuesTitle" datatype="html">
         <source>Mismatch of config values</source>
-        <target state="translated">Mismatch of config values</target>
+        <target
+                    state="translated"
+                >Incompatibilidade de valores de configuração</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4349,7 +4357,7 @@
                 >Unknown values detected. Want to resave all presets with adjusted values for compatibility? This may alter presets. If you decline, they'll be adjusted next time you save. If not a config file issue, ensure latest TCC. Otherwise, contact Avell with kernel and device details.</source>
         <target
                     state="new"
-                >Due to a recent linux kernel update or due to a misconfigured config file unknown values were found and it can not be guranteed that the preset is unchanged since the last time it was saved. Do you want to resave all presets with adjusted values? This will fix compatibility issues but may result in changed presets. If you decline, the adjusted presets will only be saved the next time you save a preset, because presets need to be adjusted to be fully usable again. If you did not modify the config file manually, make sure that you use the latest version of TCC. If the issue persists, please inform Avell about this and mention the used linux kernel version and devices used.</target>
+                >Devido a uma atualização recente do kernel Linux ou a um arquivo de configuração mal configurado, valores desconhecidos foram encontrados e não é possível garantir que o preset permaneça inalterado desde a última vez em que foi salvo. Deseja salvar novamente todos os presets com os valores ajustados? Isso corrigirá problemas de compatibilidade, mas pode resultar em alterações nos presets. Se você recusar, os presets ajustados só serão salvos na próxima vez que você salvar um preset, pois precisam ser ajustados para voltarem a ser totalmente utilizáveis. Se você não modificou o arquivo de configuração manualmente, certifique-se de estar usando a versão mais recente do ACC. Se o problema persistir, informe à Avell e mencione a versão do kernel Linux utilizada e os dispositivos em uso.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4359,7 +4367,7 @@
       </trans-unit>
       <trans-unit id="dialogSaveAdjustedPresets" datatype="html">
         <source>Save adjusted presets</source>
-        <target state="new">Save adjusted presets</target>
+        <target state="new">Salvar predefinições ajustadas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4369,7 +4377,7 @@
       </trans-unit>
       <trans-unit id="dialogAbort" datatype="html">
         <source>Cancel</source>
-        <target state="translated">Cancel</target>
+        <target state="translated">Cancelar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4415,7 +4423,9 @@
       </trans-unit>
       <trans-unit id="webcamDialogAskOverwriteTitle" datatype="html">
         <source>Webcam preset not avaiable</source>
-        <target state="translated">Webcam preset name not avaiable</target>
+        <target
+                    state="translated"
+                >Nome da predefinição da webcam indisponível</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4427,7 +4437,7 @@
         <source>Do you want to overwrite the webcam preset?</source>
         <target
                     state="translated"
-                >Do you want to overwrite the webcam preset?</target>
+                >Deseja sobrescrever a predefinição da webcam?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4437,7 +4447,9 @@
       </trans-unit>
       <trans-unit id="webcamDialogPresetNameUnsetTitle" datatype="html">
         <source>The webcam preset was not saved</source>
-        <target state="translated">The webcam preset was not saved</target>
+        <target
+                    state="translated"
+                >A predefinição da webcam não foi salva</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4450,7 +4462,7 @@
                 >The webcam preset name was no set and thus the preset was not saved.</source>
         <target
                     state="translated"
-                >The webcam preset name was no set and thus the preset was not saved.</target>
+                >O nome da predefinição da webcam não foi definido e, portanto, a predefinição não foi salva.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4460,7 +4472,9 @@
       </trans-unit>
       <trans-unit id="webcamDialogDefaultCanNotOverwriteTitle" datatype="html">
         <source>Overwriting default settings failed</source>
-        <target state="translated">Overwriting default settings failed</target>
+        <target
+                    state="translated"
+                >Sobrescrever as definições padrão falhou</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4475,7 +4489,7 @@
         <source>Please select a different name for your webcam preset.</source>
         <target
                     state="translated"
-                >Please select a different name for your webcam preset.</target>
+                >Por favor, selecione um nome diferente para sua configuração de câmera.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4485,7 +4499,7 @@
       </trans-unit>
       <trans-unit id="webcamDialogAskPresetOverwriteTitle" datatype="html">
         <source>Overwrite webcam preset?</source>
-        <target state="translated">Overwrite webcam preset?</target>
+        <target state="translated">Sobrescrever configuração de câmera?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4501,7 +4515,7 @@
                 >Do you want to overwrite the current webcam preset or create a new one?</source>
         <target
                     state="translated"
-                >Do you want to overwrite the current webcam preset or create a new one?</target>
+                >Deseja sobrescrever a configuração atual ou criar uma nova?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4511,7 +4525,7 @@
       </trans-unit>
       <trans-unit id="dialogOverwrite" datatype="html">
         <source>Overwrite</source>
-        <target state="translated">Overwrite</target>
+        <target state="translated">Sobrescrever</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4521,7 +4535,7 @@
       </trans-unit>
       <trans-unit id="dialogNewPreset" datatype="html">
         <source>New webcam preset</source>
-        <target state="translated">New webcam preset</target>
+        <target state="translated">Nova predefinição da webcam</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4531,7 +4545,7 @@
       </trans-unit>
       <trans-unit id="webcamDialogAskPresetNameTitle" datatype="html">
         <source>Saving webcam preset</source>
-        <target state="translated">Saving webcam preset</target>
+        <target state="translated">Salvando predefinição da webcam</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4541,7 +4555,9 @@
       </trans-unit>
       <trans-unit id="webcamDialogAskPresetNameDescription" datatype="html">
         <source>Set name for webcam preset.</source>
-        <target state="translated">Set name for webcam preset.</target>
+        <target
+                    state="translated"
+                >Defina um nome para a predefinição da webcam.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4553,7 +4569,7 @@
         <source>Deleting default webcam preset failed</source>
         <target
                     state="translated"
-                >Deleting default webcam preset failed</target>
+                >Falha ao deletar a predefinição padrão da webcam</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4568,7 +4584,7 @@
         <source>The default preset cannot be deleted.</source>
         <target
                     state="translated"
-                >The default preset cannot be deleted.</target>
+                >Não foi possível deletar a predefinição padrão.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4578,7 +4594,7 @@
       </trans-unit>
       <trans-unit id="webcamDialogDeletePresetConfirmTitle" datatype="html">
         <source>Deleting webcam preset</source>
-        <target state="translated">Deleting webcam preset</target>
+        <target state="translated">Deletando a predefinição padrão</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4594,7 +4610,7 @@
                 >Are you sure that you want to delete this webcam preset?</source>
         <target
                     state="translated"
-                >Are you sure that you want to delete this webcam preset?</target>
+                >Tem certeza de que deseja deletar essa predefinição da webcam?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4604,7 +4620,7 @@
       </trans-unit>
       <trans-unit id="webcamExposureAuto" datatype="html">
         <source>Exposure, Auto</source>
-        <target state="translated">Exposure, Auto</target>
+        <target state="translated">Exposição, Automático</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4614,7 +4630,7 @@
       </trans-unit>
       <trans-unit id="webcamExposureTimeAbsolute" datatype="html">
         <source>Exposure time (absolute)</source>
-        <target state="translated">Exposure time (absolute)</target>
+        <target state="translated">Tempo de exposição (absoluto)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4624,7 +4640,9 @@
       </trans-unit>
       <trans-unit id="webcamExposureDynamicFramerate" datatype="html">
         <source>Exposure dynamic framerate</source>
-        <target state="translated">Exposure dynamic framerate</target>
+        <target
+                    state="translated"
+                >Taxa de quadros dinâmica da exposição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4634,7 +4652,7 @@
       </trans-unit>
       <trans-unit id="webcamExposureAbsolute" datatype="html">
         <source>Exposure (Absolute)</source>
-        <target state="translated">Exposure (Absolute)</target>
+        <target state="translated">Exposição (Absoluta)</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4644,7 +4662,7 @@
       </trans-unit>
       <trans-unit id="webcamExposureAutoPriority" datatype="html">
         <source>Exposure, Auto Priority</source>
-        <target state="translated">Exposure, Auto Priority</target>
+        <target state="translated">Exposição, Prioridade Automática</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4654,7 +4672,7 @@
       </trans-unit>
       <trans-unit id="webcamGain" datatype="html">
         <source>Gain</source>
-        <target state="translated">Gain</target>
+        <target state="translated">Ganho</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4664,7 +4682,7 @@
       </trans-unit>
       <trans-unit id="webcamBacklightCompensation" datatype="html">
         <source>Backlight Compensation</source>
-        <target state="translated">Backlight Compensation</target>
+        <target state="translated">Compensação de Backlight</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4674,7 +4692,7 @@
       </trans-unit>
       <trans-unit id="webcamWhiteBalanceAutomatic" datatype="html">
         <source>White Balance, Auto</source>
-        <target state="translated">White Balance, Auto</target>
+        <target state="translated">Balanço de brancos, Automático</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4684,7 +4702,9 @@
       </trans-unit>
       <trans-unit id="webcamWhiteBalanceTemperatureAuto" datatype="html">
         <source>White Balance Temperature, Auto</source>
-        <target state="translated">White Balance Temperature, Auto</target>
+        <target
+                    state="translated"
+                >Temperatura do Balanço de Branco, Automático</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4694,7 +4714,7 @@
       </trans-unit>
       <trans-unit id="whiteBalanceTemperature" datatype="html">
         <source>White Balance Temperature</source>
-        <target state="translated">White Balance Temperature</target>
+        <target state="translated">Temperatura do Balanço de Branco</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4704,7 +4724,7 @@
       </trans-unit>
       <trans-unit id="webcamBrightness" datatype="html">
         <source>Brightness</source>
-        <target state="translated">Brightness</target>
+        <target state="translated">Brilho</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4714,7 +4734,7 @@
       </trans-unit>
       <trans-unit id="webcamContrast" datatype="html">
         <source>Contrast</source>
-        <target state="translated">Contrast</target>
+        <target state="translated">Contraste</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4724,7 +4744,7 @@
       </trans-unit>
       <trans-unit id="webcamSaturation" datatype="html">
         <source>Saturation</source>
-        <target state="translated">Saturation</target>
+        <target state="translated">Saturação</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4734,7 +4754,7 @@
       </trans-unit>
       <trans-unit id="webcamSharpness" datatype="html">
         <source>Sharpness</source>
-        <target state="translated">Sharpness</target>
+        <target state="translated">Nitidez</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4744,7 +4764,7 @@
       </trans-unit>
       <trans-unit id="webcamHue" datatype="html">
         <source>Hue</source>
-        <target state="translated">Hue</target>
+        <target state="translated">Matiz</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4754,7 +4774,7 @@
       </trans-unit>
       <trans-unit id="webcamGamma" datatype="html">
         <source>Gamma</source>
-        <target state="translated">Gamma</target>
+        <target state="translated">Gama</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4764,7 +4784,7 @@
       </trans-unit>
       <trans-unit id="webcamResolution" datatype="html">
         <source>Resolution</source>
-        <target state="translated">Resolution</target>
+        <target state="translated">Resolução</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4774,7 +4794,7 @@
       </trans-unit>
       <trans-unit id="webcamFps" datatype="html">
         <source>Frames per Second</source>
-        <target state="translated">Frames per Second</target>
+        <target state="translated">Frames por Segundo</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4784,7 +4804,7 @@
       </trans-unit>
       <trans-unit id="webcamAperturePriorityMode" datatype="html">
         <source>Aperture Priority Mode</source>
-        <target state="translated">Aperture Priority Mode</target>
+        <target state="translated">Modo de Prioridade de Abertura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4794,7 +4814,7 @@
       </trans-unit>
       <trans-unit id="webcamManualMode" datatype="html">
         <source>Manual Mode</source>
-        <target state="translated">Manual Mode</target>
+        <target state="translated">Modo manual</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4804,7 +4824,7 @@
       </trans-unit>
       <trans-unit id="webcamTitleGeneral" datatype="html">
         <source>General</source>
-        <target state="translated">General</target>
+        <target state="translated">Geral</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4814,7 +4834,7 @@
       </trans-unit>
       <trans-unit id="webcamTitleExposure" datatype="html">
         <source>Exposure</source>
-        <target state="translated">Exposure</target>
+        <target state="translated">Exposição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4824,7 +4844,7 @@
       </trans-unit>
       <trans-unit id="webcamTitleDynamicRange" datatype="html">
         <source>Dynamic Range</source>
-        <target state="translated">Dynamic Range</target>
+        <target state="translated">Faixa dinâmica</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4834,7 +4854,7 @@
       </trans-unit>
       <trans-unit id="webcamTitleBalance" datatype="html">
         <source>Balance</source>
-        <target state="translated">Balance</target>
+        <target state="translated">Balanço</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4844,7 +4864,7 @@
       </trans-unit>
       <trans-unit id="webcamTitleColor" datatype="html">
         <source>Color</source>
-        <target state="translated">Color</target>
+        <target state="translated">Cor</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4854,7 +4874,7 @@
       </trans-unit>
       <trans-unit id="webcamTitleCapture" datatype="html">
         <source>Capture</source>
-        <target state="translated">Capture</target>
+        <target state="translated">Captura</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4864,7 +4884,7 @@
       </trans-unit>
       <trans-unit id="noWebcamFoundInfoTitle" datatype="html">
         <source>No available Webcams found</source>
-        <target state="translated">No available Webcams found</target>
+        <target state="translated">Nenhuma webcam disponível encontrada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4877,7 +4897,7 @@
                 > To configure your webcams, you'll need to plug in an external webcam or turn on the internal webcam. Once you've done that, press reload and you'll be presented with a configuration menu. If you've previously disabled the internal webcam in the profile settings, you'll need to re-enable it in order to configure it. Some laptops also allow you to toggle the webcam quickly with a keyboard shortcut. </source>
         <target
                     state="translated"
-                > To configure your webcams, you'll need to plug in an external webcam or turn on the internal webcam. Once you've done that, press reload and you'll be presented with a configuration menu. If you've previously disabled the internal webcam in the profile settings, you'll need to re-enable it in order to configure it. Some laptops also allow you to toggle the webcam quickly with a keyboard shortcut. </target>
+                > Para configurar suas webcams, conecte uma webcam externa ou ative a webcam interna. Após isso, pressione recarregar para acessar o menu de configuração. Se você desativou a webcam interna nas configurações do perfil, será necessário reativá-la para configurá-la. Alguns notebooks permitem alternar a webcam rapidamente via atalho de teclado. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4887,7 +4907,7 @@
       </trans-unit>
       <trans-unit id="noWebcamFoundInfoReloadButton" datatype="html">
         <source> Reload </source>
-        <target state="translated">Reload</target>
+        <target state="translated">Recarregar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4897,7 +4917,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrButtonApplyTooltip" datatype="html">
         <source>Apply changes</source>
-        <target state="translated">Apply changes</target>
+        <target state="translated">Aplicar alterações</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4907,7 +4927,7 @@
       </trans-unit>
       <trans-unit id="webcamTabSimpleLabel" datatype="html">
         <source>Basic settings</source>
-        <target state="translated">Basic settings</target>
+        <target state="translated">Configurações básicas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4917,7 +4937,7 @@
       </trans-unit>
       <trans-unit id="webcamTabAdvancedLabel" datatype="html">
         <source>Detailed settings</source>
-        <target state="translated">Detailed settings</target>
+        <target state="translated">Configurações detalhadas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4927,7 +4947,7 @@
       </trans-unit>
       <trans-unit id="webcamPreset" datatype="html">
         <source>Preset</source>
-        <target state="translated">Preset</target>
+        <target state="translated">Predefinição</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4937,7 +4957,7 @@
       </trans-unit>
       <trans-unit id="primeSelectDialogApplyProfileTitle" datatype="html">
         <source>Applying Graphics Profile</source>
-        <target state="new">Applying Graphics Profile</target>
+        <target state="new">Aplicando perfil gráfico</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4956,7 +4976,7 @@
                 >Do not power off your device until the process is complete.</source>
         <target
                     state="new"
-                >Do not power off your device until the process is complete.</target>
+                >Não desligue seu dispositivo até que o processo seja concluído.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4972,7 +4992,7 @@
       </trans-unit>
       <trans-unit id="primeSelectAskProceedTitle" datatype="html">
         <source>Warning</source>
-        <target state="new">Warning</target>
+        <target state="new">Aviso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -4991,7 +5011,7 @@
                 >For the change to take effect, your computer must be restarted. If the computer is shut down immediately, unsaved files or changes will be lost. In this case, select 'Reboot later' and shut down your computer at a later time.</source>
         <target
                     state="needs-adaptation"
-                >For the change to take effect, your computer must be restarted. If the computer is shut down immediately, unsaved files or changes will be lost. In this case, select 'Reboot later' and shut down your computer at a later time.</target>
+                >Para que a alteração tenha efeito, é necessário reiniciar o computador. Se ele for desligado imediatamente, arquivos ou alterações não salvos serão perdidos. Nesse caso, selecione "Reiniciar depois" e desligue o computador posteriormente.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5007,7 +5027,7 @@
       </trans-unit>
       <trans-unit id="dialogInstantReboot" datatype="html">
         <source>Instant Reboot</source>
-        <target state="new">Instant Reboot</target>
+        <target state="new">Reiniciar agora</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5023,7 +5043,7 @@
       </trans-unit>
       <trans-unit id="dialogRebootLater" datatype="html">
         <source>Reboot later</source>
-        <target state="new">Reboot later</target>
+        <target state="new">Reiniciar depois</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5052,9 +5072,9 @@
                         ctype="x-b"
                         equiv-text="&lt;/b&gt; "
                     /> Monitors connected to the high-performance graphics processor do not work in this mode. </source>
-        <target
+                <target
                     state="needs-adaptation"
-                > Exclusively uses the graphics processor integrated in the main processor. Suitable for power saving and low graphics performance requirements. <x
+                > Exclusivamente usa a placa gráfica integrada ao processador. Útil para economizar energia e necessidade de pouco desempenho gráfico <x
                         id="LINE_BREAK"
                         ctype="lb"
                         equiv-text="&lt;br&gt;&#xA;                "
@@ -5062,11 +5082,11 @@
                         id="START_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;b&gt;"
-                    />Please note:<x
+                    />Lembre-se:<x
                         id="CLOSE_BOLD_TEXT"
                         ctype="x-b"
                         equiv-text="&lt;/b&gt; "
-                    /> Monitors connected to the high-performance graphics processor do not work in this mode. </target>
+                    /> Monitores conectados à placa gráfica integrada ao processador não funcionam nesse modo. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5085,7 +5105,7 @@
                 > Uses high-performance graphics processor for graphics-intensive tasks, but with higher energy consumption, even at low load and idle. </source>
         <target
                     state="new"
-                > Uses high-performance graphics processor for graphics-intensive tasks, but with higher energy consumption, even at low load and idle. </target>
+                > Usa a placa gráfica dedicada para tarefas gráficas intensivas, mas com consumo de energia mais alto, mesmo em baixo uso e ociosidade. </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5102,9 +5122,10 @@
       <trans-unit id="primeSelectOnDemandDescription" datatype="html">
         <source
                 > The system prioritizes the energy-saving CPU graphics processor. The high-performance graphics processor can be added by the user if required. Combination of high performance and power saving. </source>
-        <target
+       <target
                     state="new"
-                > The system prioritizes the energy-saving CPU graphics processor. The high-performance graphics processor can be added by the user if required. Combination of high performance and power saving. </target>
+                > O sistema prioriza a placa gráfica integrada à CPU com economia de energia. A placa gráfica de alto desempenho pode ser adicionada pelo usuário, se necessário. Combinação de alto desempenho com economia de energia.
+ </target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5120,7 +5141,7 @@
       </trans-unit>
       <trans-unit id="profileNameQuiet" datatype="html">
         <source>Quiet</source>
-        <target state="translated">Quiet</target>
+        <target state="translated">Silencioso</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5133,7 +5154,7 @@
                 >Low performance for light office tasks for very quiet fans and low power consumption.</source>
         <target
                     state="translated"
-                >Low performance for light office tasks for very quiet fans and low power consumption.</target>
+                >Baixo desempenho para tarefas leves de escritório com ventoinhas muito silenciosas e baixo consumo de energia.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5143,7 +5164,7 @@
       </trans-unit>
       <trans-unit id="profileNameOffice" datatype="html">
         <source>Office and Multimedia</source>
-        <target state="translated">Office and Multimedia</target>
+        <target state="translated">Office e multimídia</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5156,7 +5177,7 @@
                 >Mid-tier performance for more demanding office tasks or multimedia usage and quiet fans.</source>
         <target
                     state="translated"
-                >Mid-tier performance for more demanding office tasks or multimedia usage and quiet fans.</target>
+                >Desempenho intermediário para tarefas de escritório mais exigentes ou uso multimídia, com ventoinhas silenciosas.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5166,7 +5187,7 @@
       </trans-unit>
       <trans-unit id="profileNameHighPerformance" datatype="html">
         <source>High Performance</source>
-        <target state="translated">High Performance</target>
+        <target state="translated">Alto desempenho</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5179,7 +5200,7 @@
                 >High performance for gaming and demanding computing tasks at the cost of moderate to high fan noise and higher temperatures.</source>
         <target
                     state="translated"
-                >High performance for gaming and demanding computing tasks at the cost of moderate to high fan noise and higher temperatures.</target>
+                >Alto desempenho para jogos e tarefas computacionais exigentes, com ruído moderado a alto das ventoinhas e temperaturas elevadas.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5189,7 +5210,7 @@
       </trans-unit>
       <trans-unit id="profileNamePowersaveExtreme" datatype="html">
         <source>Powersave extreme</source>
-        <target state="translated">Powersave extreme</target>
+        <target state="translated">Economia máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5202,7 +5223,7 @@
                 >Lowest possible power consumption and silent fans at the cost of extremely low performance.</source>
         <target
                     state="translated"
-                >Lowest possible power consumption and silent fans at the cost of extremely low performance.</target>
+                >Consumo de energia mínimo possível e ventoinhas silenciosas, com desempenho extremamente baixo.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5212,7 +5233,7 @@
       </trans-unit>
       <trans-unit id="profileNameLegacyDefault" datatype="html">
         <source>Default</source>
-        <target state="translated">Default</target>
+        <target state="translated">Padrão</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5225,7 +5246,7 @@
                 >Full performance at the expense of more noise and high temperatures.</source>
         <target
                     state="translated"
-                >Full performance at the expense of more noise and high temperatures.</target>
+                >Desempenho máximo com aumento de ruído e temperaturas elevadas.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5235,7 +5256,7 @@
       </trans-unit>
       <trans-unit id="profileNameLegacyCoolAndBreezy" datatype="html">
         <source>Cool and breezy</source>
-        <target state="translated">Cool and breezy</target>
+        <target state="translated">Fresco e ventilado</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5248,7 +5269,7 @@
                 >Reduced power in favor of low temperatures and quiet fan noise.</source>
         <target
                     state="translated"
-                >Reduced power in favor of low temperatures and quiet fan noise.</target>
+                >Potência reduzida em favor de baixas temperaturas e baixo ruído da ventoinha.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5258,7 +5279,7 @@
       </trans-unit>
       <trans-unit id="profileNameLegacyPowersaveExtreme" datatype="html">
         <source>Powersave extreme</source>
-        <target state="translated">Powersave extreme</target>
+        <target state="translated">Economia máxima</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5271,7 +5292,7 @@
                 >Heavily reduced performance in favor of lowest possible power consumption and silent cooling.</source>
         <target
                     state="translated"
-                >Heavily reduced performance in favor of lowest possible power consumption and silent cooling.</target>
+                >Desempenho fortemente reduzido em favor do consumo mínimo de energia e resfriamento silencioso.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5281,7 +5302,7 @@
       </trans-unit>
       <trans-unit id="webcamDialogUnsavedChangesTitle" datatype="html">
         <source>Unsaved changes</source>
-        <target state="translated">Unsaved changes</target>
+        <target state="translated">Alterações não salvas</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5294,7 +5315,7 @@
                 >Changes were not saved. Are you sure that you want to leave before saving?</source>
         <target
                     state="translated"
-                >Changes were not saved. Are you sure that you want to leave before saving?</target>
+                >As alterações não foram salvas. Deseja sair antes de salvar?</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5304,7 +5325,7 @@
       </trans-unit>
       <trans-unit id="dialogReturn" datatype="html">
         <source>Go back</source>
-        <target state="translated">Go back</target>
+        <target state="translated">Voltar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5314,7 +5335,7 @@
       </trans-unit>
       <trans-unit id="dialogLeave" datatype="html">
         <source>Leave</source>
-        <target state="translated">Leave</target>
+        <target state="translated">Deixar</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5327,7 +5348,7 @@
                 >CPU frequency control deactivated in Settings→Global profile settings</source>
         <target
                     state="translated"
-                >CPU frequency control deactivated in Settings→Global profile settings</target>
+                >Controle de frequência da CPU desativado em Configurações→Configurações globais do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5340,7 +5361,7 @@
                 >Fan control deactivated in Settings→Global profile settings</source>
         <target
                     state="translated"
-                >Fan control deactivated in Settings→Global profile settings</target>
+                >Controle da ventoinha desativado em Configurações→Configurações globais do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5353,7 +5374,7 @@
                 >Keyboard backlight control deactivated in Settings→Global profile settings</source>
         <target
                     state="translated"
-                >Keyboard backlight control deactivated in Settings→Global profile settings</target>
+                >Controle de iluminação do teclado desativado em Configurações→Configurações globais do perfil</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5363,7 +5384,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsFanChartCPULabel" datatype="html">
         <source>CPU Fan</source>
-        <target state="translated">CPU Fan</target>
+        <target state="translated">Ventoinha da CPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5373,7 +5394,7 @@
       </trans-unit>
       <trans-unit id="cProfMgrDetailsFanChartGPULabel" datatype="html">
         <source>GPU Fan</source>
-        <target state="translated">GPU Fan</target>
+        <target state="translated">Ventoinha da GPU</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5383,7 +5404,9 @@
       </trans-unit>
       <trans-unit id="compatibilityNotAvailable" datatype="html">
         <source>This feature is currently not available.</source>
-        <target state="new">This feature is currently not available.</target>
+        <target
+                    state="new"
+                >Essa funcionalidade não está disponível no momento.</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5393,7 +5416,7 @@
       </trans-unit>
       <trans-unit id="stateLabelMains" datatype="html">
         <source>Mains</source>
-        <target state="translated">Mains</target>
+        <target state="translated">Energia</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5403,7 +5426,7 @@
       </trans-unit>
       <trans-unit id="stateTooltipMains" datatype="html">
         <source>Mains power adaptor</source>
-        <target state="translated">Mains power adaptor</target>
+        <target state="translated">Adaptador de energia principal</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5413,7 +5436,7 @@
       </trans-unit>
       <trans-unit id="stateLabelBattery" datatype="html">
         <source>Battery</source>
-        <target state="translated">Battery</target>
+        <target state="translated">Bateria</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"
@@ -5423,7 +5446,7 @@
       </trans-unit>
       <trans-unit id="stateTooltipBattery" datatype="html">
         <source>Battery powered</source>
-        <target state="translated">Battery powered</target>
+        <target state="translated">Bateria conectada</target>
         <context-group purpose="location">
           <context
                         context-type="sourcefile"

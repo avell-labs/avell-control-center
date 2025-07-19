@@ -1,7 +1,10 @@
 # Guia de Contribuição
 
 Interessado(a) em contribuir? Incrível! Mas antes, por favor leia nosso
+
+
 [**Código de Conduta**](https://github.com/avell-labs/avell-control-center/blob/master/.github/CODE_OF_CONDUCT.md).
+
 Levamos ele a sério — e esperamos o mesmo de você.
 
 Existem várias formas de contribuir! 💕
@@ -24,14 +27,17 @@ Existem várias formas de contribuir! 💕
 -   Se for uma mudança trivial, vá em frente e [envie um Pull Request](#criando-um-pull-request) com as alterações que tem em mente.
 -   Caso contrário, [abra uma issue](https://github.com/avell-labs/avell-control-center/issues/new) para discutir antes.
 
+
 Se esta for sua primeira contribuição, procure issues com o selo `good first issue`.
 
 ## 📌 Requisitos
 
 Para sua contribuição ser aceita:
 
+
 -   [x] As alterações devem ser aprovadas em revisão de código.
 -   [x] Commits devem ser claros e com mensagens descritivas. Issues relacionadas devem ser referenciadas pelo número.
+
 
 Caso os critérios acima não sejam atendidos, a PR pode falhar nas verificações automáticas ou ser discutida com um mantenedor. Você pode continuar melhorando sua pull request adicionando novos commits à branch na qual o PR foi criado.
 
@@ -63,5 +69,6 @@ Ao contribuir com este projeto, você certifica que:
     e que um registro da contribuição (incluindo informações pessoais fornecidas,
     como seu sign-off) será mantido indefinidamente e pode ser redistribuído
     de acordo com o projeto ou as licenças open source envolvidas.
+
 
 _Texto adaptado de [elinux.org](http://elinux.org/Developer_Certificate_Of_Origin)_

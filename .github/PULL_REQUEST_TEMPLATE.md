@@ -9,3 +9,4 @@ Descreva o objetivo desta PR. Mencione quaisquer números de issues relacionadas
 -   [ ] Li e entendi as [diretrizes de contribuição](https://github.com/avell-labs/avell-control-center/blob/master/.github/CONTRIBUTING.md) e fiz o meu melhor para segui-las.
 -   [ ] Li e concordo com o [código de conduta](https://github.com/avell-labs/avell-control-center/blob/master/.github/CODE_OF_CONDUCT.md).
 -   [ ] Escrevi testes para cobrir o novo código e funcionalidades incluídas nesta PR.
+

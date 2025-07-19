@@ -44,6 +44,7 @@ Este é um projeto aberto, então, sinta-se livre para contribuir. Como?
 -   abra uma [issue](https://github.com/avell-labs/avell-control-center/issues).
 -   proponha suas correções, sugestões e abra uma pull request com as alterações. Veja os [contribuidores](https://github.com/avell-labs/avell-control-center/graphs/contributors) para maiores informações e leia nosso [código de contribuição](https://github.com/avell-labs/avell-control-center/blob/master/.github/CONTRIBUTING.md).
 
+
 ## 🛑 Aviso
 
 Este software é distribuído **sem qualquer tipo de garantias**.

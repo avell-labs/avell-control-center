@@ -41,7 +41,6 @@ cd avell-control-center
 
 npm install
 ```
-
 **Nota:** Não continue com `npm audit fix`. Essa ação é conhecida por causar vários problemas. 3. Instale os serviços em sua máquina, ou, use os mesmos serviços configurados na instalação oficial.
 Instruções manuais: - Copie os arquivos `accd.service` e `accd-sleep.service` (de src/dist-data) para `/etc/systemd/system/`; - Edite o arquivo `accd.service` (exec start/stop) para apontar para `caminho do projeto/dist/avell-control-center/data/service/accd`; - Copie o arquivo `com.tuxedocomputers.tccd.conf` para `/usr/share/dbus-1/system.d/`; - Inicie o serviço `systemctl start accd` e ative para iniciar automaticamente `systemctl enable accd accd-sleep`.
 
